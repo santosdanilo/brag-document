@@ -1,0 +1,50 @@
+# Resume base — fill in with your own data
+# This file is the source of truth for PDF generation.
+# Run: cd .cursor/skills/generate-custom-resumes/resume-generator && npm install
+# Then: node src/index.js --output resumes/resume-base.pdf
+
+title: Senior Software Engineer
+
+introduction: |
+  Senior Software Engineer with X years of experience in [your area].
+  Specialized in building [type of systems] using [key technologies].
+  Passionate about [your interests] and experienced in [leadership/architecture/etc.].
+
+links:
+  linkedin: https://www.linkedin.com/in/your-profile/
+  github: https://github.com/your-username
+
+experiences:
+  - id: company-id
+    company: Company Name
+    keySkills: Skill1, Skill2, Skill3
+    roles:
+      - id: role-id
+        title: Senior Software Engineer
+        period: 2022 - Present
+        bullets:
+          - Achievement bullet 1 with **key technology** and **metric**.
+          - Achievement bullet 2.
+          - Achievement bullet 3.
+
+  - id: previous-company-id
+    company: Previous Company
+    keySkills: Skill1, Skill2
+    roles:
+      - id: previous-role-id
+        title: Software Engineer
+        period: 2019 - 2022
+        bullets:
+          - Achievement bullet 1.
+          - Achievement bullet 2.
+
+education:
+  - degree: B.S. in Computer Science
+    institution: Your University
+    details: 2014 - 2018
+
+skills:
+  languages: JavaScript, TypeScript, Python
+  frameworks: React, Node.js, Express
+  databases: PostgreSQL, MongoDB
+  devops: Docker, AWS, CI/CD (GitHub Actions)
