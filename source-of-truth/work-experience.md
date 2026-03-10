@@ -5,7 +5,7 @@ Use the format below for each position. Include metrics and impact where possibl
 
 ## GasHub (Jun 2025 - Present)
 **Role:** Full Stack Engineer
-**Stack:** React, Supabase, Testing Library, Playwright, TypeScript
+**Stack:** React, Supabase, NestJS, PostgreSQL, pgTAP, Sentry, Node.js, Testing Library, Playwright, Tailwind CSS, TypeScript
 
 Early-stage startup building a natural gas trading platform with real-time matching between sellers and buyers.
 - Developed a natural gas trading application with real-time matching between sellers and buyers, including instant notifications, leveraging **Supabase** as the backend.
@@ -13,8 +13,9 @@ Early-stage startup building a natural gas trading platform with real-time match
 - Refactored the codebase for maintainability and quality, and implemented comprehensive unit tests with **Testing Library** plus end-to-end tests using **Playwright**.
 - Collaborated in refining requirements and validating business workflows to ensure product-market fit.
 
-## MyTime (Apr 2022 - Apr 2025)
+## MyTime (Apr 2022 - Mar 2025)
 **Role:** Frontend Software Engineer
+**Location:** Los Angeles, California
 **Stack:** Angular, TypeScript, AngularJS, CoffeeScript, Jest, Testing Library
 
 MyTime is a scheduling and point-of-sale (POS) platform used by businesses globally.
@@ -25,6 +26,7 @@ MyTime is a scheduling and point-of-sale (POS) platform used by businesses globa
 
 ## Twenty20 Solutions (Jan 2022 - Mar 2022)
 **Role:** Frontend Software Engineer
+**Location:** Irving, TX
 **Stack:** Angular, Jest, GitHub Actions, TypeScript
 
 Twenty20 Solutions was building a browser-based desktop environment product. The project was cut off due to the pandemic.
@@ -44,23 +46,32 @@ GreenAnt is an energy tech company providing electric energy data dashboards and
 
 ## Universidade de Brasília (Aug 2018 - Aug 2020)
 **Role:** Frontend Software Developer
-**Stack:** Angular, mobile-first development
+**Location:** Brasília
+**Stack:** Angular, Angular Material, Next.js, Docker, mobile-first development
 
 Academic research and development role at the university, focused on making government data accessible to the public.
 - Developed a mobile-first dashboard to simplify access to government data, ensuring clarity and accessibility for the general public.
 - Focused on UX principles to enhance data discoverability and engagement.
 
-## Grupo Gera (Feb 2019 - Dec 2019)
+## Gera Energia Brasil (Feb 2019 - Dec 2019)
 **Role:** Frontend Software Engineer
-**Stack:** Angular, UX
+**Location:** Brasília
+**Stack:** Angular, PrimeNG, Jasmine, CI/CD, UX
 
-Grupo Gera provides energy analytics solutions for enterprise clients.
+Gera Energia Brasil provides energy analytics solutions for enterprise clients.
 - Led the design and development of a dashboard for energy consumption analytics, empowering enterprise clients to monitor and reduce energy costs.
 - Applied **Angular** and UX techniques to improve usability and responsiveness.
 
-## Finatec - Fundação de Empreendimentos Científicos e Tecnológicos (May 2017 - Jan 2018)
-**Role:** Frontend Software Developer
+## Finatec - Fundação de Empreendimentos Científicos e Tecnológicos (May 2017 - Jun 2018)
+**Location:** Brasília
+
+### Frontend Software Developer (May 2017 - Jan 2018)
 **Stack:** Angular
 
-Finatec is a Brazilian scientific and technological foundation supporting government and military projects.
 - Created a SPA with **Angular** for managing internal data for military administration, applying UX best practices for ease of use.
+
+### Junior Java Developer (Dec 2017 - Jun 2018)
+**Stack:** Java, Docker, microservices
+
+Finatec is a Brazilian scientific and technological foundation supporting government and military projects.
+- Worked on **Java EE** backend systems and learned DevOps fundamentals, including **Docker** and microservices architecture.

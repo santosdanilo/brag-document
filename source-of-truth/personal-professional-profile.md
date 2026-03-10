@@ -11,18 +11,23 @@ I consistently deliver scalable, high-quality code and have implemented CI/CD pi
 ## Skills
 
 ### Primary Stack (Expert)
-- **Frontend:** Angular, TypeScript, Ionic, Angular Material, NgRx, Tailwind CSS, React.js
-- **Testing:** Jest, Testing Library, Jasmine, Playwright
-- **Backend:** Supabase
+- **Frontend:** Angular, TypeScript, Ionic, CapacitorJS, Angular Material, NgRx, Tailwind CSS, React.js, Next.js
+- **Testing:** Jest, Testing Library, Jasmine, Playwright, pgTAP, Karma
+- **Backend:** Supabase, NestJS, Node.js, PostgreSQL
+- **Monitoring:** Sentry
 
 ### Secondary Stack (Intermediate/Basic)
-- **Frontend:** AngularJS (CoffeeScript), RxJS, Webpack
-- **DevOps:** AWS (Lambda), CI/CD, GitHub Actions, GitLab CI
+- **Frontend:** AngularJS (CoffeeScript), RxJS, Webpack, PrimeNG, W3C Accessibility
+- **Backend:** Java, Docker
+- **Cloud:** Amazon Web Services (AWS), AWS Lambda, Amazon S3
+- **DevOps:** CI/CD, GitHub Actions, GitLab CI
+- **Languages:** JavaScript, CSS
 
 ## Languages
 
-- **Portuguese:** Native
-- **English:** Professional working proficiency
+- **Portuguese:** Native or Bilingual
+- **English:** Full Professional
+- **Spanish:** Elementary
 
 ## Education
 
@@ -31,6 +36,8 @@ I consistently deliver scalable, high-quality code and have implemented CI/CD pi
 ## Certifications
 
 - **Participant – Mini Company Program** — Issued Jul 2012, Expires Dec 2012
+- **AWS Educate Introduction to Cloud 101** — Amazon Web Services (AWS)
+- **LFW111: Introduction to Node.js** — The Linux Foundation
 
 ## Interests
 
