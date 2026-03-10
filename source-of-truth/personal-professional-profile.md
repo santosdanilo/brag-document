@@ -4,36 +4,37 @@
 
 ## Summary
 
-<!-- Add your professional summary here. Example:
-Senior Software Engineer with X years of experience in [your main area]. Specialized in [key technologies].
-Passionate about [your interests]. Experienced in [leadership/mentoring/architecture/etc.].
--->
+Frontend Software Engineer with over six years of experience and a strong foundation in Computer Science. I have successfully led projects that improved application performance, structure, and reduced downtime by migrating legacy AngularJS systems to modern Angular frameworks. Skilled in **Angular**, **Ionic**, **TypeScript**, and **Tailwind CSS**, with experience in supporting technologies required to launch applications, including **AWS** services and **CI/CD** configuration.
+
+I consistently deliver scalable, high-quality code and have implemented CI/CD pipelines and AWS integrations to ensure robust and reliable applications for global users.
 
 ## Skills
 
 ### Primary Stack (Expert)
-- **Frontend:** <!-- e.g., React, Angular, TypeScript -->
-- **Backend:** <!-- e.g., Node.js, Python, Java -->
-- **Database:** <!-- e.g., PostgreSQL, MongoDB -->
+- **Frontend:** Angular, TypeScript, Ionic, Angular Material, NgRx, Tailwind CSS, React.js
+- **Testing:** Jest, Testing Library, Jasmine, Playwright
+- **Backend:** Supabase
 
 ### Secondary Stack (Intermediate/Basic)
-- **Frontend:** <!-- other frontend technologies -->
-- **Backend:** <!-- other backend technologies -->
-- **DevOps:** <!-- e.g., Docker, AWS, CI/CD -->
+- **Frontend:** AngularJS (CoffeeScript), RxJS, Webpack
+- **DevOps:** AWS (Lambda), CI/CD, GitHub Actions, GitLab CI
 
 ## Languages
 
 - **Portuguese:** Native
-- **English:** <!-- your level, e.g., Advanced (C1) -->
+- **English:** Professional working proficiency
 
 ## Education
 
-- **[Your Degree]** - [Institution] ([Year Start] - [Year End])
+- **Bachelor's degree in Computer Science** - Universidade de Brasília (2014 - 2022)
 
 ## Certifications
 
-<!-- List any relevant certifications -->
+- **Participant – Mini Company Program** — Issued Jul 2012, Expires Dec 2012
 
 ## Interests
 
-<!-- List your professional interests -->
+- Frontend architecture and scalable design patterns
+- Developer experience and CI/CD automation
+- Accessibility (W3C standards)
+- Mobile development with Ionic
