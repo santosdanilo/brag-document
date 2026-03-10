@@ -38,3 +38,15 @@ At **GasHub**, the business needed to validate a natural gas trading platform co
 - **Challenge:** Deliver a working prototype of a complex real-time trading application within a very tight timeline.
 - **Action:** Used React and AI agents to accelerate development, focused on core business workflows, and delivered a functional prototype in under three weeks.
 - **Result:** The prototype was completed in under **three weeks** and enabled the team to validate the business model with real users and stakeholders.
+
+## Products API Performance Optimization (GasHub)
+At **GasHub**, the Products listing endpoint was responding in ~3010ms (cold), impacting user experience on the trading platform.
+- **Challenge:** Diagnose and fix the performance bottleneck in the `/products` endpoint without breaking existing functionality.
+- **Action:** Profiled the full request waterfall, ran `EXPLAIN ANALYZE` on all queries, identified that sequential `drizzle.rls()` transactions and independent steps running in series were the root cause. Implemented `Promise.all` parallelization and merged RLS transactions into a single call. Designed a composite index to eliminate a 900-row sequential scan.
+- **Result:** Reduced cold latency by **45%** (3010ms → 1645ms) and warm latency by **95.7%** (to ~132ms avg across 100 requests). Proposed index would further cut Q2a from ~198ms to ~2-5ms.
+
+## Backend Architecture Modernization (GasHub)
+At **GasHub**, the backend was tightly coupled to the **Supabase JS client**, which lacked transaction support — a critical limitation for coordinating multi-step business operations atomically.
+- **Challenge:** Introduce transaction support and establish a clean, maintainable architecture for the growing codebase without disrupting ongoing development.
+- **Action:** Migrated from Supabase JS client to **Drizzle ORM** running on **Deno** edge functions, enabling full transaction support. Introduced a layered architecture: **Zod** schemas for API-level validation, business rules encapsulated in use case classes, and database queries isolated in repository classes. Implemented the **Unit of Work** pattern to coordinate multiple repository operations within a single transaction.
+- **Result:** Enabled atomic multi-step operations, improved code testability through clear separation of concerns, and established a scalable foundation for future feature development.

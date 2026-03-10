@@ -5,13 +5,15 @@ Use the format below for each position. Include metrics and impact where possibl
 
 ## GasHub (Jun 2025 - Present)
 **Role:** Full Stack Engineer
-**Stack:** React, Supabase, NestJS, PostgreSQL, pgTAP, Sentry, Node.js, Testing Library, Playwright, Tailwind CSS, TypeScript
+**Stack:** React, Supabase, Deno, Drizzle ORM, Zod, NestJS, PostgreSQL, pgTAP, Sentry, Node.js, Testing Library, Playwright, Tailwind CSS, TypeScript
 
 Early-stage startup building a natural gas trading platform with real-time matching between sellers and buyers.
 - Developed a natural gas trading application with real-time matching between sellers and buyers, including instant notifications, leveraging **Supabase** as the backend.
 - Delivered a functional prototype for market validation in under **three weeks** using **React** and AI agents.
 - Refactored the codebase for maintainability and quality, and implemented comprehensive unit tests with **Testing Library** plus end-to-end tests using **Playwright**.
 - Collaborated in refining requirements and validating business workflows to ensure product-market fit.
+- Conducted a full performance analysis of the Products API, reducing response latency from **3010ms** to **132ms (−95.7%)** by parallelizing independent queries, merging RLS transactions, and profiling with **EXPLAIN ANALYZE**. Documented index recommendations to further cut database query time from ~198ms to ~2-5ms.
+- Led architecture modernization by migrating from **Supabase JS client** to **Drizzle ORM** with **Deno**, enabling transaction support via the **Unit of Work** pattern. Introduced layered architecture with **Zod** validation at the API layer, business rules in use cases, and database queries isolated in repositories.
 
 ## MyTime (Apr 2022 - Mar 2025)
 **Role:** Frontend Software Engineer
