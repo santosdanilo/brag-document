@@ -14,6 +14,8 @@ Early-stage startup building a natural gas trading platform with real-time match
 - Collaborated in refining requirements and validating business workflows to ensure product-market fit.
 - Conducted a full performance analysis of the Products API, reducing response latency from **3010ms** to **132ms (−95.7%)** by parallelizing independent queries, merging RLS transactions, and profiling with **EXPLAIN ANALYZE**. Documented index recommendations to further cut database query time from ~198ms to ~2-5ms.
 - Led architecture modernization by migrating from **Supabase JS client** to **Drizzle ORM** with **Deno**, enabling transaction support via the **Unit of Work** pattern. Introduced layered architecture with **Zod** validation at the API layer, business rules in use cases, and database queries isolated in repositories.
+- Built the ProductsAvailablePage with **5 independently-filtered blocks**, each supporting infinite scroll, using **TanStack Virtual** for row virtualization to handle potentially thousands of rows across blocks without performance degradation.
+- Conducted **three rounds of React 18 profiler analysis** on the trading page, diagnosing render bottlenecks through flame graphs and fiber-level metrics. Applied **React.memo**, **useCallback**, and CSS-only hover state (replacing `useState`) to eliminate cascade re-renders; reduced initial mount from **59.1ms to 1.8ms (−97%)** and per-block data-load commits from **13–31ms to under 2ms (−94%)**.
 
 ## MyTime (Apr 2022 - Mar 2025)
 **Role:** Frontend Software Engineer
