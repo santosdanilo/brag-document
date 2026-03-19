@@ -19,7 +19,7 @@ links:
 experiences:
   - id: gashub
     company: GasHub
-    keySkills: React, TypeScript, Node.js, Supabase, Drizzle ORM, Deno, PostgreSQL, Playwright, TanStack Virtual, Sentry
+    keySkills: React, TypeScript, Node.js, Supabase, Drizzle ORM, Deno, PostgreSQL, Playwright, TanStack Virtual
     roles:
       - id: gashub-fullstack
         title: Full Stack Engineer
@@ -109,4 +109,4 @@ skills:
   backend: Node.js, NestJS, Deno, Supabase, Drizzle ORM, Zod
   databases: PostgreSQL, pgTAP
   testing: Jest, Testing Library, Playwright, Jasmine
-  devops: GitHub Actions, GitLab CI, AWS Lambda, Amazon S3, Docker, Sentry
+  devops: GitHub Actions, GitLab CI, AWS Lambda, Amazon S3, Docker

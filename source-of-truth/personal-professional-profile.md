@@ -14,7 +14,6 @@ I consistently deliver scalable, high-quality code and have implemented CI/CD pi
 - **Frontend:** Angular, TypeScript, Ionic, CapacitorJS, Angular Material, NgRx, Tailwind CSS, React.js, Next.js
 - **Testing:** Jest, Testing Library, Jasmine, Playwright, pgTAP, Karma
 - **Backend:** Supabase, NestJS, Node.js, PostgreSQL
-- **Monitoring:** Sentry
 
 ### Secondary Stack (Intermediate/Basic)
 - **Frontend:** AngularJS (CoffeeScript), RxJS, Webpack, PrimeNG, W3C Accessibility

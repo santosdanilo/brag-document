@@ -5,7 +5,7 @@ Use the format below for each position. Include metrics and impact where possibl
 
 ## GasHub (Jun 2025 - Present)
 **Role:** Full Stack Engineer
-**Stack:** React, Supabase, Deno, Drizzle ORM, Zod, NestJS, PostgreSQL, pgTAP, Sentry, Node.js, Testing Library, Playwright, Tailwind CSS, TypeScript
+**Stack:** React, Supabase, Deno, Drizzle ORM, Zod, NestJS, PostgreSQL, pgTAP, Node.js, Testing Library, Playwright, Tailwind CSS, TypeScript
 
 Early-stage startup building a natural gas trading platform with real-time matching between sellers and buyers.
 - Developed a natural gas trading application with real-time matching between sellers and buyers, including instant notifications, leveraging **Supabase** as the backend.

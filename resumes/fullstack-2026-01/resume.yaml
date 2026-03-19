@@ -16,7 +16,7 @@ introduction: |
 
 experiences:
   - id: gashub
-    keySkills: React, TypeScript, Node.js, Deno, Drizzle ORM, PostgreSQL, Supabase, Playwright, TanStack Virtual, Zod, Sentry
+    keySkills: React, TypeScript, Node.js, Deno, Drizzle ORM, PostgreSQL, Supabase, Playwright, TanStack Virtual, Zod
     roles:
       - id: gashub-fullstack
         bullets:
@@ -25,7 +25,7 @@ experiences:
           - Reduced Products API latency from **3,010 ms → 132 ms (−95.7%)** by parallelising queries with `Promise.all`, merging RLS transactions, and profiling with `EXPLAIN ANALYZE` on **PostgreSQL**.
           - Cut React 18 initial mount time from **59.1 ms → 1.8 ms (−97%)** and per-block commits from **13–31 ms → under 2 ms (−94%)** across 3 rounds of **React Profiler** analysis.
           - Built `ProductsAvailablePage` with 5 independently-filtered data blocks, infinite scroll, and **TanStack Virtual** row virtualisation to handle large datasets without pagination.
-          - "Established test coverage from scratch: **Testing Library** unit tests + **Playwright** E2E tests; integrated **Sentry** for production error monitoring."
+          - "Established test coverage from scratch: **Testing Library** unit tests + **Playwright** E2E tests."
 
   - id: mytime
     keySkills: Angular, TypeScript, AngularJS, Node.js, Jest, Testing Library
@@ -57,4 +57,4 @@ skills:
   backend: Node.js, NestJS, Deno, Drizzle ORM, Zod, Supabase
   databases: PostgreSQL, pgTAP
   testing: Jest, Testing Library, Playwright, Jasmine
-  devops: GitHub Actions, GitLab CI, AWS Lambda, Amazon S3, Docker, Sentry
+  devops: GitHub Actions, GitLab CI, AWS Lambda, Amazon S3, Docker
