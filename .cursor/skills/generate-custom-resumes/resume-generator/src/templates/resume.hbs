@@ -12,51 +12,45 @@
 <body>
   <div class="resume">
     <header class="header">
-      <h1 class="name">
-        {{name}}
-        {{#if email}}<span class="email">· {{email}}</span>{{/if}}
-      </h1>
-      <h2 class="title">{{title}}</h2>
-      <blockquote class="introduction">
+      <h1 class="name">{{name}}</h1>
+      <p class="contact-line">
+        {{#if email}}{{email}}{{/if}}
+        {{#if links.linkedin}}<span class="contact-sep">·</span><a href="{{links.linkedin}}">{{links.linkedin}}</a>{{/if}}
+        {{#if links.github}}<span class="contact-sep">·</span><a href="{{links.github}}">{{links.github}}</a>{{/if}}
+      </p>
+      <hr class="header-rule">
+    </header>
+
+    {{#if introduction}}
+    <section class="summary-section">
+      <h2>Summary</h2>
+      <div class="summary-text">
         {{#each (splitLines introduction)}}
           <p>{{{md this}}}</p>
         {{/each}}
-      </blockquote>
-      <div class="links">
-        {{#if links.linkedin}}
-        <span class="link">🌐 <a href="{{links.linkedin}}">Linkedin</a></span>
-        {{/if}}
-        {{#if links.github}}
-        <span class="link">💻 <a href="{{links.github}}">GitHub</a></span>
-        {{/if}}
       </div>
-    </header>
+    </section>
+    {{/if}}
 
     <section class="experience">
-      <h2>▶ Experience</h2>
+      <h2>Experience</h2>
       {{#each experiences}}
       <div class="company">
         <h3 class="company-name">{{company}}</h3>
-        {{#if keySkills}}
-        <p class="company-key-skills"><em>Key skills: {{keySkills}}</em></p>
-        {{/if}}
         {{#each roles}}
         <div class="role">
-          <h4 class="role-title">{{title}}</h4>
+          <div class="role-header">
+            <span class="company-name-inline">{{../company}}</span>,
+            <span class="role-title-inline">{{title}}</span>
+          </div>
           <div class="role-period">
-            {{period}}
-            {{#if note}}
-            <span class="role-note">({{note}})</span>
-            {{/if}}
+            {{period}}{{#if note}} ({{note}}){{/if}}
           </div>
           <ul class="role-bullets">
             {{#each bullets}}
             <li>{{{md this}}}</li>
             {{/each}}
           </ul>
-          {{#if keySkills}}
-          <p class="key-skills"><em>Key skills: {{keySkills}}</em></p>
-          {{/if}}
         </div>
         {{/each}}
       </div>
@@ -64,11 +58,11 @@
     </section>
 
     <section class="education">
-      <h2>▶ Education</h2>
+      <h2>Education</h2>
       {{#each education}}
       <div class="education-item">
         <h3>{{degree}}</h3>
-        <p class="institution"><em>{{institution}}</em></p>
+        <p class="institution">{{institution}}</p>
         {{#if details}}
         <p class="details">{{details}}</p>
         {{/if}}
@@ -77,12 +71,9 @@
     </section>
 
     <section class="skills">
-      <h2>▶ Skills</h2>
+      <h2>Skills</h2>
       {{#if skills.languages}}
       <p><strong>Languages:</strong> {{skills.languages}}</p>
-      {{/if}}
-      {{#if skills.databases}}
-      <p><strong>Databases:</strong> {{skills.databases}}</p>
       {{/if}}
       {{#if skills.frontend}}
       <p><strong>Frontend:</strong> {{skills.frontend}}</p>
@@ -90,17 +81,17 @@
       {{#if skills.backend}}
       <p><strong>Backend:</strong> {{skills.backend}}</p>
       {{/if}}
-      {{#if skills.architecture}}
-      <p><strong>Architecture:</strong> {{skills.architecture}}</p>
+      {{#if skills.databases}}
+      <p><strong>Databases:</strong> {{skills.databases}}</p>
+      {{/if}}
+      {{#if skills.testing}}
+      <p><strong>Testing:</strong> {{skills.testing}}</p>
       {{/if}}
       {{#if skills.devops}}
       <p><strong>DevOps:</strong> {{skills.devops}}</p>
       {{/if}}
-      {{#if skills.systemDesign}}
-      <p><strong>System Design:</strong> {{skills.systemDesign}}</p>
-      {{/if}}
-      {{#if skills.softSkills}}
-      <p><strong>Soft Skills:</strong> {{skills.softSkills}}</p>
+      {{#if skills.architecture}}
+      <p><strong>Architecture:</strong> {{skills.architecture}}</p>
       {{/if}}
     </section>
   </div>
