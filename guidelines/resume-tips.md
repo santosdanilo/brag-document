@@ -53,16 +53,29 @@ Don't use any ineffective buzzwords or clichés, such as 'team player' or 'resul
 
 ## Usage of numbers and metrics
 
-You should add hard numbers into your resume.
+Numbers exist to support the story — they are evidence, not the headline. Every bullet should lead with the business outcome or problem solved, and use numbers to back it up.
 
-Recruiters are looking for evidence of impact, and hard numbers help with this. To explain this,
-let's compare these two lines:
+**Bullet anatomy:**
+```
+[Business outcome or problem solved] + [number as supporting evidence]
+```
 
-- Weaker: In charge of creating new processes and improving communication between departments.
-- Stronger: Managed a process re-engineering project to improve and consolidate end-to-end service processes; restructured communication flow among 10 departments and cut down paperwork by 75%.
+Examples:
 
-Notice how using hard numbers emphasizes the impact of your work — this is what
-recruiters look for on your resume.
+| ❌ Number-first (avoid) | ✅ Value-first (preferred) |
+|---|---|
+| "Reduced API latency from 3,010 ms → 132 ms (−95.7%)" | "Resolved a critical bottleneck that threatened real-time usability, cutting response times by 95%" |
+| "Cut mount time from 59.1 ms → 1.8 ms (−97%)" | "Fixed a UX-breaking rendering issue that blocked product adoption, achieving 97% faster initial loads" |
+| "In charge of creating new processes and improving communication" | "Streamlined cross-department workflows, cutting paperwork by 75% across 10 departments" |
+
+Precise before/after numbers (e.g. `3,010 ms → 132 ms`) belong in storytelling contexts (interviews, case studies) — not in resume bullets. On a resume, `cut response times by 95%` is more readable and equally convincing.
+
+### Bullet smell test
+
+Before finalising any bullet, check:
+- **Remove the number** — does the bullet still describe a real outcome? If no, the number is carrying the whole sentence. Rewrite to lead with the value first.
+- **Non-technical hiring manager test** — would someone outside engineering understand what problem was solved? If no, reframe around the business impact.
+- **First word check** — does the bullet open with a business outcome verb (Unblocked, Enabled, Reduced, Accelerated, Delivered, Resolved)? If not, restructure.
 
 
 ## Remove Weak Words
@@ -84,6 +97,15 @@ Instead of:
 - Worked, use Prepared, Developed, or Implemented
 - Worked With, use Liaised, Advised, Addressed, or Persuaded
 
+
+## No internal names in bullets
+
+Feature names, internal tool names, and codebase terms only make sense to someone who already works there. Replace them with what they do for the business.
+
+- ❌ "Built `ProductsAvailablePage` with 5 independently-filtered data blocks and TanStack Virtual row virtualisation"
+- ✅ "Designed the core trading view to handle large datasets without degrading performance, ensuring the product could scale without a costly rebuild"
+
+If the noun in a bullet would require an internal glossary to understand, rewrite it.
 
 ## Use of bullets
 
