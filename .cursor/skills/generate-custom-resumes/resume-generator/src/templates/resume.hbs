@@ -13,13 +13,13 @@
   <div class="resume">
     <header class="header">
       <h1 class="name">
-        [Your name]
-        {{#if showContacts}} ([contact info]){{/if}}
+        {{name}}
+        {{#if email}}<span class="email">· {{email}}</span>{{/if}}
       </h1>
       <h2 class="title">{{title}}</h2>
       <blockquote class="introduction">
         {{#each (splitLines introduction)}}
-          <p>{{this}}</p>
+          <p>{{{md this}}}</p>
         {{/each}}
       </blockquote>
       <div class="links">
@@ -51,7 +51,7 @@
           </div>
           <ul class="role-bullets">
             {{#each bullets}}
-            <li>{{this}}</li>
+            <li>{{{md this}}}</li>
             {{/each}}
           </ul>
           {{#if keySkills}}

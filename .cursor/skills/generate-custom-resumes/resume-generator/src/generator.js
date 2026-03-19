@@ -8,6 +8,17 @@ import { loadYAML, mergeResumes } from './parser.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Register Handlebars helper to convert simple markdown to HTML
+// Supports: **bold**, `code`, and → arrow
+Handlebars.registerHelper('md', function(str) {
+  if (!str) return '';
+  if (typeof str !== 'string') return str;
+  const html = str
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/`(.+?)`/g, '<code>$1</code>');
+  return new Handlebars.SafeString(html);
+});
+
 // Register Handlebars helper for splitting strings by paragraphs
 // Handles both | (literal) and > (folded) YAML block scalars
 Handlebars.registerHelper('splitLines', function(str) {

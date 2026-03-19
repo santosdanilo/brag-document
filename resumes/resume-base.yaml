@@ -1,50 +1,112 @@
-# Resume base — fill in with your own data
-# This file is the source of truth for PDF generation.
+# Resume base — source of truth for PDF generation.
 # Run: cd .cursor/skills/generate-custom-resumes/resume-generator && npm install
 # Then: node src/index.js --output resumes/resume-base.pdf
 
-title: Senior Software Engineer
+name: Danilo Santos
+email: dandesenvolvimento@gmail.com
+
+title: Senior Frontend Software Engineer
 
 introduction: |
-  Senior Software Engineer with X years of experience in [your area].
-  Specialized in building [type of systems] using [key technologies].
-  Passionate about [your interests] and experienced in [leadership/architecture/etc.].
+  Frontend Software Engineer with over 7 years of experience building scalable web and mobile applications.
+  Led AngularJS → Angular migrations, delivered a real-time trading platform prototype in under 3 weeks, and cut API latency by 95.7% through full-stack optimizations.
+  Strong track record in TypeScript, React, Angular, and Node.js across product-focused and startup environments.
 
 links:
-  linkedin: https://www.linkedin.com/in/your-profile/
-  github: https://github.com/your-username
+  linkedin: https://www.linkedin.com/in/santos-danilo/
+  github: https://github.com/santosdanilo
 
 experiences:
-  - id: company-id
-    company: Company Name
-    keySkills: Skill1, Skill2, Skill3
+  - id: gashub
+    company: GasHub
+    keySkills: React, TypeScript, Node.js, Supabase, Drizzle ORM, Deno, PostgreSQL, Playwright, TanStack Virtual, Sentry
     roles:
-      - id: role-id
-        title: Senior Software Engineer
-        period: 2022 - Present
+      - id: gashub-fullstack
+        title: Full Stack Engineer
+        period: Jun 2025 – Present
         bullets:
-          - Achievement bullet 1 with **key technology** and **metric**.
-          - Achievement bullet 2.
-          - Achievement bullet 3.
+          - Delivered a real-time natural gas trading platform prototype in under **3 weeks** using **React** + AI-assisted development, enabling early market validation.
+          - Reduced Products API latency from **3,010 ms → 132 ms (−95.7%)** via `Promise.all` parallelization, merged RLS transactions, and `EXPLAIN ANALYZE` profiling on **PostgreSQL**.
+          - Optimised React 18 rendering across 3 Profiler sessions — cut initial mount time from **59.1 ms → 1.8 ms (−97%)** and per-block commit times from **13–31 ms → under 2 ms (−94%)**.
+          - Built `ProductsAvailablePage` with 5 independently-filtered blocks, infinite scroll, and **TanStack Virtual** row virtualisation to handle large datasets without pagination.
+          - Migrated backend from Supabase JS client to **Drizzle ORM** on **Deno**, introducing Unit of Work pattern, Zod validation, and a layered architecture.
+          - "Refactored codebase and established quality baseline with **Testing Library** unit tests and **Playwright** E2E tests."
 
-  - id: previous-company-id
-    company: Previous Company
-    keySkills: Skill1, Skill2
+  - id: mytime
+    company: MyTime
+    keySkills: Angular, TypeScript, AngularJS, CoffeeScript, Jest, Testing Library
     roles:
-      - id: previous-role-id
-        title: Software Engineer
-        period: 2019 - 2022
+      - id: mytime-frontend
+        title: Frontend Software Engineer
+        period: Apr 2022 – Mar 2025
         bullets:
-          - Achievement bullet 1.
-          - Achievement bullet 2.
+          - Migrated a legacy **AngularJS**/CoffeeScript payment system to **Angular**/TypeScript, restoring a critical POS module and enabling a platform re-launch.
+          - Achieved high test coverage using **Jest** and **Testing Library**, reducing regression risk on core checkout flows.
+          - Implemented **W3C accessibility** standards across key user-facing screens.
+
+  - id: twenty20
+    company: Twenty20 Solutions
+    keySkills: Angular, TypeScript, Jest, GitHub Actions
+    roles:
+      - id: twenty20-frontend
+        title: Frontend Software Engineer
+        period: Jan 2022 – Mar 2022
+        bullets:
+          - Architected a browser-based desktop environment applying **SOLID** principles and Clean Architecture, delivering a maintainable modular codebase.
+          - Introduced **Jest** unit testing and **GitHub Actions** CI/CD pipeline, establishing automated quality gates.
+
+  - id: greenAnt
+    company: GreenAnt
+    keySkills: Angular, AngularJS, Ionic, Webpack, AWS Lambda, GitLab CI, TypeScript
+    roles:
+      - id: greenAnt-frontend
+        title: Frontend Software Engineer
+        period: Jan 2020 – Dec 2021
+        bullets:
+          - Executed zero-downtime **AngularJS → Angular** migration using **Webpack** dual-environment bundling, keeping production stable throughout.
+          - Built a serverless PDF generation microservice on **AWS Lambda** integrated into the core invoicing flow.
+          - Launched a mobile app for invoice payment using **Ionic** and **CapacitorJS**, targeting Android and iOS.
+
+  - id: unb
+    company: Universidade de Brasília
+    keySkills: Angular, Angular Material, Next.js, Docker
+    roles:
+      - id: unb-dev
+        title: Frontend Software Developer
+        period: Aug 2018 – Aug 2020
+        bullets:
+          - Developed a mobile-first government data dashboard using **Angular** and **Next.js**, improving data accessibility for public-sector users.
+
+  - id: gera-energia
+    company: Gera Energia Brasil
+    keySkills: Angular, PrimeNG, Jasmine, CI/CD
+    roles:
+      - id: gera-energia-frontend
+        title: Frontend Software Engineer
+        period: Feb 2019 – Dec 2019
+        bullets:
+          - Built data-intensive energy management dashboards with **Angular** and **PrimeNG**.
+          - Set up automated testing with **Jasmine** and a CI/CD pipeline for continuous delivery.
+
+  - id: finatec
+    company: Finatec
+    keySkills: Angular, Java, Docker
+    roles:
+      - id: finatec-dev
+        title: Software Developer
+        period: May 2017 – Jun 2018
+        bullets:
+          - Developed frontend features in **Angular** and contributed to Java microservices containerised with **Docker**.
 
 education:
   - degree: B.S. in Computer Science
-    institution: Your University
-    details: 2014 - 2018
+    institution: Universidade de Brasília
+    details: 2014 – 2022
 
 skills:
-  languages: JavaScript, TypeScript, Python
-  frameworks: React, Node.js, Express
-  databases: PostgreSQL, MongoDB
-  devops: Docker, AWS, CI/CD (GitHub Actions)
+  languages: TypeScript, JavaScript
+  frontend: React.js, Next.js, Angular, Ionic, CapacitorJS, NgRx, Tailwind CSS, Angular Material, TanStack Virtual
+  backend: Node.js, NestJS, Deno, Supabase, Drizzle ORM, Zod
+  databases: PostgreSQL, pgTAP
+  testing: Jest, Testing Library, Playwright, Jasmine
+  devops: GitHub Actions, GitLab CI, AWS Lambda, Amazon S3, Docker, Sentry
