@@ -32,7 +32,7 @@ experiences:
     roles:
       - id: mytime-frontend
         bullets:
-          - Took end-to-end ownership of migrating a legacy **AngularJS**/CoffeeScript payment system to **Angular**/TypeScript — from analysis to delivery — restoring a broken POS module and enabling a platform re-launch.
+          - Migrated a legacy **AngularJS**/CoffeeScript payment system to **Angular**/TypeScript — rebuilding core POS modules to improve UX and scalability, enabling a successful platform re-launch.
           - Achieved high test coverage via **Jest** and **Testing Library**, catching regressions before they reached production on core checkout flows.
           - Implemented **W3C accessibility** compliance across key user-facing screens.
 

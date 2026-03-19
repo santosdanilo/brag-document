@@ -40,7 +40,7 @@ experiences:
         title: Frontend Software Engineer
         period: Apr 2022 – Mar 2025
         bullets:
-          - Migrated a legacy **AngularJS**/CoffeeScript payment system to **Angular**/TypeScript, restoring a critical POS module and enabling a platform re-launch.
+          - Migrated a legacy **AngularJS**/CoffeeScript payment system to **Angular**/TypeScript — rebuilding core POS modules to improve UX and scalability, enabling a successful platform re-launch.
           - Achieved high test coverage using **Jest** and **Testing Library**, reducing regression risk on core checkout flows.
           - Implemented **W3C accessibility** standards across key user-facing screens.
 
