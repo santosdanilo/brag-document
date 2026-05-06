@@ -9,43 +9,43 @@
 title: Sr. Frontend Developer
 
 introduction: |
-  Senior Frontend Software Engineer with over **7 years** of experience building scalable web and mobile products with **React**, **Next.js**, **Angular**, and **TypeScript**.
-  Delivered a real-time trading platform prototype in under **3 weeks**, improved frontend load performance by **97%** through profiling-led optimisation, and modernised legacy applications through zero-downtime migrations.
-  Strong fit for remote product teams that value accessibility, responsive UX, clean architecture, automated testing, and autonomous ownership.
+  Senior Frontend Software Engineer with over **7 years** of experience building products with **React**, **Next.js**, **Angular**, and **TypeScript**.
+  Most of my recent work has focused on shipping complex frontend features quickly, improving performance, and making legacy systems easier to maintain.
+  I work best in product teams that care about accessibility, responsive UX, clean code, and engineers who can own problems end to end.
 
 experiences:
   - id: gashub
     roles:
       - id: gashub-fullstack
         bullets:
-          - Delivered a real-time trading platform prototype in under **3 weeks** using **React**, enabling rapid product validation in a fast-moving startup environment.
-          - Fixed a UX-breaking rendering bottleneck on the core trading interface, achieving **97% faster** initial loads through **React 18 Profiler**-driven optimisation.
-          - Architected a high-volume product discovery experience with virtualized lists, infinite scroll, and independent filtering, keeping the UI responsive as data volume grew.
-          - Enabled confident releases by establishing **Testing Library** unit coverage and **Playwright** end-to-end tests across critical user flows.
+          - Built a real-time trading platform prototype in under **3 weeks** with **React**, which gave the team something solid to use for early product validation.
+          - Improved the performance of the main trading screen after profiling render bottlenecks, cutting initial load time by **97%**.
+          - Designed a product browsing experience with virtualized lists, infinite scroll, and independent filters so the UI stayed responsive as the dataset grew.
+          - Added **Testing Library** unit tests and **Playwright** end-to-end coverage for key user flows, making releases safer.
 
   - id: mytime
     roles:
       - id: mytime-frontend
         bullets:
-          - Modernized a business-critical payment experience by migrating **AngularJS/CoffeeScript** to **Angular/TypeScript**, supporting a successful platform re-launch without disrupting operations.
-          - Rebuilt core POS flows to improve usability and long-term maintainability in a global scheduling and payments platform.
-          - Implemented **W3C accessibility** standards across key screens, expanding usability for visually impaired users.
-          - Reduced regression risk on checkout flows by adding high-coverage automated tests with **Jest** and **Testing Library**.
+          - Migrated a business-critical payment flow from **AngularJS/CoffeeScript** to **Angular/TypeScript**, helping the company relaunch the platform without interrupting day-to-day operations.
+          - Reworked core POS flows to make them easier to use and easier for the team to maintain over time.
+          - Added support for **W3C accessibility** standards across key screens so visually impaired users could use the product more reliably.
+          - Increased confidence in checkout changes by adding automated tests with **Jest** and **Testing Library**.
 
   - id: twenty20
     roles:
       - id: twenty20-frontend
         bullets:
-          - Architected a modular browser-based desktop environment in **Angular/TypeScript**, translating complex product requirements into a scalable frontend foundation.
-          - Introduced **Jest** testing and **GitHub Actions** CI/CD, establishing the first automated quality gates for the project.
+          - Designed a modular browser-based desktop environment in **Angular/TypeScript**, giving the project a frontend foundation that could scale as new features were added.
+          - Set up **Jest** and **GitHub Actions** CI/CD to give the team its first automated quality checks.
 
   - id: greenAnt
     roles:
       - id: greenAnt-frontend
         bullets:
-          - Led a zero-downtime **AngularJS → Angular** migration using dual-environment **Webpack** bundling, keeping production stable throughout the transition.
-          - Built reusable dashboard components for real-time energy analytics, improving data visibility for enterprise clients.
-          - Launched a mobile app with **Ionic**, expanding access to invoice payment and energy monitoring on the go.
+          - Led an **AngularJS → Angular** migration with no downtime by running both environments side by side with **Webpack** during the transition.
+          - Built reusable dashboard components for real-time energy analytics, giving enterprise clients clearer visibility into their data.
+          - Released a mobile app with **Ionic** so customers could pay invoices and monitor energy usage from their phones.
 
 skills:
   languages: TypeScript, JavaScript, English
