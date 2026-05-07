@@ -1,14 +1,14 @@
-Dear 1950Labs Hiring Team,
+Dear Hiring Team,
 
-I’m excited to apply for the **Sr. Frontend Developer** role. I’m a Frontend Software Engineer with over **six years** of experience building and improving web products with **React**, **Angular**, **TypeScript**, and related frontend tooling. What stood out to me about this opportunity is the chance to contribute to a product team that values strong frontend execution, clean user experiences, and engineers who can take ownership of meaningful problems.
+I’m excited to apply for the full stack position. I’m a software engineer with over **six years** of experience building products across frontend and backend layers, with most of my work centered on **TypeScript**, **React**, **Angular**, **Node.js**, **Supabase**, **PostgreSQL**, and automated testing. What interests me most in this opportunity is the chance to contribute end to end: building solid user experiences while also shaping the APIs, data flows, and architecture behind them.
 
-In my recent work, I’ve focused on building performant, maintainable frontend applications in environments where product speed and technical quality both matter. At **GasHub**, I helped deliver a real-time trading platform prototype in under **three weeks**, then improved the performance of a critical trading interface by profiling render bottlenecks and reducing initial load time by **97%**. I also introduced automated test coverage with **Testing Library** and **Playwright** to make releases safer as the product evolved.
+At **GasHub**, where I work today as a **Full Stack Engineer**, I’ve been responsible for both product-facing frontend work and backend architecture. I helped deliver a real-time trading platform prototype in under **three weeks**, improved the performance of a critical user flow, and also modernized backend foundations by migrating from the **Supabase JS client** to **Drizzle ORM** on **Deno** to enable transaction support and a cleaner layered architecture. I’ve also worked on API performance analysis, database query optimization, and automated test coverage with **Testing Library**, **Playwright**, and **pgTAP**.
 
-Before that, at **MyTime**, I worked on a business-critical payment platform used by global customers. I migrated a legacy **AngularJS/CoffeeScript** system to **Angular/TypeScript**, helped rebuild core POS flows, and implemented **W3C accessibility** improvements so the product could serve users more reliably. That experience strengthened my ability to modernize legacy systems without disrupting production and to balance technical decisions with real user needs.
+Earlier in my career, I built a strong frontend foundation through roles at **MyTime**, **GreenAnt**, and **Twenty20 Solutions**, where I worked on legacy migrations, accessibility improvements, mobile experiences, and CI/CD setup. That background made me comfortable owning complex user-facing systems, while my more recent work has expanded that ownership into backend design, data consistency, and system reliability.
 
-I believe I’d be a strong fit for this role because I’m comfortable combining hands-on frontend execution with product thinking. I care about performance, accessibility, maintainable architecture, and delivering work that makes life easier both for users and for the team maintaining the codebase afterward.
+I believe I’d be a strong fit for a full stack role because I enjoy connecting product needs to technical execution across the stack. I care about maintainable architecture, performance, testing, and delivering solutions that are practical for both users and the engineers who will continue evolving the product.
 
-Thank you for your time and consideration. I’d be glad to discuss how my background could contribute to 1950Labs and this role.
+Thank you for your time and consideration. I’d be glad to discuss how my experience could contribute to your team.
 
 Best regards,  
 Danilo Santos
