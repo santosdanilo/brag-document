@@ -1,53 +1,59 @@
-## Full-Stack Product Engineer
+## Sr. Frontend Developer
 
-**Source:** https://1950labs.careers-page.com/jobs/18d32751-8345-4166-855b-3022962d1b18
+**Source:** https://1950labs.careers-page.com/jobs/18d32751-8345-4166-855b-3022962d1b18  
+**Company:** 1950Labs  
+**Work model:** 100% Remote  
+**Engagement:** Contractor, paid in US dollars  
+**Primary stack:** **React**, **Next.js**
 
-## The Role
+## About the role
 
-Mining operators do not work in Jupyter notebooks. They rely on dashboards, interfaces, and operational tools that run on tablets underground, laptops on the surface, and control-room systems in demanding, high-stakes environments. This role is about building those systems.
+1950Labs is hiring a **Sr. Frontend Developer** to build high-quality frontend experiences for clients across Europe and North America. The role is focused on implementing pixel-perfect, responsive, and accessible interfaces with **React**, **Next.js**, and **TypeScript**, while collaborating with a multidisciplinary team in a fully remote environment.
 
-As a **Full-Stack Product Engineer**, you will transform outputs from AI and machine learning teams into practical, high-impact applications used by real operators in the field. You will work across operator-facing products, data-intensive dashboards, and internal tools that support critical operations.
+## What 1950Labs offers
 
-This is not a typical startup full-stack role. You will design and build complex, domain-specific software for expert users who expect performance, reliability, and exceptional user experience.
+- Work in a rapidly expanding high-tech development business
+- Flexible and accommodating work environment
+- Growth opportunities
+- Passionate, multidisciplinary team
+- Fully remote work environment
 
-## What You'll Do
+## Responsibilities
 
-- Build client-facing applications across multiple engagements
-- Develop platform interfaces and operational dashboards
-- Create data visualization components for drill data, sensor streams, and simulation outputs
-- Integrate AI and ML backends with intuitive frontend applications
-- Build demo environments and technical assets to support business development
-- Develop internal tools for automation, knowledge management, and workflow support
-- Ensure performance, reliability, and usability in production environments
+- Develop and maintain frontend features using **React** and **Next.js**
+- Build pixel-perfect, responsive, and accessible user interfaces
+- Translate **Figma** designs into production-quality frontend implementations
+- Use modular **SCSS** architectures, including approaches such as **BEM**
+- Apply frontend performance best practices such as lazy loading, image optimization, and Web Vitals awareness
+- Write semantic and accessible **HTML**
+- Use **Git** for version control
+- Deliver clean, scalable, and maintainable code
+- Work autonomously and take ownership of assigned tasks and deliverables
 
-## What You'll Bring
+## Requirements
 
-### Experience
+- **5+ years** of experience in software development
+- Strong experience with:
+  - **React**
+  - **Next.js**
+  - **TypeScript**
+  - **SCSS**
+  - **GSAP** and/or **Framer Motion**
+- Experience using **Git**
+- Fluent **English**
+- Strong ability to translate **Figma** designs into high-quality, pixel-perfect code
+- Experience building modular **SCSS** architectures, especially using **BEM**
+- Strong understanding of responsive design, including a mobile-first approach
+- Knowledge of web performance best practices
+- Strong technical judgment
+- Ability to work autonomously
 
-- **5+ years** of experience in full-stack software engineering, with strong frontend expertise
-- Experience building internal tools or operator-facing applications in non-consumer environments
-- Experience working on data-intensive interfaces, such as dashboards, data grids, or visualization-heavy UIs
-- Proven ability to work in small teams with end-to-end ownership of features and products
+## Nice to have
 
-### Technical Skills
+- Personal projects that demonstrate technical skills and self-direction
+- Excellent communication skills
+- Interest in working in a multidisciplinary, cross-functional team
 
-- **Frontend:** Advanced proficiency in **React** and **TypeScript**, with the ability to write clean, maintainable, component-based code
-- **Backend:** Experience with **Python** (**FastAPI** or similar) and/or **Node.js**
-- **Data Visualization:** Hands-on experience with tools such as **D3.js**, **Vega-Lite**, **Recharts**, or similar, including building custom visualizations rather than only using out-of-the-box components
-- **Databases:** Experience with **PostgreSQL** and/or time-series databases such as **InfluxDB** or **TimescaleDB**; exposure to vector databases is a plus
-- **Deployment:** Familiarity with **Docker**, cloud environments, and **CI/CD** pipelines
-- **Nice to have:** Experience with **WebGL** or **Three.js** for 3D visualizations
+## About 1950Labs
 
-## Who You Are
-
-- You have strong UX judgment and can distinguish between merely functional interfaces and truly high-quality user experiences
-- You are comfortable working in ambiguous environments and bring clarity through prototyping and iteration
-- You know how to balance speed and quality, and when to optimize for each
-- You are curious about complex domains and motivated to understand how end users actually interact with the tools you build
-
-## What We Offer
-
-- The opportunity to build applications used in real-world, high-impact operating environments
-- Close collaboration with domain experts and technical teams
-- End-to-end ownership, from architecture and implementation to deployment
-- A greenfield environment with the chance to shape products from the ground up, without legacy constraints
+1950Labs is a boutique software development company specialized in remote staffing. The company has strong experience in **Fintech**, while also working with clients in industries such as **Automotive** and **Health Care**. It emphasizes strong communication, fast integration, and client-tailored service, with headquarters in Uruguay and talent distributed across Latin America.
