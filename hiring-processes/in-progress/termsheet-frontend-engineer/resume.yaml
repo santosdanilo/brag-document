@@ -10,8 +10,8 @@ title: Frontend Engineer
 
 introduction: |
   Frontend Software Engineer with over **7 years** of experience building scalable web applications with **Angular** and **TypeScript**.
-  Led multiple **AngularJS → Angular** migrations in production environments, implemented complex state management with **NgRx**, and established testing cultures using **Jest** and **Testing Library**.
-  Passionate about clean, maintainable code, strong UX principles, and frontend architectures built for the long term.
+  Led multiple **AngularJS → Angular** migrations in production environments, implemented complex state management with **NgRx** (feature stores, effects, actions), and established testing cultures using **Jest** and **Testing Library**.
+  Strong engineering instincts around code clarity, long-term maintainability, and building frontend architectures that scale with the product — not against it.
 
 experiences:
   - id: mytime
@@ -19,6 +19,7 @@ experiences:
       - id: mytime-frontend
         bullets:
           - Migrated a business-critical payment system from **AngularJS**/CoffeeScript to **Angular**/TypeScript, enabling continued product evolution without disrupting live operations.
+          - Implemented **NgRx** state management with dedicated feature stores per POS module — coordinating multi-step checkout and payment flows through **effects and actions**, isolating state boundaries across modules and making async orchestration predictable and testable.
           - Rebuilt core POS modules to improve user experience and long-term maintainability, significantly reducing future change effort across the application.
           - Established automated test coverage with **Jest** and **Testing Library**, reducing regression risk on critical checkout and payment flows.
           - Implemented **W3C accessibility** standards across key user-facing screens, making the product fully operable for visually impaired users.
@@ -35,7 +36,7 @@ experiences:
     roles:
       - id: greenAnt-frontend
         bullets:
-          - Developed reusable dashboard components for real-time energy analytics in **Angular**, improving data visibility for enterprise clients.
+          - Developed reusable dashboard components for real-time energy analytics in **Angular**, using **RxJS** observable streams as a lightweight state layer — enabling live data updates and reactive component coordination without a dedicated state library.
           - Led a zero-downtime **AngularJS → Angular** migration using **Webpack** dual-environment bundling, keeping production stable throughout the transition.
           - Launched a mobile application with **Ionic** for invoice payment and data monitoring, reusing Angular component logic and adapting UX for mobile-first interactions.
 
@@ -43,7 +44,7 @@ experiences:
     roles:
       - id: gashub-fullstack
         bullets:
-          - Conducted three rounds of **React Profiler** analysis on the trading page, reducing initial mount time from **59.1 ms → 1.8 ms (−97%)** and per-block commits from **13–31 ms → under 2 ms (−94%)**.
+          - Diagnosed and eliminated frontend rendering bottlenecks through three rounds of profiler analysis (flame graphs + fiber-level metrics) — reduced initial mount time from **59.1 ms → 1.8 ms (−97%)** and per-block commits from **13–31 ms → under 2 ms (−94%)**.
           - Reduced Products API latency from **3,010 ms → 132 ms (−95.7%)** via query parallelization, merged RLS transactions, and `EXPLAIN ANALYZE` profiling.
           - Built a data-intensive product browsing page with 5 independently-filtered blocks, infinite scroll, and **TanStack Virtual** row virtualization to handle large datasets without performance degradation.
 
