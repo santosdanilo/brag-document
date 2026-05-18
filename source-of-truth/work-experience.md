@@ -16,6 +16,9 @@ Early-stage startup building a natural gas trading platform with real-time match
 - Led architecture modernization by migrating from **Supabase JS client** to **Drizzle ORM** with **Deno**, enabling transaction support via the **Unit of Work** pattern. Introduced layered architecture with **Zod** validation at the API layer, business rules in use cases, and database queries isolated in repositories.
 - Built the ProductsAvailablePage with **5 independently-filtered blocks**, each supporting infinite scroll, using **TanStack Virtual** for row virtualization to handle potentially thousands of rows across blocks without performance degradation.
 - Conducted **three rounds of React 18 profiler analysis** on the trading page, diagnosing render bottlenecks through flame graphs and fiber-level metrics. Applied **React.memo**, **useCallback**, and CSS-only hover state (replacing `useState`) to eliminate cascade re-renders; reduced initial mount from **59.1ms to 1.8ms (−97%)** and per-block data-load commits from **13–31ms to under 2ms (−94%)**.
+- Evaluated prototype ideas raised by the team and stakeholders, assessing technical feasibility and providing concrete recommendations on viability — helping the team avoid dead ends early and prioritize high-confidence approaches.
+- Contributed to refactoring and validating the codebase using better design patterns — decoupling business logic from **Supabase**-specific abstractions to enable a future direct migration to a cloud provider, reducing vendor lock-in and improving long-term portability.
+- Led onboarding and training for new team members, documenting business rules and highlighting critical areas of the platform to accelerate ramp-up and reduce knowledge silos.
 
 ## MyTime (Apr 2022 - Mar 2025)
 **Role:** Frontend Software Engineer

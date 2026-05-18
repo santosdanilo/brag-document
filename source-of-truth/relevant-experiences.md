@@ -51,6 +51,12 @@ At **GasHub**, the trading platform needed a product listing page with five inde
 - **Action:** Evaluated virtualization libraries and chose **TanStack Virtual** for its flexibility with dynamic item sizes and its low integration overhead with existing components. Implemented infinite scroll per block using intersection observers tied to the virtual list sentinel. After shipping, ran three rounds of **React Profiler** analysis (flame graphs + fiber-level metrics), progressively resolving: unstable prop references bypassing `memo`, missing `React.memo` wrappers on 5 components, an inline `noopFetchNextPage` causing spurious `useEffect` re-runs, and `useState`-driven hover state triggering 28+ consecutive 7.5ms commits. Replaced the hover state entirely with **CSS `group-hover`**, eliminating all JavaScript hover overhead.
 - **Result:** Initial mount dropped from **59.1ms to 1.8ms (−97%)**. Per-block data-load commits dropped from **13–31ms to 1.1–1.8ms (−94%)**. The `ProductTypeFilterBar` went from **3.9ms to 0ms** per render (−100%), and all 28+ hover commits at 7.5ms each were eliminated entirely.
 
+## Team Onboarding and Knowledge Transfer (GasHub)
+At **GasHub**, as the team grew, new engineers needed to get up to speed quickly on a non-trivial trading platform with complex business rules and critical technical areas.
+- **Challenge:** Onboard new team members to the product and codebase efficiently, without disrupting ongoing delivery, and avoid creating long-term dependency on a single person for knowledge.
+- **Action:** Led structured onboarding sessions, documented business rules, and outlined the critical areas of the platform — including the trading matching engine, RLS policies, and layered backend architecture. Provided guided walkthroughs of the codebase and highlighted where edge cases and domain complexity were concentrated.
+- **Result:** Accelerated new team members' time-to-productivity and reduced knowledge silos, enabling the team to operate more independently and share ownership of complex areas.
+
 ## Backend Architecture Modernization (GasHub)
 At **GasHub**, the backend was tightly coupled to the **Supabase JS client**, which lacked transaction support — a critical limitation for coordinating multi-step business operations atomically.
 - **Challenge:** Introduce transaction support and establish a clean, maintainable architecture for the growing codebase without disrupting ongoing development.
