@@ -1,0 +1,56 @@
+# 1950Labs — Full-Stack Product Engineer
+# Source used for tailoring: hiring-processes/in-progress/1950labs-full-stack-product-engineer/job-description.md
+# Run:
+#   cd .cursor/skills/generate-custom-resumes/resume-generator && npm install
+#   node src/index.js \
+#     --custom hiring-processes/in-progress/1950labs-full-stack-product-engineer/resume.yaml \
+#     --output hiring-processes/in-progress/1950labs-full-stack-product-engineer/resume.pdf
+
+title: Full-Stack Product Engineer
+
+introduction: |
+  Full-Stack Software Engineer with over **7 years** of experience building products with strong frontend ownership across **React**, **Angular**, and **TypeScript**, plus hands-on backend work with **Node.js**, **Deno**, **Supabase**, and **PostgreSQL**.
+  I’ve built data-intensive dashboards, delivered product prototypes under tight timelines, and improved performance across both UI and API layers.
+  I work best in product environments where engineers are expected to own features end to end, balance UX with reliability, and turn complex workflows into usable software.
+
+experiences:
+  - id: gashub
+    roles:
+      - id: gashub-fullstack
+        bullets:
+          - Delivered a functional prototype for a real-time trading platform in under **3 weeks** using **React**, enabling early market validation in a complex domain.
+          - Built a data-intensive product browsing experience with **5 independently-filtered blocks**, infinite scroll, and **TanStack Virtual** row virtualization so the UI remained responsive as datasets grew.
+          - Fixed a critical bottleneck that was hurting the platform’s real-time usability, reducing Products API latency from **3010ms** to **132ms (−95.7%)**.
+          - Migrated backend data access from the **Supabase** client to **Drizzle ORM** on **Deno**, introducing **Zod** validation, repository boundaries, and the **Unit of Work** pattern for more reliable business operations.
+
+  - id: mytime
+    roles:
+      - id: mytime-frontend
+        bullets:
+          - Migrated a business-critical payment flow from **AngularJS/CoffeeScript** to **Angular/TypeScript**, enabling continued product evolution without disrupting day-to-day operations.
+          - Reworked core POS flows to improve usability and long-term maintainability, while adding automated tests with **Jest** and **Testing Library** to reduce regression risk.
+          - Implemented **W3C accessibility** support across key screens so the product was more reliable for visually impaired users.
+
+  - id: greenAnt
+    roles:
+      - id: greenAnt-frontend
+        bullets:
+          - Built reusable dashboard components for real-time energy analytics, giving enterprise users clearer visibility into operational data.
+          - Led an **AngularJS → Angular** migration using **Webpack** to keep the platform stable while modernizing the codebase.
+          - Developed a PDF generation microservice with **AWS Lambda** and supported **GitLab CI** pipelines, contributing beyond the frontend into automation and delivery workflows.
+
+  - id: twenty20
+    roles:
+      - id: twenty20-frontend
+        bullets:
+          - Architected a modular browser-based desktop environment in **Angular/TypeScript**, creating a maintainable foundation for a complex product with multiple workflows.
+          - Introduced **Jest** and **GitHub Actions** CI/CD workflows, giving the team automated quality checks from the start.
+
+skills:
+  languages: TypeScript, JavaScript, English
+  frontend: React.js, Angular, Next.js, Tailwind CSS, TanStack Virtual, W3C Accessibility, Ionic
+  backend: Node.js, NestJS, Deno, Supabase, Drizzle ORM, Zod
+  databases: PostgreSQL
+  testing: Testing Library, Playwright, Jest, pgTAP, Jasmine
+  devops: Docker, GitHub Actions, GitLab CI, AWS Lambda, Amazon S3
+  architecture: Full-stack product development, dashboard design, performance optimization, CI/CD, layered architecture
