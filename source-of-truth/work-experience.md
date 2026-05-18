@@ -23,12 +23,13 @@ Early-stage startup building a natural gas trading platform with real-time match
 ## MyTime (Apr 2022 - Mar 2025)
 **Role:** Frontend Software Engineer
 **Location:** Los Angeles, California
-**Stack:** Angular, TypeScript, AngularJS, CoffeeScript, Jest, Testing Library
+**Stack:** Angular, NgRx, TypeScript, AngularJS, CoffeeScript, Jest, Testing Library
 
 MyTime is a scheduling and point-of-sale (POS) platform used by businesses globally.
 - Migrated a legacy **AngularJS** (CoffeeScript) payment system to a modern **Angular/TypeScript** stack, improving code reliability and enhancing maintainability. Implemented automated unit tests with **Jest** and **Testing Library**, achieving high test coverage and ensuring the system's stability post-migration.
 - Delivered a seamless integration between legacy and modern systems, enabling uninterrupted operations during the transition phase.
 - Rebuilt and optimized several core modules in the legacy POS system, significantly improving user experience and enabling a successful re-launch of the application. These optimizations enhanced performance and reduced the effort required for future maintenance, making the system more scalable for future updates.
+- Implemented **NgRx** state management with dedicated feature stores per POS module, coordinating complex multi-step checkout and payment flows through **effects and actions** — isolating state boundaries across modules and making async orchestration predictable and testable.
 - Implemented components ensuring the support of **W3C accessibility standards**, so even visually impaired users could operate on the system.
 
 ## Twenty20 Solutions (Jan 2022 - Mar 2022)
@@ -43,10 +44,10 @@ Twenty20 Solutions was building a browser-based desktop environment product. The
 
 ## GreenAnt (Jan 2020 - Dec 2021)
 **Role:** Frontend Software Engineer
-**Stack:** Angular, AngularJS, Ionic, Webpack, AWS Lambda, GitLab CI, TypeScript
+**Stack:** Angular, AngularJS, RxJS, Ionic, Webpack, AWS Lambda, GitLab CI, TypeScript
 
 GreenAnt is an energy tech company providing electric energy data dashboards and mobile tools for invoice management.
-- Developed a front-end architecture of an electric energy data dashboard using **Angular**, creating reusable UI components and improving real-time data visualization.
+- Developed a front-end architecture of an electric energy data dashboard using **Angular**, creating reusable UI components and improving real-time data visualization. Used **RxJS** observables as a lightweight state management layer — enabling live data updates and reactive coordination across components without a dedicated state library.
 - Led the migration from **AngularJS** to **Angular**, integrating both environments and implementing **Webpack**-based bundling, which enabled the gradual upgrade of legacy code while maintaining stability.
 - Developed a PDF generation microservice with **AWS Lambda** and implemented **CI/CD** pipelines using **GitLab CI**, streamlining the deployment process and accelerating release cycles.
 - Launched a mobile app using **Ionic** for invoice payment and data monitoring, significantly enhancing customer accessibility and providing a faster, more intuitive experience.
