@@ -20,18 +20,18 @@ experiences:
       - id: gashub-fullstack
         bullets:
           - Brought a real-time gas trading platform to market in under **3 weeks**, giving the team a working product to test assumptions with real users before committing to full-scale development.
-          - Fixed a rendering issue that made the trading interface unusable under live data — load times dropped by **97%** after diagnosing and eliminating the root causes through systematic profiling.
-          - Resolved an API slowness issue that was making the platform feel broken, cutting response times by **95%** through query and architecture improvements.
-          - Built the core product browsing experience to stay fast as data volumes grew — designed for scale so the team wouldn't need to retrofit performance later.
+          - Improved rendering performance on the live trading interface, reducing load times by **97%** through systematic profiling and targeted optimizations.
+          - Resolved an API performance issue on the core product listings, cutting response times by **95%** through query and architecture improvements.
+          - Built the core product browsing experience to stay fast as data volumes grew — designed for scale from the start to support future growth without a costly rebuild.
           - Refactored the backend to support complex multi-step operations reliably — introduced proper transaction handling, input validation, and a clean structure that made the codebase easier to extend.
-          - Set up automated tests across the application so the team could confidently ship new features without breaking what already worked.
+          - Set up automated tests across the application so the team could confidently ship new features without causing regressions.
 
   - id: mytime
     keySkills: Angular, TypeScript, NgRx, Jest, Testing Library, AngularJS
     roles:
       - id: mytime-frontend
         bullets:
-          - Modernized a legacy payment system from an outdated stack to **TypeScript**, enabling a successful platform re-launch and allowing the team to keep evolving the product without accumulating more debt.
+          - Modernized the payment platform to **TypeScript**, enabling a successful re-launch and giving the team a stable foundation to keep evolving the product.
           - Rebuilt the state management for complex checkout and payment flows, making them more predictable and easier to maintain as the product grew.
           - Built a test suite covering the most critical checkout flows, giving the team confidence to make changes without causing regressions.
           - Made the product fully usable for people with visual impairments by implementing accessibility standards across key screens.
@@ -40,7 +40,7 @@ experiences:
     roles:
       - id: twenty20-frontend
         bullets:
-          - Architected a browser-based desktop environment from scratch — designed for modularity so the product could grow without the codebase becoming hard to change.
+          - Architected a browser-based desktop environment from scratch — designed for modularity to keep the codebase maintainable as the product scaled.
           - Set up automated testing and a CI/CD pipeline from day one, giving the team a quality baseline to build on.
 
   - id: greenAnt
