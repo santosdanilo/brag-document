@@ -1,0 +1,62 @@
+# 102657 - Angular Fullstack Engineer
+# Source: hiring-processes/in-progress/102657-angular-fullstack-engineer/job-description.md
+# Run:
+#   cd .cursor/skills/generate-custom-resumes/resume-generator && npm install
+#   node src/index.js \
+#     --custom hiring-processes/in-progress/102657-angular-fullstack-engineer/resume.yaml \
+#     --output hiring-processes/in-progress/102657-angular-fullstack-engineer/resume.pdf
+
+title: Senior Angular Fullstack Engineer
+
+introduction: |
+  Senior Angular Fullstack Engineer with 7+ years of experience modernizing and stabilizing production Angular applications.
+  Led two AngularJS → Angular migrations without downtime, established test cultures across multiple teams, and resolved production incidents by profiling full-stack bottlenecks from REST APIs to frontend rendering.
+  Strong TypeScript and RxJS foundations, Node.js integration experience, and a track record of reducing technical debt safely in pressured production environments.
+
+experiences:
+  - id: mytime
+    keySkills: Angular, NgRx, RxJS, TypeScript, AngularJS, Jest, Testing Library
+    roles:
+      - id: mytime-frontend
+        bullets:
+          - Modernized a business-critical payment system from **AngularJS**/CoffeeScript to **Angular**/TypeScript — rebuilding core POS modules to eliminate technical debt and enabling a successful platform re-launch without disrupting live operations.
+          - Introduced **NgRx** state management with dedicated feature stores per POS module, coordinating multi-step checkout and payment flows through **effects and actions** — making async orchestration predictable and testable.
+          - Established automated test coverage with **Jest** and **Testing Library**, reducing regression risk on core checkout and payment flows and enabling safer future changes.
+          - Implemented **W3C accessibility** standards across key user-facing screens, making the platform operable for visually impaired users.
+
+  - id: twenty20
+    keySkills: Angular, TypeScript, Jest, GitHub Actions, CI/CD
+    roles:
+      - id: twenty20-frontend
+        bullets:
+          - Architected a browser-based desktop environment in **Angular/TypeScript** using **SOLID** principles and Clean Architecture, delivering a modular codebase designed for long-term maintainability.
+          - Established automated quality gates with **Jest** unit tests and a **GitHub Actions** CI/CD pipeline from the project's start, improving team confidence in every deployment.
+          - Configured linters and enforced code quality standards, ensuring consistency as the team scaled.
+
+  - id: greenAnt
+    keySkills: Angular, AngularJS, RxJS, TypeScript, Webpack, AWS Lambda, GitLab CI
+    roles:
+      - id: greenAnt-frontend
+        bullets:
+          - Led a zero-downtime **AngularJS → Angular** migration using **Webpack** dual-environment bundling — keeping production stable throughout and unblocking new feature development after years of accumulated technical debt.
+          - Built a real-time energy analytics dashboard in **Angular** using **RxJS** observable streams for live data updates and reactive component coordination without a dedicated state library.
+          - Deployed a PDF generation microservice on **AWS Lambda** (**Node.js**) integrated into the core invoicing flow, decoupling a critical business function and streamlining release cycles.
+
+  - id: gashub
+    keySkills: React, TypeScript, Node.js, Deno, Drizzle ORM, PostgreSQL, Playwright, Testing Library, Zod
+    roles:
+      - id: gashub-fullstack
+        bullets:
+          - Resolved a critical API bottleneck threatening the platform's real-time viability — cut response times by **95%** through backend profiling, `EXPLAIN ANALYZE` query analysis, and parallelization on **Node.js** and **PostgreSQL**.
+          - Eliminated a rendering bottleneck that made the trading interface unusable under live data — achieved **97% faster** initial loads through three rounds of React 18 profiler analysis and targeted refactors.
+          - Modernized the backend architecture by migrating from a tightly coupled client library to **Drizzle ORM** on **Node.js**, introducing a layered architecture with **Zod** validation, use cases, and isolated repositories.
+          - Enabled confident deployments by building automated test coverage from scratch with **Testing Library** unit tests and **Playwright** E2E regression tests.
+          - Accelerated new engineers' time-to-productivity through structured onboarding sessions, business rule documentation, and guided walkthroughs of critical platform areas — reducing knowledge silos and shared ownership gaps.
+
+skills:
+  languages: TypeScript, JavaScript
+  frontend: Angular, NgRx, RxJS, Angular Material, Ionic, CapacitorJS, Tailwind CSS, W3C Accessibility
+  backend: Node.js, NestJS, Deno, Drizzle ORM, REST APIs, Zod
+  testing: Jest, Testing Library, Playwright, Jasmine
+  databases: PostgreSQL
+  devops: GitHub Actions, GitLab CI, AWS Lambda, Docker
