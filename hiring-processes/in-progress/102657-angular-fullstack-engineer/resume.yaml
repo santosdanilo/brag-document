@@ -9,9 +9,9 @@
 title: Senior Angular Fullstack Engineer
 
 introduction: |
-  Angular engineer with 7+ years who has spent much of that time working on systems that were too fragile to change — and making them reliable enough to ship from.
-  Led two AngularJS → Angular migrations in live production environments without downtime, built test coverage from scratch across multiple teams, and tracked down production problems that crossed both the frontend and backend.
-  Comfortable owning a problem end to end, whether it's a slow API, a broken UI, or a codebase that nobody wants to touch.
+  Angular engineer with 7+ years who has spent much of that time modernizing and stabilizing production systems — making them reliable enough to ship from with confidence.
+  Led two AngularJS → Angular migrations in live production environments without downtime, built test coverage from scratch across multiple teams, and tracked down performance problems that crossed both the frontend and backend.
+  Comfortable owning a problem end to end, whether it's a slow API, a rendering bottleneck, or a codebase ready for a fresh architectural direction.
 
 experiences:
   - id: mytime
@@ -19,10 +19,10 @@ experiences:
     roles:
       - id: mytime-frontend
         bullets:
-          - Took over a payment system written in **AngularJS** and CoffeeScript that the team was afraid to change — migrated it to **Angular**/TypeScript, rebuilt the core POS modules, and shipped a re-launch without disrupting live operations.
+          - Migrated a legacy **AngularJS**/CoffeeScript payment system to **Angular**/TypeScript — rebuilt the core POS modules and shipped a successful platform re-launch without disrupting live operations.
           - Brought structure to complex multi-step checkout flows using **NgRx** state management, making payment logic easier to reason about, debug, and test.
-          - Built test coverage where there was almost none, using **Jest** and **Testing Library** — so the team could change payment logic without constantly worrying about breaking something.
-          - Audited and improved accessibility across key screens so the product was usable for visually impaired customers.
+          - Built a comprehensive test suite using **Jest** and **Testing Library**, giving the team confidence to iterate on core payment logic safely.
+          - Audited and improved accessibility across key screens so the product was fully usable for visually impaired customers.
 
   - id: twenty20
     keySkills: Angular, TypeScript, Jest, GitHub Actions, CI/CD
@@ -46,11 +46,11 @@ experiences:
     roles:
       - id: gashub-fullstack
         bullets:
-          - Tracked down an API slowdown that was making the platform feel broken — profiled the full stack, found sequential queries as the root cause, and cut response times by **95%** without changing how the feature worked.
-          - Fixed a rendering issue that made the live trading view unusable when real data came in — worked through it systematically with the React profiler and got initial loads **97% faster**.
-          - Cleaned up a backend that was tightly coupled to a single SDK — migrated to **Drizzle ORM** on **Node.js** and introduced a proper layered architecture with validation and clear separation between business logic and data access.
-          - Built test coverage from zero using **Testing Library** and **Playwright**, so the team had a safety net before deploying changes.
-          - Brought new engineers up to speed by documenting business rules, walking through the tricky parts of the codebase, and making sure knowledge wasn't stuck with one person.
+          - Investigated an API performance issue impacting the platform's real-time experience — profiled the full stack, identified sequential queries as the root cause, and cut response times by **95%** without changing how the feature worked.
+          - Diagnosed and resolved a frontend rendering bottleneck on the live trading view — worked through it systematically with the React profiler and achieved **97% faster** initial loads.
+          - Migrated the backend data layer to **Drizzle ORM** on **Node.js**, introducing a layered architecture with clear separation between validation, business logic, and data access.
+          - Built test coverage from zero using **Testing Library** and **Playwright**, so the team had a reliable safety net before deploying changes.
+          - Brought new engineers up to speed by documenting business rules, walking through the codebase, and making sure knowledge was shared across the team.
 
 skills:
   languages: TypeScript, JavaScript
