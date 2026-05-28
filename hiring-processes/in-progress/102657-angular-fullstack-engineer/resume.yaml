@@ -9,9 +9,9 @@
 title: Senior Angular Fullstack Engineer
 
 introduction: |
-  Senior Angular Fullstack Engineer with 7+ years of experience modernizing and stabilizing production Angular applications.
-  Led two AngularJS → Angular migrations without downtime, established test cultures across multiple teams, and resolved production incidents by profiling full-stack bottlenecks from REST APIs to frontend rendering.
-  Strong TypeScript and RxJS foundations, Node.js integration experience, and a track record of reducing technical debt safely in pressured production environments.
+  Angular engineer with 7+ years who has spent much of that time working on systems that were too fragile to change — and making them reliable enough to ship from.
+  Led two AngularJS → Angular migrations in live production environments without downtime, built test coverage from scratch across multiple teams, and tracked down production problems that crossed both the frontend and backend.
+  Comfortable owning a problem end to end, whether it's a slow API, a broken UI, or a codebase that nobody wants to touch.
 
 experiences:
   - id: mytime
@@ -19,39 +19,38 @@ experiences:
     roles:
       - id: mytime-frontend
         bullets:
-          - Modernized a business-critical payment system from **AngularJS**/CoffeeScript to **Angular**/TypeScript — rebuilding core POS modules to eliminate technical debt and enabling a successful platform re-launch without disrupting live operations.
-          - Introduced **NgRx** state management with dedicated feature stores per POS module, coordinating multi-step checkout and payment flows through **effects and actions** — making async orchestration predictable and testable.
-          - Established automated test coverage with **Jest** and **Testing Library**, reducing regression risk on core checkout and payment flows and enabling safer future changes.
-          - Implemented **W3C accessibility** standards across key user-facing screens, making the platform operable for visually impaired users.
+          - Took over a payment system written in **AngularJS** and CoffeeScript that the team was afraid to change — migrated it to **Angular**/TypeScript, rebuilt the core POS modules, and shipped a re-launch without disrupting live operations.
+          - Brought structure to complex multi-step checkout flows using **NgRx** state management, making payment logic easier to reason about, debug, and test.
+          - Built test coverage where there was almost none, using **Jest** and **Testing Library** — so the team could change payment logic without constantly worrying about breaking something.
+          - Audited and improved accessibility across key screens so the product was usable for visually impaired customers.
 
   - id: twenty20
     keySkills: Angular, TypeScript, Jest, GitHub Actions, CI/CD
     roles:
       - id: twenty20-frontend
         bullets:
-          - Architected a browser-based desktop environment in **Angular/TypeScript** using **SOLID** principles and Clean Architecture, delivering a modular codebase designed for long-term maintainability.
-          - Established automated quality gates with **Jest** unit tests and a **GitHub Actions** CI/CD pipeline from the project's start, improving team confidence in every deployment.
-          - Configured linters and enforced code quality standards, ensuring consistency as the team scaled.
+          - Designed a browser-based desktop environment in **Angular**/TypeScript from scratch, making architectural decisions early that kept the codebase straightforward to extend as the product grew.
+          - Set up **Jest** tests and a **GitHub Actions** CI/CD pipeline from day one, giving the team a quality baseline they could rely on from the start.
 
   - id: greenAnt
     keySkills: Angular, AngularJS, RxJS, TypeScript, Webpack, AWS Lambda, GitLab CI
     roles:
       - id: greenAnt-frontend
         bullets:
-          - Led a zero-downtime **AngularJS → Angular** migration using **Webpack** dual-environment bundling — keeping production stable throughout and unblocking new feature development after years of accumulated technical debt.
-          - Built a real-time energy analytics dashboard in **Angular** using **RxJS** observable streams for live data updates and reactive component coordination without a dedicated state library.
-          - Deployed a PDF generation microservice on **AWS Lambda** (**Node.js**) integrated into the core invoicing flow, decoupling a critical business function and streamlining release cycles.
+          - Led the migration from **AngularJS** to **Angular** while keeping production running — used **Webpack** to run both versions side by side until the transition was complete.
+          - Built a real-time energy analytics dashboard in **Angular** using **RxJS** to handle live data updates across components, keeping it responsive without introducing a state library.
+          - Extracted PDF invoice generation into its own **Node.js** microservice on **AWS Lambda**, making it independently deployable and much easier to maintain.
 
   - id: gashub
     keySkills: React, TypeScript, Node.js, Deno, Drizzle ORM, PostgreSQL, Playwright, Testing Library, Zod
     roles:
       - id: gashub-fullstack
         bullets:
-          - Resolved a critical API bottleneck threatening the platform's real-time viability — cut response times by **95%** through backend profiling, `EXPLAIN ANALYZE` query analysis, and parallelization on **Node.js** and **PostgreSQL**.
-          - Eliminated a rendering bottleneck that made the trading interface unusable under live data — achieved **97% faster** initial loads through three rounds of React 18 profiler analysis and targeted refactors.
-          - Modernized the backend architecture by migrating from a tightly coupled client library to **Drizzle ORM** on **Node.js**, introducing a layered architecture with **Zod** validation, use cases, and isolated repositories.
-          - Enabled confident deployments by building automated test coverage from scratch with **Testing Library** unit tests and **Playwright** E2E regression tests.
-          - Accelerated new engineers' time-to-productivity through structured onboarding sessions, business rule documentation, and guided walkthroughs of critical platform areas — reducing knowledge silos and shared ownership gaps.
+          - Tracked down an API slowdown that was making the platform feel broken — profiled the full stack, found sequential queries as the root cause, and cut response times by **95%** without changing how the feature worked.
+          - Fixed a rendering issue that made the live trading view unusable when real data came in — worked through it systematically with the React profiler and got initial loads **97% faster**.
+          - Cleaned up a backend that was tightly coupled to a single SDK — migrated to **Drizzle ORM** on **Node.js** and introduced a proper layered architecture with validation and clear separation between business logic and data access.
+          - Built test coverage from zero using **Testing Library** and **Playwright**, so the team had a safety net before deploying changes.
+          - Brought new engineers up to speed by documenting business rules, walking through the tricky parts of the codebase, and making sure knowledge wasn't stuck with one person.
 
 skills:
   languages: TypeScript, JavaScript
