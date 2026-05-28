@@ -9,9 +9,9 @@
 title: Senior Frontend Engineer
 
 introduction: |
-  Senior Frontend Engineer with 7+ years of experience building scalable, performant web applications using React, Next.js, and TypeScript.
-  Delivered a real-time gas trading platform prototype in under 3 weeks, eliminated an API bottleneck cutting response times by 95%, and resolved a UX-breaking rendering issue achieving 97% faster loads — shipping an AI-driven operational platform in a fast-moving startup.
-  Type-safe, architecture-minded engineer with hands-on experience in Drizzle ORM, Zod, TailwindCSS, and PostgreSQL-backed systems — comfortable owning features from database to UI.
+  Senior Frontend Engineer with 7+ years of experience building web products that scale — from payment platforms to real-time trading tools.
+  Most recently shipped a gas trading platform prototype in under 3 weeks, then improved it: API response times down 95%, page load times down 97%, and a codebase the team could confidently build on.
+  I care about writing frontend that holds up as products grow — working closely with product and design, owning features end-to-end, and solving real problems instead of just shipping code.
 
 experiences:
   - id: gashub
@@ -19,38 +19,38 @@ experiences:
     roles:
       - id: gashub-fullstack
         bullets:
-          - Validated product-market fit by delivering a fully functional real-time gas trading platform in under **3 weeks** — using **React** and AI-assisted development to accelerate to market before full-scale investment.
-          - Resolved a UX-breaking rendering bottleneck on the live trading interface, achieving **97% faster** initial loads and eliminating rendering overhead on real-time market data through React 18 Profiler analysis.
-          - Eliminated an API bottleneck threatening the platform's real-time viability, cutting response times by **95%** through **PostgreSQL** query optimization and `Promise.all` parallelization.
-          - Designed the core operational view to handle large datasets without degrading performance — using **TanStack Virtual** row virtualization and infinite scroll across five independently-filtered data blocks.
-          - Modernized the backend architecture by migrating to **Drizzle ORM** on **Deno**, introducing **Zod** validation at the API layer, layered architecture, and transactional support via Unit of Work pattern.
-          - Established automated test coverage with **Testing Library** unit tests and **Playwright** E2E tests, enabling the team to ship changes confidently.
+          - Brought a real-time gas trading platform to market in under **3 weeks**, giving the team a working product to test assumptions with real users before committing to full-scale development.
+          - Fixed a rendering issue that made the trading interface unusable under live data — load times dropped by **97%** after diagnosing and eliminating the root causes through systematic profiling.
+          - Resolved an API slowness issue that was making the platform feel broken, cutting response times by **95%** through query and architecture improvements.
+          - Built the core product browsing experience to stay fast as data volumes grew — designed for scale so the team wouldn't need to retrofit performance later.
+          - Refactored the backend to support complex multi-step operations reliably — introduced proper transaction handling, input validation, and a clean structure that made the codebase easier to extend.
+          - Set up automated tests across the application so the team could confidently ship new features without breaking what already worked.
 
   - id: mytime
     keySkills: Angular, TypeScript, NgRx, Jest, Testing Library, AngularJS
     roles:
       - id: mytime-frontend
         bullets:
-          - Delivered a successful re-launch of a SaaS payment platform by migrating a business-critical system from **AngularJS**/CoffeeScript to **TypeScript**, improving reliability and enabling continued product evolution.
-          - Implemented **NgRx** state management for complex multi-step checkout and payment flows — isolating state boundaries across POS modules and making async orchestration predictable and testable.
-          - Established automated test coverage with **Jest** and **Testing Library** on core checkout flows, reducing regression risk on critical user paths.
-          - Implemented **W3C accessibility** standards across key user-facing screens, making the product fully operable for visually impaired users.
+          - Modernized a legacy payment system from an outdated stack to **TypeScript**, enabling a successful platform re-launch and allowing the team to keep evolving the product without accumulating more debt.
+          - Rebuilt the state management for complex checkout and payment flows, making them more predictable and easier to maintain as the product grew.
+          - Built a test suite covering the most critical checkout flows, giving the team confidence to make changes without causing regressions.
+          - Made the product fully usable for people with visual impairments by implementing accessibility standards across key screens.
 
   - id: twenty20
     roles:
       - id: twenty20-frontend
         bullets:
-          - Architected a browser-based desktop environment from scratch using **TypeScript**, **SOLID** principles, and Clean Architecture, delivering a maintainable modular codebase.
-          - Established automated quality gates with **Jest** unit testing and **GitHub Actions** CI/CD pipeline from project inception.
+          - Architected a browser-based desktop environment from scratch — designed for modularity so the product could grow without the codebase becoming hard to change.
+          - Set up automated testing and a CI/CD pipeline from day one, giving the team a quality baseline to build on.
 
   - id: greenAnt
     keySkills: Angular, TypeScript, RxJS, AngularJS, Webpack, AWS Lambda, GitLab CI
     roles:
       - id: greenAnt-frontend
         bullets:
-          - Developed reusable dashboard components for real-time energy analytics using **RxJS** observable streams as a lightweight reactive state layer — enabling live data updates across components.
-          - Executed a zero-downtime **AngularJS → Angular** migration using **Webpack** dual-environment bundling, maintaining production stability throughout.
-          - Built a serverless PDF generation microservice on **AWS Lambda** integrated into the core invoicing workflow.
+          - Built a real-time energy analytics dashboard with reusable components, making it straightforward to extend as the product evolved.
+          - Migrated a production app from a legacy framework to a modern stack without any downtime — ran both versions in parallel during the transition to keep things stable.
+          - Extracted PDF generation into a standalone service, decoupling it from the main app and making it independently deployable.
 
 skills:
   languages: TypeScript, JavaScript
