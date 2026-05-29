@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cover Letter — {{name}}</title>
+  <style>
+    {{{css}}}
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <header class="header">
+      <h1 class="name">{{name}}</h1>
+      <p class="contact-line">
+        {{#if email}}{{email}}{{/if}}
+        {{#if links.linkedin}}<span class="contact-sep">·</span><a href="{{links.linkedin}}">{{links.linkedin}}</a>{{/if}}
+        {{#if links.github}}<span class="contact-sep">·</span><a href="{{links.github}}">{{links.github}}</a>{{/if}}
+      </p>
+      <hr class="header-rule">
+    </header>
+
+    <div class="cover-letter-body">
+      {{#each paragraphs}}
+        <p>{{{md this}}}</p>
+      {{/each}}
+    </div>
+  </div>
+</body>
+</html>

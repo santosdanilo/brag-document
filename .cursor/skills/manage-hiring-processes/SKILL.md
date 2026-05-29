@@ -42,13 +42,21 @@ If the process would benefit from a tailored resume, use the **Resume Generator*
 1. Create `resume.yaml` inside the process directory with only the fields to override from the base resume (`resumes/resume-base.yaml`)
 2. Use `id`-based matching to override specific companies/roles/bullets
 3. Follow the instructions in `.cursor/skills/generate-custom-resumes/resume-generator/README.md` (section "Adding a New Hiring Process")
-4. Generate the PDF:
+4. Generate the PDF (and optionally the cover letter):
 
 ```bash
 cd .cursor/skills/generate-custom-resumes/resume-generator && npm install
+
+# Resume only
 node src/index.js \
   --custom hiring-processes/in-progress/{company}-{role}/resume.yaml \
   --output hiring-processes/in-progress/{company}-{role}/resume.pdf
+
+# Resume + cover letter (if cover-letter.md exists in the process directory)
+node src/index.js \
+  --custom hiring-processes/in-progress/{company}-{role}/resume.yaml \
+  --output hiring-processes/in-progress/{company}-{role}/resume.pdf \
+  --cover-letter hiring-processes/in-progress/{company}-{role}/cover-letter.md
 ```
 
 **YAML customization reference:**

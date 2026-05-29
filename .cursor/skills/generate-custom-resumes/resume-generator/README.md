@@ -26,7 +26,7 @@ npm install
 ### Generate a single resume
 
 ```bash
-# With customization
+# Resume only (with customization)
 node src/index.js \
   --custom hiring-processes/in-progress/company-role/resume.yaml \
   --output hiring-processes/in-progress/company-role/resume.pdf
@@ -36,10 +36,22 @@ node src/index.js \
   --output resumes/resume-2025.pdf
 ```
 
+### Generate a resume and cover letter
+
+```bash
+node src/index.js \
+  --custom hiring-processes/in-progress/company-role/resume.yaml \
+  --output hiring-processes/in-progress/company-role/resume.pdf \
+  --cover-letter hiring-processes/in-progress/company-role/cover-letter.md
+```
+
+The cover letter PDF is saved as `cover-letter.pdf` in the same directory as `--output` by default. Use `--cover-letter-output <path>` to override.
+
 ### Generate all resumes
 
 ```bash
-# Generate PDFs for all processes in hiring-processes/in-progress/ that have resume.yaml
+# Generate PDFs for all processes in hiring-processes/in-progress/ that have resume.yaml.
+# If a cover-letter.md exists in the same directory, a cover-letter.pdf is also generated.
 node src/index.js --all
 ```
 
@@ -47,7 +59,9 @@ node src/index.js --all
 
 - `-b, --base <path>` - Path to base resume YAML (default: `resumes/resume-base.yaml`)
 - `-c, --custom <path>` - Path to customization YAML (optional)
-- `-o, --output <path>` - Path to output PDF file
+- `-o, --output <path>` - Path to output resume PDF file
+- `-l, --cover-letter <path>` - Path to cover letter markdown file (optional)
+- `--cover-letter-output <path>` - Path to output cover letter PDF (default: `cover-letter.pdf` next to `--output`)
 - `-a, --all` - Generate PDFs for all processes in `hiring-processes/in-progress/`
 - `-h, --help` - Show help message
 
@@ -142,8 +156,9 @@ brag-document/
 │       │   ├── parser.js         # YAML loading & merging
 │       │   ├── generator.js      # PDF generation
 │       │   └── templates/
-│       │       ├── resume.hbs    # Handlebars template
-│       │       └── styles.css    # CSS styling
+│       │       ├── resume.hbs        # Resume Handlebars template
+│       │       ├── cover-letter.hbs  # Cover letter Handlebars template
+│       │       └── styles.css        # Shared CSS styling
 │       └── package.json
 ├── resumes/
 │   └── resume-base.yaml          # Base resume
