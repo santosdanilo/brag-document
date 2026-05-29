@@ -1,0 +1,61 @@
+# 1950labs — Sr. Frontend Engineer
+# Source used for tailoring: hiring-processes/in-progress/1950labs-sr-frontend-engineer/job-description.md
+# Run:
+#   cd .cursor/skills/generate-custom-resumes/resume-generator && npm install
+#   node src/index.js \
+#     --custom hiring-processes/in-progress/1950labs-sr-frontend-engineer/resume.yaml \
+#     --output hiring-processes/in-progress/1950labs-sr-frontend-engineer/resume.pdf
+
+title: Senior Frontend Engineer
+
+introduction: |
+  Senior Frontend Engineer with 7+ years of experience building web products that scale — from payment platforms to real-time trading tools.
+  Most recently shipped a gas trading platform prototype in under 3 weeks, then improved it: API response times down 95%, page load times down 97%, and a codebase the team could confidently build on.
+  I care about writing frontend that holds up as products grow — working closely with product and design, owning features end-to-end, and solving real problems instead of just shipping code.
+
+experiences:
+  - id: gashub
+    keySkills: React, TypeScript, TailwindCSS, Drizzle ORM, Zod, PostgreSQL, TanStack Virtual, Playwright, Testing Library, Deno
+    roles:
+      - id: gashub-fullstack
+        bullets:
+          - Brought a real-time gas trading platform to market in under **3 weeks**, giving the team a working product to test assumptions with real users before committing to full-scale development.
+          - Improved rendering performance on the live trading interface, reducing load times by **97%** through systematic profiling and targeted optimizations.
+          - Resolved an API performance issue on the core product listings, cutting response times by **95%** through query and architecture improvements.
+          - Built the core product browsing experience to stay fast as data volumes grew — designed for scale from the start to support future growth without a costly rebuild.
+          - Refactored the backend to support complex multi-step operations reliably — introduced proper transaction handling, input validation, and a clean structure that made the codebase easier to extend.
+          - Set up automated tests across the application so the team could confidently ship new features without causing regressions.
+
+  - id: mytime
+    keySkills: Angular, TypeScript, NgRx, Jest, Testing Library, AngularJS
+    roles:
+      - id: mytime-frontend
+        bullets:
+          - Modernized the payment platform to **TypeScript**, enabling a successful re-launch and giving the team a stable foundation to keep evolving the product.
+          - Rebuilt the state management for complex checkout and payment flows, making them more predictable and easier to maintain as the product grew.
+          - Built a test suite covering the most critical checkout flows, giving the team confidence to make changes without causing regressions.
+          - Made the product fully usable for people with visual impairments by implementing accessibility standards across key screens.
+
+  - id: twenty20
+    roles:
+      - id: twenty20-frontend
+        bullets:
+          - Architected a browser-based desktop environment from scratch — designed for modularity to keep the codebase maintainable as the product scaled.
+          - Set up automated testing and a CI/CD pipeline from day one, giving the team a quality baseline to build on.
+
+  - id: greenAnt
+    keySkills: Angular, TypeScript, RxJS, AngularJS, Webpack, AWS Lambda, GitLab CI
+    roles:
+      - id: greenAnt-frontend
+        bullets:
+          - Built a real-time energy analytics dashboard with reusable components, making it straightforward to extend as the product evolved.
+          - Migrated a production app from a legacy framework to a modern stack without any downtime — ran both versions in parallel during the transition to keep things stable.
+          - Extracted PDF generation into a standalone service, decoupling it from the main app and making it independently deployable.
+
+skills:
+  languages: TypeScript, JavaScript
+  frontend: React.js, Next.js, TailwindCSS, Angular, TanStack Virtual, NgRx, Angular Material, Ionic, CapacitorJS
+  backend: Node.js, Deno, Drizzle ORM, Zod, Supabase, NestJS
+  databases: PostgreSQL, pgTAP
+  testing: Jest, Testing Library, Playwright, Jasmine
+  devops: GitHub Actions, GitLab CI, AWS Lambda, Amazon S3, Docker

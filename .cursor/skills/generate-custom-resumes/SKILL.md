@@ -65,6 +65,19 @@ node src/index.js \
 
 Add a comment at the top of the YAML with the generation command for future reference.
 
+### Step 4 — Generate a cover letter PDF (optional)
+
+If a `cover-letter.md` exists for the process, generate a PDF alongside the resume:
+
+```bash
+node src/index.js \
+  --custom resumes/{perspective}-{year}-{sequence}/resume.yaml \
+  --output resumes/{perspective}-{year}-{sequence}/resume.pdf \
+  --cover-letter resumes/{perspective}-{year}-{sequence}/cover-letter.md
+```
+
+The cover letter PDF is saved as `cover-letter.pdf` in the same directory by default.
+
 ## Reference Files
 
 | Purpose | Path |
