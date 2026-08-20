@@ -19,13 +19,14 @@ links:
 experiences:
   - id: gashub
     company: GasHub
-    keySkills: React, TypeScript, Node.js, Supabase, Drizzle ORM, Deno, PostgreSQL, Playwright, TanStack Virtual
+    keySkills: React, TypeScript, Node.js, Supabase, Drizzle ORM, Deno, PostgreSQL, Playwright, TanStack Virtual, Pencil.dev
     roles:
       - id: gashub-fullstack
         title: Full Stack Engineer
         period: Jun 2025 – Present
         bullets:
           - Delivered a real-time natural gas trading platform prototype in under **3 weeks** using **React** + AI-assisted development, enabling early market validation.
+          - Accelerated frontend implementation with **Pencil.dev**, creating a shared source of truth for Product and Engineering to document the design system and collaborate on the same design artifacts.
           - Reduced Products API latency from **3,010 ms → 132 ms (−95.7%)** via `Promise.all` parallelization, merged RLS transactions, and `EXPLAIN ANALYZE` profiling on **PostgreSQL**.
           - Optimised React 18 rendering across 3 Profiler sessions — cut initial mount time from **59.1 ms → 1.8 ms (−97%)** and per-block commit times from **13–31 ms → under 2 ms (−94%)**.
           - Built `ProductsAvailablePage` with 5 independently-filtered blocks, infinite scroll, and **TanStack Virtual** row virtualisation to handle large datasets without pagination.
