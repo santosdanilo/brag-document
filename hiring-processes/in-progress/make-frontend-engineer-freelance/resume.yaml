@@ -23,6 +23,7 @@ experiences:
           - Resolved a rendering bottleneck that threatened live-data usability, reducing initial React mount time by **97%** and per-block data-load commits by **94%** through profiler-led refactors.
           - Removed a critical API bottleneck affecting real-time workflows, cutting response latency by **95.7%** through request profiling, query parallelization, and PostgreSQL optimization.
           - Established a maintainable quality baseline with **Testing Library** unit tests and **Playwright** end-to-end tests, while modernizing service boundaries with **TypeScript**, **Deno**, and **Drizzle ORM**.
+          - Accelerated frontend delivery with **Pencil.dev**, critically reviewing and adapting AI-generated design artifacts to match existing codebase patterns — reducing feature delivery time from one week to three days.
 
   - id: mytime
     keySkills: Angular, TypeScript, AngularJS, Jest, Testing Library, Accessibility

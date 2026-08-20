@@ -32,6 +32,7 @@ experiences:
           - Built `ProductsAvailablePage` with 5 independently-filtered blocks, infinite scroll, and **TanStack Virtual** row virtualisation to handle large datasets without pagination.
           - Migrated backend from Supabase JS client to **Drizzle ORM** on **Deno**, introducing Unit of Work pattern, Zod validation, and a layered architecture.
           - "Refactored codebase and established quality baseline with **Testing Library** unit tests and **Playwright** E2E tests."
+          - Accelerated frontend delivery with **Pencil.dev**, critically reviewing and adapting AI-generated design artifacts to match existing codebase patterns — reducing feature delivery time from one week to three days.
 
   - id: mytime
     company: MyTime

@@ -20,6 +20,7 @@ Early-stage startup building a natural gas trading platform with real-time match
 - Evaluated prototype ideas raised by the team and stakeholders, assessing technical feasibility and providing concrete recommendations on viability — helping the team avoid dead ends early and prioritize high-confidence approaches.
 - Contributed to refactoring and validating the codebase using better design patterns — decoupling business logic from **Supabase**-specific abstractions to enable a future direct migration to a cloud provider, reducing vendor lock-in and improving long-term portability.
 - Led onboarding and training for new team members, documenting business rules and highlighting critical areas of the platform to accelerate ramp-up and reduce knowledge silos.
+- Accelerated frontend delivery with **Pencil.dev**, using AI-generated design artifacts as a starting point, critically reviewing and adapting them to match existing codebase patterns — reducing feature delivery time from one week to three days for form changes and design restructuring work.
 
 ## MyTime (Apr 2022 - Mar 2025)
 **Role:** Frontend Software Engineer
