@@ -5,11 +5,12 @@ Use the format below for each position. Include metrics and impact where possibl
 
 ## GasHub (Jun 2025 - Present)
 **Role:** Full Stack Engineer
-**Stack:** React, Supabase, Deno, Drizzle ORM, Zod, NestJS, PostgreSQL, pgTAP, Node.js, Testing Library, Playwright, Tailwind CSS, TypeScript
+**Stack:** React, Supabase, Deno, Drizzle ORM, Zod, NestJS, PostgreSQL, pgTAP, Node.js, Testing Library, Playwright, Tailwind CSS, TypeScript, Pencil.dev
 
 Early-stage startup building a natural gas trading platform with real-time matching between sellers and buyers.
 - Developed a natural gas trading application with real-time matching between sellers and buyers, including instant notifications, leveraging **Supabase** as the backend.
 - Delivered a functional prototype for market validation in under **three weeks** using **React** and AI agents.
+- Used **Pencil.dev** to accelerate frontend implementation and create a shared source of truth for Product and Engineering, documenting the design system and enabling both teams to collaborate directly on the same design artifacts.
 - Refactored the codebase for maintainability and quality, and implemented comprehensive unit tests with **Testing Library** plus end-to-end tests using **Playwright**.
 - Collaborated in refining requirements and validating business workflows to ensure product-market fit.
 - Conducted a full performance analysis of the Products API, reducing response latency from **3010ms** to **132ms (−95.7%)** by parallelizing independent queries, merging RLS transactions, and profiling with **EXPLAIN ANALYZE**. Documented index recommendations to further cut database query time from ~198ms to ~2-5ms.
