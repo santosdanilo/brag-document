@@ -39,6 +39,12 @@ At **GasHub**, the business needed to validate a natural gas trading platform co
 - **Action:** Used React and AI agents to accelerate development, focused on core business workflows, and delivered a functional prototype in under three weeks.
 - **Result:** The prototype was completed in under **three weeks** and enabled the team to validate the business model with real users and stakeholders.
 
+## Shared Product and Engineering Design Workflow (GasHub)
+At **GasHub**, Product and Engineering needed a consistent way to align on interface decisions and keep implementation connected to the design system.
+- **Challenge:** Reduce friction between product design and frontend implementation while keeping design-system guidance easy to discover and maintain.
+- **Action:** Used **Pencil.dev** to create a shared source of truth for the design system and UI artifacts, enabling Product and Engineering to interact with and refine the same source during implementation.
+- **Result:** Accelerated frontend delivery, improved cross-functional alignment, and created unified documentation for how the product should be designed and built.
+
 ## Products API Performance Optimization (GasHub)
 At **GasHub**, the Products listing endpoint was responding in ~3010ms (cold), impacting user experience on the trading platform.
 - **Challenge:** Diagnose and fix the performance bottleneck in the `/products` endpoint without breaking existing functionality.

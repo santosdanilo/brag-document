@@ -13,11 +13,12 @@ introduction: |
 
 experiences:
   - id: gashub
-    keySkills: React, TypeScript, AI-assisted development, TanStack Virtual, Testing Library, Playwright, PostgreSQL
+    keySkills: React, TypeScript, AI-assisted development, Pencil.dev, TanStack Virtual, Testing Library, Playwright, PostgreSQL
     roles:
       - id: gashub-fullstack
         bullets:
           - Delivered a real-time natural gas trading prototype in under **3 weeks** using **React** and AI-assisted development, enabling early validation of complex business workflows.
+          - Accelerated frontend implementation with **Pencil.dev**, creating a shared source of truth for Product and Engineering to document the design system and collaborate on the same design artifacts.
           - Designed a data-rich trading interface with five independently filtered blocks, infinite scroll, and **TanStack Virtual**, keeping large datasets usable without a costly retrofit.
           - Resolved a rendering bottleneck that threatened live-data usability, reducing initial React mount time by **97%** and per-block data-load commits by **94%** through profiler-led refactors.
           - Removed a critical API bottleneck affecting real-time workflows, cutting response latency by **95.7%** through request profiling, query parallelization, and PostgreSQL optimization.
