@@ -1,5 +1,5 @@
 # Resume base — source of truth for PDF generation.
-# Run: cd .cursor/skills/generate-custom-resumes/resume-generator && npm install
+# Run: cd .agents/skills/generate-custom-resumes/resume-generator && npm install
 # Then: node src/index.js --output resumes/resume-base.pdf
 
 name: Danilo Santos

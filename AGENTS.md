@@ -59,7 +59,7 @@ Salary benchmarks, benefits information, and references.
 
 Final resume versions (PDF), base resume YAML, and professional profiles.
 
-### `.cursor/skills/generate-custom-resumes/resume-generator/` — PDF generation tool
+### `.agents/skills/generate-custom-resumes/resume-generator/` — PDF generation tool
 
 Node.js tool that generates PDF resumes from YAML source files. Bundled inside the `generate-custom-resumes` skill.
 
@@ -114,7 +114,7 @@ Old or superseded content kept for historical reference.
 
 ## AI Configuration (Cursor-specific)
 
-### Skills (`.cursor/skills/`)
+### Skills (`.agents/skills/`)
 
 | Skill | Trigger |
 |---|---|

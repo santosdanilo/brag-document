@@ -8,7 +8,7 @@ import { generateResume } from './generator.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Get project root (five levels up from .cursor/skills/generate-custom-resumes/resume-generator/src/)
+// Get project root (five levels up from .agents/skills/generate-custom-resumes/resume-generator/src/)
 const projectRoot = path.resolve(__dirname, '../../../../..');
 
 // Default paths

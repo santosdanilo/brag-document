@@ -2,7 +2,7 @@
 # Generated: 2026-03-19
 #
 # Run:
-#   cd .cursor/skills/generate-custom-resumes/resume-generator && npm install
+#   cd .agents/skills/generate-custom-resumes/resume-generator && npm install
 #   node src/index.js \
 #     --custom resumes/fullstack-2026-01/resume.yaml \
 #     --output resumes/fullstack-2026-01/resume.pdf
