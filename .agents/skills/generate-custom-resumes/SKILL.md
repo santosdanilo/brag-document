@@ -52,6 +52,19 @@ experiences:
 
 Cross-reference `source-of-truth/work-experience.md` and `source-of-truth/relevant-experiences.md` to select the most impactful bullets for the chosen perspective.
 
+### Step 2.5 — Discover and verify evidence
+
+Before writing a new or substantially revised experience:
+
+1. Read the relevant source-of-truth and storytelling files first; do not ask the user to repeat documented facts.
+2. Identify gaps in the problem, the user's responsibility, actions, contribution, trade-offs, or results.
+3. When gaps matter, ask one question at a time using the `grill-me` approach and include a recommended answer or interpretation grounded in the repository.
+4. Build the detailed story using **Situation, Task, Action, Result (STAR)**, with most detail devoted to the user's actions and contribution.
+5. Convert the confirmed story into concise resume bullets that lead with the outcome and support it with specific evidence.
+6. Mark unsupported claims as **needs confirmation** or **do not claim** instead of inferring metrics, scope, tools, or ownership.
+
+Skip questioning when the existing source already contains a complete, verified story. Use the full sequence only when the missing evidence affects the quality or accuracy of the resume.
+
 ### Step 3 — Generate the PDF
 
 The resume generator lives at `.agents/skills/generate-custom-resumes/resume-generator/`. See its [README](./resume-generator/README.md) for full documentation.

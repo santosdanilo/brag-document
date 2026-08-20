@@ -35,6 +35,19 @@ Use completed processes as reference (in `hiring-processes/completed/`). The fil
 - **Questions to Ask**: Thoughtful questions about the role, team, and company
 - **Interview Process**: (left empty — filled as the process progresses)
 
+### Step 2.5 — Discover and verify evidence
+
+Before drafting profile-match analysis, resume bullets, or a cover letter:
+
+1. Read `source-of-truth/work-experience.md`, `source-of-truth/relevant-experiences.md`, and `source-of-truth/storytellings.md`.
+2. Compare the documented evidence with the job requirements and identify missing context, contribution, trade-offs, or results.
+3. If important evidence is missing, interview the user one question at a time using the `grill-me` approach. Do not ask for facts already available in the repository.
+4. For each question, provide a recommended interpretation based on the existing evidence and wait for the user's answer before asking the next question.
+5. Structure confirmed stories internally as **Situation, Task, Action, Result (STAR)**. Emphasize the user's personal contribution and the resulting business or product impact.
+6. Classify claims before using them: **confirmed**, **needs confirmation**, or **do not claim**. Never fill gaps with assumptions.
+
+Use an adaptive question sequence rather than a fixed questionnaire. Ask only the next question needed to resolve the current gap, typically covering the problem, responsibility, decisions, actions, collaboration, constraints, evidence of results, and lessons learned.
+
 ### Step 3 — Generate a customized resume (when applicable)
 
 If the process would benefit from a tailored resume, use the **Resume Generator** tool (bundled in the `generate-custom-resumes` skill):
