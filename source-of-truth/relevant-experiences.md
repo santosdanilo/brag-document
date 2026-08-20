@@ -57,6 +57,12 @@ At **GasHub**, as the team grew, new engineers needed to get up to speed quickly
 - **Action:** Led structured onboarding sessions, documented business rules, and outlined the critical areas of the platform — including the trading matching engine, RLS policies, and layered backend architecture. Provided guided walkthroughs of the codebase and highlighted where edge cases and domain complexity were concentrated.
 - **Result:** Accelerated new team members' time-to-productivity and reduced knowledge silos, enabling the team to operate more independently and share ownership of complex areas.
 
+## AI-Assisted Frontend Delivery with Pencil.dev (GasHub)
+At **GasHub**, the team needed to accelerate frontend prototyping and reduce the time between design decisions and working UI code.
+- **Challenge:** Speed up feature delivery for form changes, design restructuring, and integration validation without sacrificing design accuracy or code quality.
+- **Action:** Used **Pencil.dev** to generate frontend code directly from design artifacts, critically reviewed each AI-generated prototype, corrected misplacements and design mismatches, simplified over-engineered elements, and adapted the output to match existing codebase patterns and component architecture.
+- **Result:** Reduced feature delivery time from one week to **three days**, including review — a ~40% acceleration in the design-to-implementation cycle.
+
 ## Backend Architecture Modernization (GasHub)
 At **GasHub**, the backend was tightly coupled to the **Supabase JS client**, which lacked transaction support — a critical limitation for coordinating multi-step business operations atomically.
 - **Challenge:** Introduce transaction support and establish a clean, maintainable architecture for the growing codebase without disrupting ongoing development.
