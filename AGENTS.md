@@ -122,6 +122,7 @@ Old or superseded content kept for historical reference.
 | `manage-knowledge-base/` | Register web link content, algorithm training problems, and study material into the knowledge base |
 | `generate-custom-resumes/` | Generate persona-based resume variations (frontend, backend, mobile, etc.) not tied to a specific hiring process |
 | `generate-excalidraw/` | Create diagrams, flowcharts, or visual content in Excalidraw format |
+| `grill-me/` | Conduct a one-question-at-a-time discovery loop to stress-test plans and resolve missing decisions or evidence |
 
 ## Key Behaviors
 
@@ -132,3 +133,4 @@ Old or superseded content kept for historical reference.
 5. **Do not expose sensitive data** (salaries, personal identifiers) unless explicitly requested.
 6. **Do not use H1 (#) headers** in responses; start with H2 (##) or H3 (###).
 7. **Do not summarize** code or text blocks unless explicitly asked.
+8. **Use evidence-first career writing.** Before creating or substantially revising resumes, cover letters, or experience stories, inspect the source-of-truth files and use an adaptive, one-question-at-a-time discovery loop when important contribution or result details are missing. Structure detailed stories with STAR, then compress them into outcome-led bullets without inventing claims.
