@@ -46,9 +46,16 @@ If the process would benefit from a tailored resume, use the **Resume Generator*
 
 ```bash
 cd .agents/skills/generate-custom-resumes/resume-generator && npm install
+# Resume only
 node src/index.js \
   --custom hiring-processes/in-progress/{company}-{role}/resume.yaml \
   --output hiring-processes/in-progress/{company}-{role}/resume.pdf
+
+# Resume + cover letter (if cover-letter.md exists in the process directory)
+node src/index.js \
+  --custom hiring-processes/in-progress/{company}-{role}/resume.yaml \
+  --output hiring-processes/in-progress/{company}-{role}/resume.pdf \
+  --cover-letter hiring-processes/in-progress/{company}-{role}/cover-letter.md
 ```
 
 **YAML customization reference:**

@@ -180,6 +180,18 @@ h2 {
   color: #111;
 }
 
+/* ── Cover Letter ── */
+.cover-letter-body {
+  margin-top: 20px;
+  font-size: 10.5pt;
+  line-height: 1.6;
+  color: #222;
+}
+
+.cover-letter-body p {
+  margin-bottom: 12px;
+}
+
 /* ── Print ── */
 @media print {
   body { padding: 0; }

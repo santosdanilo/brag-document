@@ -4,7 +4,7 @@
 
 ## Summary
 
-Frontend Software Engineer with over six years of experience and a strong foundation in Computer Science. I have successfully led projects that improved application performance, structure, and reduced downtime by migrating legacy AngularJS systems to modern Angular frameworks. Skilled in **Angular**, **Ionic**, **TypeScript**, and **Tailwind CSS**, with experience in supporting technologies required to launch applications, including **AWS** services and **CI/CD** configuration.
+Frontend Software Engineer with over seven years of experience and a strong foundation in Computer Science. I have successfully led projects that improved application performance, structure, and reduced downtime by migrating legacy AngularJS systems to modern Angular frameworks. Skilled in **Angular**, **Ionic**, **TypeScript**, and **Tailwind CSS**, with experience in supporting technologies required to launch applications, including **AWS** services and **CI/CD** configuration.
 
 I consistently deliver scalable, high-quality code and have implemented CI/CD pipelines and AWS integrations to ensure robust and reliable applications for global users.
 

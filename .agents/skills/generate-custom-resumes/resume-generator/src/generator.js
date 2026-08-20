@@ -126,3 +126,86 @@ export async function generateResume(basePath, customPath = null, outputPath) {
     throw error;
   }
 }
+
+/**
+ * Generate cover letter PDF from a markdown file and base resume header info
+ * @param {Object} resumeData - Resume data (for header: name, email, links)
+ * @param {string} outputPath - Path to save the PDF
+ * @param {string} coverLetterContent - Raw markdown text of the cover letter
+ */
+export async function generateCoverLetterPDF(resumeData, coverLetterContent, outputPath) {
+  const templatePath = path.join(__dirname, 'templates', 'cover-letter.hbs');
+  const cssPath = path.join(__dirname, 'templates', 'styles.css');
+
+  const templateContent = fs.readFileSync(templatePath, 'utf8');
+  const cssContent = fs.readFileSync(cssPath, 'utf8');
+  const template = Handlebars.compile(templateContent);
+
+  // Split cover letter into paragraphs (blank-line separated)
+  const paragraphs = coverLetterContent
+    .split(/\n\s*\n/)
+    .map(p => p.replace(/\n/g, ' ').trim())
+    .filter(p => p.length > 0);
+
+  const templateData = {
+    name: resumeData.name,
+    email: resumeData.email,
+    links: resumeData.links,
+    paragraphs,
+    css: cssContent,
+  };
+
+  const html = template(templateData);
+
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
+  });
+
+  try {
+    const page = await browser.newPage();
+    await page.setContent(html, { waitUntil: 'networkidle0' });
+    await page.pdf({
+      path: outputPath,
+      format: 'A4',
+      printBackground: true,
+    });
+    console.log(`✅ Cover letter PDF generated: ${outputPath}`);
+  } finally {
+    await browser.close();
+  }
+}
+
+/**
+ * Generate cover letter from a markdown file and base resume
+ * @param {string} basePath - Path to base resume YAML (for header info)
+ * @param {string} customPath - Optional path to customization YAML
+ * @param {string} coverLetterPath - Path to the cover letter markdown file
+ * @param {string} outputPath - Path to save the cover letter PDF
+ */
+export async function generateCoverLetter(basePath, customPath = null, coverLetterPath, outputPath) {
+  try {
+    const baseResume = loadYAML(basePath);
+
+    let customResume = null;
+    if (customPath && fs.existsSync(customPath)) {
+      customResume = loadYAML(customPath);
+    }
+
+    const mergedResume = mergeResumes(baseResume, customResume);
+
+    if (!fs.existsSync(coverLetterPath)) {
+      throw new Error(`Cover letter file not found: ${coverLetterPath}`);
+    }
+
+    const coverLetterContent = fs.readFileSync(coverLetterPath, 'utf8');
+
+    const outputDir = path.dirname(outputPath);
+    await fs.ensureDir(outputDir);
+
+    await generateCoverLetterPDF(mergedResume, coverLetterContent, outputPath);
+  } catch (error) {
+    console.error('❌ Error generating cover letter:', error.message);
+    throw error;
+  }
+}
