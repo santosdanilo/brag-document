@@ -213,7 +213,7 @@ Use the reusable helper at `scripts/generator.py`. It provides:
 
 ```python
 import sys, os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../../.cursor/skills/generate-excalidraw/scripts'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../../.agents/skills/generate-excalidraw/scripts'))
 from generator import *
 
 elements = []
@@ -247,7 +247,7 @@ Use the templates in [element-templates.md](element-templates.md) as reference.
 After generating an `.excalidraw` file (either method), run:
 
 ```bash
-python3 .cursor/skills/generate-excalidraw/scripts/validate.py <path-to-file.excalidraw>
+python3 .agents/skills/generate-excalidraw/scripts/validate.py <path-to-file.excalidraw>
 ```
 
 The script checks:

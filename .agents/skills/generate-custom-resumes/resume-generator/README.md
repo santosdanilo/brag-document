@@ -12,12 +12,12 @@ A Node.js application to generate customized PDF resumes from YAML source files.
 
 ## Location
 
-This tool lives at `.cursor/skills/generate-custom-resumes/resume-generator/` inside the project. All relative paths passed as CLI arguments are resolved from the **project root**, not from the tool directory.
+This tool lives at `.agents/skills/generate-custom-resumes/resume-generator/` inside the project. All relative paths passed as CLI arguments are resolved from the **project root**, not from the tool directory.
 
 ## Installation
 
 ```bash
-cd .cursor/skills/generate-custom-resumes/resume-generator
+cd .agents/skills/generate-custom-resumes/resume-generator
 npm install
 ```
 
@@ -149,7 +149,7 @@ experiences:
 
 ```
 brag-document/
-├── .cursor/skills/generate-custom-resumes/
+├── .agents/skills/generate-custom-resumes/
 │   └── resume-generator/         # ← this tool
 │       ├── src/
 │       │   ├── index.js          # CLI entry point

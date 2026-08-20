@@ -41,12 +41,11 @@ If the process would benefit from a tailored resume, use the **Resume Generator*
 
 1. Create `resume.yaml` inside the process directory with only the fields to override from the base resume (`resumes/resume-base.yaml`)
 2. Use `id`-based matching to override specific companies/roles/bullets
-3. Follow the instructions in `.cursor/skills/generate-custom-resumes/resume-generator/README.md` (section "Adding a New Hiring Process")
-4. Generate the PDF (and optionally the cover letter):
+3. Follow the instructions in `.agents/skills/generate-custom-resumes/resume-generator/README.md` (section "Adding a New Hiring Process")
+4. Generate the PDF:
 
 ```bash
-cd .cursor/skills/generate-custom-resumes/resume-generator && npm install
-
+cd .agents/skills/generate-custom-resumes/resume-generator && npm install
 # Resume only
 node src/index.js \
   --custom hiring-processes/in-progress/{company}-{role}/resume.yaml \
@@ -105,7 +104,7 @@ If the user provides the initial recruiter message, generate a professional repl
 | Storytellings (STAR format) | `source-of-truth/storytellings.md` |
 | Interview preparation templates | `interview-preparation/` |
 | Resume base YAML | `resumes/resume-base.yaml` |
-| Resume generator docs | `.cursor/skills/generate-custom-resumes/resume-generator/README.md` |
+| Resume generator docs | `.agents/skills/generate-custom-resumes/resume-generator/README.md` |
 | Resume writing tips | `guidelines/resume-tips.md` |
 | Copywriting tips | `guidelines/copywriting-tips.md` |
 | Completed processes (examples) | `hiring-processes/completed/` |

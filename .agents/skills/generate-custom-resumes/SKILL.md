@@ -54,10 +54,10 @@ Cross-reference `source-of-truth/work-experience.md` and `source-of-truth/releva
 
 ### Step 3 — Generate the PDF
 
-The resume generator lives at `.cursor/skills/generate-custom-resumes/resume-generator/`. See its [README](./resume-generator/README.md) for full documentation.
+The resume generator lives at `.agents/skills/generate-custom-resumes/resume-generator/`. See its [README](./resume-generator/README.md) for full documentation.
 
 ```bash
-cd .cursor/skills/generate-custom-resumes/resume-generator && npm install
+cd .agents/skills/generate-custom-resumes/resume-generator && npm install
 node src/index.js \
   --custom resumes/{perspective}-{year}-{sequence}/resume.yaml \
   --output resumes/{perspective}-{year}-{sequence}/resume.pdf
@@ -83,8 +83,8 @@ The cover letter PDF is saved as `cover-letter.pdf` in the same directory by def
 | Purpose | Path |
 |---------|------|
 | Base resume YAML | `resumes/resume-base.yaml` |
-| Resume generator (bundled) | `.cursor/skills/generate-custom-resumes/resume-generator/` |
-| Resume generator docs | `.cursor/skills/generate-custom-resumes/resume-generator/README.md` |
+| Resume generator (bundled) | `.agents/skills/generate-custom-resumes/resume-generator/` |
+| Resume generator docs | `.agents/skills/generate-custom-resumes/resume-generator/README.md` |
 | Work experience (source of truth) | `source-of-truth/work-experience.md` |
 | Relevant experiences | `source-of-truth/relevant-experiences.md` |
 | Resume writing tips | `guidelines/resume-tips.md` |

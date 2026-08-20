@@ -1,7 +1,7 @@
 # 1950Labs — Full-Stack Product Engineer
 # Source used for tailoring: hiring-processes/in-progress/1950labs-full-stack-product-engineer/job-description.md
 # Run:
-#   cd .cursor/skills/generate-custom-resumes/resume-generator && npm install
+#   cd .agents/skills/generate-custom-resumes/resume-generator && npm install
 #   node src/index.js \
 #     --custom hiring-processes/in-progress/1950labs-full-stack-product-engineer/resume.yaml \
 #     --output hiring-processes/in-progress/1950labs-full-stack-product-engineer/resume.pdf

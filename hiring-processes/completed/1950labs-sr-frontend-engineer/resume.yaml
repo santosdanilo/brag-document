@@ -1,7 +1,7 @@
 # 1950labs — Sr. Frontend Engineer
 # Source used for tailoring: hiring-processes/in-progress/1950labs-sr-frontend-engineer/job-description.md
 # Run:
-#   cd .cursor/skills/generate-custom-resumes/resume-generator && npm install
+#   cd .agents/skills/generate-custom-resumes/resume-generator && npm install
 #   node src/index.js \
 #     --custom hiring-processes/in-progress/1950labs-sr-frontend-engineer/resume.yaml \
 #     --output hiring-processes/in-progress/1950labs-sr-frontend-engineer/resume.pdf

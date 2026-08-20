@@ -68,7 +68,7 @@ brag-document/
 | `source-of-truth/` | **Dados canônicos** sobre perfil, experiências e storytellings. É a fonte que a IA prioriza para gerar qualquer output. |
 | `knowledge-base/` | **Base de conhecimento técnico.** Tudo que estudo (cursos, system design, algoritmos) fica registrado aqui e é reutilizado automaticamente nas preparações de entrevista e currículo. |
 | `hiring-processes/` | **Registro completo de cada processo seletivo** — job description, análise de fit, currículo gerado, preparação para entrevistas e resultado. |
-| `.cursor/skills/` | **Automações condicionais** — workflows que a IA executa para tarefas específicas (registrar processo seletivo, gerar currículo, etc.). |
+| `.agents/skills/` | **Automações condicionais** — workflows que a IA executa para tarefas específicas (registrar processo seletivo, gerar currículo, etc.). |
 
 ---
 

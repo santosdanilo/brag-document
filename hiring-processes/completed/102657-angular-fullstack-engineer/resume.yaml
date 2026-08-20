@@ -1,7 +1,7 @@
 # 102657 - Angular Fullstack Engineer
 # Source: hiring-processes/in-progress/102657-angular-fullstack-engineer/job-description.md
 # Run:
-#   cd .cursor/skills/generate-custom-resumes/resume-generator && npm install
+#   cd .agents/skills/generate-custom-resumes/resume-generator && npm install
 #   node src/index.js \
 #     --custom hiring-processes/in-progress/102657-angular-fullstack-engineer/resume.yaml \
 #     --output hiring-processes/in-progress/102657-angular-fullstack-engineer/resume.pdf
