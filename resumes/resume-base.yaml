@@ -8,9 +8,9 @@ email: dandesenvolvimento@gmail.com
 title: Senior Frontend Software Engineer
 
 introduction: |
-  Frontend Software Engineer with over 7 years of experience building scalable web and mobile applications.
-  Led AngularJS → Angular migrations, delivered a real-time trading platform prototype in under 3 weeks, and cut API latency by 95.7% through full-stack optimizations.
-  Strong track record in TypeScript, React, Angular, and Node.js across product-focused and startup environments.
+  Frontend Software Engineer with 7+ years of experience building web and mobile applications with TypeScript, React, Angular, and Node.js.
+  Delivered a real-time trading platform prototype in under three weeks and cut API latency by 95.7% through full-stack performance work.
+  Experience includes frontend architecture, backend services, automated testing, and legacy-system modernization.
 
 links:
   linkedin: https://www.linkedin.com/in/santos-danilo/
@@ -25,14 +25,13 @@ experiences:
         title: Full Stack Engineer
         period: Jun 2025 – Present
         bullets:
-          - Delivered a real-time natural gas trading platform prototype in under **3 weeks** using **React** + AI-assisted development, enabling early market validation.
-          - Accelerated frontend implementation with **Pencil.dev**, creating a shared source of truth for Product and Engineering to document the design system and collaborate on the same design artifacts.
-          - Reduced Products API latency from **3,010 ms → 132 ms (−95.7%)** via `Promise.all` parallelization, merged RLS transactions, and `EXPLAIN ANALYZE` profiling on **PostgreSQL**.
-          - Optimised React 18 rendering across 3 Profiler sessions — cut initial mount time from **59.1 ms → 1.8 ms (−97%)** and per-block commit times from **13–31 ms → under 2 ms (−94%)**.
-          - Built `ProductsAvailablePage` with 5 independently-filtered blocks, infinite scroll, and **TanStack Virtual** row virtualisation to handle large datasets without pagination.
-          - Migrated backend from Supabase JS client to **Drizzle ORM** on **Deno**, introducing Unit of Work pattern, Zod validation, and a layered architecture.
-          - "Refactored codebase and established quality baseline with **Testing Library** unit tests and **Playwright** E2E tests."
-          - Accelerated frontend delivery with **Pencil.dev**, critically reviewing and adapting AI-generated design artifacts to match existing codebase patterns — reducing feature delivery time from one week to three days.
+          - Delivered a real-time natural gas trading platform prototype in under **3 weeks** using **React** and AI-assisted development for market validation.
+          - Created a shared **Pencil.dev** design workflow for Product and Engineering, aligning implementation with documented design-system artifacts.
+          - Reduced Products API latency by **95.7%** through query parallelization, transaction consolidation, and **PostgreSQL** profiling.
+          - Reduced initial React mount time by **97%** and data-load render time by **94%** through profiler-led refactors.
+          - Built a virtualized trading interface with five independently filtered views and infinite scroll using **TanStack Virtual**.
+          - Enabled atomic multi-step operations by migrating data access to **Drizzle ORM** on **Deno** and introducing a layered backend architecture.
+          - Established automated coverage with **Testing Library** unit tests and **Playwright** end-to-end tests.
 
   - id: mytime
     company: MyTime
@@ -42,9 +41,9 @@ experiences:
         title: Frontend Software Engineer
         period: Apr 2022 – Mar 2025
         bullets:
-          - Migrated a legacy **AngularJS**/CoffeeScript payment system to **Angular**/TypeScript — rebuilding core POS modules to improve UX and scalability, enabling a successful platform re-launch.
+          - Modernized a payment system from **AngularJS** and CoffeeScript to **Angular** and **TypeScript** without interrupting operations.
           - Achieved high test coverage using **Jest** and **Testing Library**, reducing regression risk on core checkout flows.
-          - Implemented **W3C accessibility** standards across key user-facing screens.
+          - Implemented **W3C accessibility** standards across key customer workflows.
 
   - id: twenty20
     company: Twenty20 Solutions
@@ -54,8 +53,8 @@ experiences:
         title: Frontend Software Engineer
         period: Jan 2022 – Mar 2022
         bullets:
-          - Architected a browser-based desktop environment applying **SOLID** principles and Clean Architecture, delivering a maintainable modular codebase.
-          - Introduced **Jest** unit testing and **GitHub Actions** CI/CD pipeline, establishing automated quality gates.
+          - Architected a modular browser-based desktop environment using **SOLID** principles and Clean Architecture.
+          - Introduced **Jest** unit tests and **GitHub Actions** CI/CD quality gates.
 
   - id: greenAnt
     company: GreenAnt
@@ -65,7 +64,7 @@ experiences:
         title: Frontend Software Engineer
         period: Jan 2020 – Dec 2021
         bullets:
-          - Executed zero-downtime **AngularJS → Angular** migration using **Webpack** dual-environment bundling, keeping production stable throughout.
+          - Completed a zero-downtime **AngularJS to Angular** migration using **Webpack** dual-environment bundling.
           - Built a serverless PDF generation microservice on **AWS Lambda** integrated into the core invoicing flow.
           - Launched a mobile app for invoice payment using **Ionic** and **CapacitorJS**, targeting Android and iOS.
 
@@ -77,7 +76,7 @@ experiences:
         title: Frontend Software Developer
         period: Aug 2018 – Aug 2020
         bullets:
-          - Developed a mobile-first government data dashboard using **Angular** and **Next.js**, improving data accessibility for public-sector users.
+          - Developed a mobile-first government data dashboard using **Angular** and **Next.js**.
 
   - id: gera-energia
     company: Gera Energia Brasil

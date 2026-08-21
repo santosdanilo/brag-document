@@ -16,6 +16,7 @@ Every resume bullet must pass all checks below before PDF generation:
 8. **Accurate in seniority:** Does not inflate ownership, team scope, architecture authority, or business impact.
 9. **Free of internal jargon:** Replaces internal component names, endpoint names, and codebase terms with their business or technical purpose.
 10. **Natural:** Sounds like a specific professional account, not generic AI-generated marketing copy.
+11. **Standalone:** States the outcome and action clearly enough to be understood without a second explanatory sentence.
 
 ## Preferred Language
 

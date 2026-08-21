@@ -7,9 +7,9 @@
 title: Senior Fullstack Developer | React, Node.js & TypeScript
 
 introduction: |
-  Full Stack Engineer with 7+ years of experience delivering reliable web applications with TypeScript, React, Angular, and Node.js.
-  Delivered a real-time trading platform prototype in under 3 weeks, then improved its API latency by 95.7% and React rendering performance by up to 97% through systematic profiling and full-stack optimization.
-  Builds scalable user interfaces and backend services, establishes automated testing practices, and creates maintainable architectures that support safe product delivery.
+  Full Stack Engineer with 7+ years of experience building web applications with TypeScript, React, Angular, and Node.js.
+  Delivered a real-time trading platform prototype in under three weeks, then reduced API latency by 95.7% and React rendering time by up to 97% through systematic profiling.
+  Experience includes frontend architecture, backend services, automated testing, and API integration.
 
 experiences:
   - id: gashub
@@ -17,38 +17,38 @@ experiences:
     roles:
       - id: gashub-fullstack
         bullets:
-          - Delivered a real-time natural gas trading platform prototype in under **3 weeks** with **React** and backend services on **Supabase**, enabling market validation of complex business workflows.
-          - Integrated frontend and backend APIs by analyzing contracts, proposing response structures, and introducing an adapter layer that isolated payload transformations, kept most frontend layers untouched during backend changes, and supported API structure migration.
-          - Improved responsiveness for core trading workflows by cutting Products API latency **95.7%** through request profiling, parallelized queries, RLS transaction consolidation, and **PostgreSQL** analysis.
-          - Designed a scalable backend foundation by migrating data access to **Drizzle ORM** on **Deno** and applying **Zod** validation, use cases, repositories, and the Unit of Work pattern for atomic operations.
-          - Designed a data-rich React interface with independently filtered views, infinite scroll, and **TanStack Virtual**, keeping large datasets usable without a costly retrofit.
-          - Resolved React rendering bottlenecks through three Profiler-led iterations, reducing initial mount time **97%** and per-block data-load commits **94%**.
-          - Established automated quality coverage with **Testing Library** unit tests and **Playwright** end-to-end tests; onboarded engineers by documenting platform business rules and technical architecture.
+          - Delivered a real-time natural gas trading platform prototype in under **3 weeks** with **React** and **Supabase** for market validation.
+          - Stabilized frontend development during API changes by introducing an adapter layer that isolated backend response transformations.
+          - Reduced Products API latency by **95.7%** through request profiling, query parallelization, transaction consolidation, and **PostgreSQL** analysis.
+          - Enabled atomic multi-step operations by migrating data access to **Drizzle ORM** on **Deno** and applying layered service boundaries.
+          - Built a virtualized React trading interface with independently filtered views and infinite scroll using **TanStack Virtual**.
+          - Reduced initial React mount time by **97%** and data-load render time by **94%** through profiler-led refactors.
+          - Established automated coverage with **Testing Library** unit tests and **Playwright** end-to-end tests.
 
   - id: mytime
     keySkills: Angular, TypeScript, AngularJS, Jest, Testing Library, Accessibility
     roles:
       - id: mytime-frontend
         bullets:
-          - Modernized a business-critical payment system from **AngularJS** and CoffeeScript to **Angular** and **TypeScript**, improving maintainability while keeping operations uninterrupted.
+          - Modernized a payment system from **AngularJS** and CoffeeScript to **Angular** and **TypeScript** without interrupting operations.
           - Reduced regression risk in core checkout flows by establishing high test coverage with **Jest** and **Testing Library**.
-          - Improved usability across key customer workflows by implementing **W3C accessibility** standards.
+          - Implemented **W3C accessibility** standards across key customer workflows.
 
   - id: twenty20
     keySkills: Angular, TypeScript, Clean Architecture, SOLID, Jest, GitHub Actions
     roles:
       - id: twenty20-frontend
         bullets:
-          - Architected a browser-based desktop environment from scratch with **Angular**, **SOLID**, and Clean Architecture, establishing a modular foundation for independently developed applications.
-          - Established development quality practices with **Jest**, **GitHub Actions**, and linters, enabling consistent automated verification across the team.
+          - Architected a modular browser-based desktop environment from scratch with **Angular**, **SOLID**, and Clean Architecture.
+          - Introduced **Jest**, **GitHub Actions**, and linters for automated verification.
 
   - id: greenAnt
     keySkills: Angular, AngularJS, Ionic, Webpack, AWS Lambda, GitLab CI, TypeScript
     roles:
       - id: greenAnt-frontend
         bullets:
-          - Completed a zero-downtime **AngularJS to Angular** migration with **Webpack** dual-environment bundling, keeping production stable while enabling faster feature delivery.
-          - Decoupled PDF generation into an **AWS Lambda** microservice and automated deployments with **GitLab CI**, improving release independence for a core invoicing workflow.
+          - Completed a zero-downtime **AngularJS to Angular** migration with **Webpack** dual-environment bundling.
+          - Decoupled PDF generation into an **AWS Lambda** microservice and automated deployments with **GitLab CI**.
 
   - id: finatec
     keySkills: Angular, Java, Docker, Microservices
