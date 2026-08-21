@@ -1,0 +1,66 @@
+# SecureVision Senior Fullstack Developer - job-specific resume
+# Run:
+#   node .agents/skills/generate-custom-resumes/resume-generator/src/index.js \
+#     --custom hiring-processes/in-progress/securevision-senior-fullstack-developer/resume.yaml \
+#     --output hiring-processes/in-progress/securevision-senior-fullstack-developer/resume.pdf
+
+title: Senior Fullstack Developer | React, Node.js & TypeScript
+
+introduction: |
+  Full Stack Engineer with 7+ years of experience delivering reliable web applications with TypeScript, React, Angular, and Node.js.
+  Delivered a real-time trading platform prototype in under 3 weeks, then improved its API latency by 95.7% and React rendering performance by up to 97% through systematic profiling and full-stack optimization.
+  Builds scalable user interfaces and backend services, establishes automated testing practices, and creates maintainable architectures that support safe product delivery.
+
+experiences:
+  - id: gashub
+    keySkills: React, TypeScript, Node.js, NestJS, Supabase, Drizzle ORM, Deno, PostgreSQL, Zod, Testing Library, Playwright, TanStack Virtual
+    roles:
+      - id: gashub-fullstack
+        bullets:
+          - Delivered a real-time natural gas trading platform prototype in under **3 weeks** with **React** and backend services on **Supabase**, enabling market validation of complex business workflows.
+          - Integrated frontend and backend APIs by analyzing contracts, proposing response structures, and introducing an adapter layer that isolated payload transformations, kept most frontend layers untouched during backend changes, and supported API structure migration.
+          - Improved responsiveness for core trading workflows by cutting Products API latency **95.7%** through request profiling, parallelized queries, RLS transaction consolidation, and **PostgreSQL** analysis.
+          - Designed a scalable backend foundation by migrating data access to **Drizzle ORM** on **Deno** and applying **Zod** validation, use cases, repositories, and the Unit of Work pattern for atomic operations.
+          - Designed a data-rich React interface with independently filtered views, infinite scroll, and **TanStack Virtual**, keeping large datasets usable without a costly retrofit.
+          - Resolved React rendering bottlenecks through three Profiler-led iterations, reducing initial mount time **97%** and per-block data-load commits **94%**.
+          - Established automated quality coverage with **Testing Library** unit tests and **Playwright** end-to-end tests; onboarded engineers by documenting platform business rules and technical architecture.
+
+  - id: mytime
+    keySkills: Angular, TypeScript, AngularJS, Jest, Testing Library, Accessibility
+    roles:
+      - id: mytime-frontend
+        bullets:
+          - Modernized a business-critical payment system from **AngularJS** and CoffeeScript to **Angular** and **TypeScript**, improving maintainability while keeping operations uninterrupted.
+          - Reduced regression risk in core checkout flows by establishing high test coverage with **Jest** and **Testing Library**.
+          - Improved usability across key customer workflows by implementing **W3C accessibility** standards.
+
+  - id: twenty20
+    keySkills: Angular, TypeScript, Clean Architecture, SOLID, Jest, GitHub Actions
+    roles:
+      - id: twenty20-frontend
+        bullets:
+          - Architected a browser-based desktop environment from scratch with **Angular**, **SOLID**, and Clean Architecture, establishing a modular foundation for independently developed applications.
+          - Established development quality practices with **Jest**, **GitHub Actions**, and linters, enabling consistent automated verification across the team.
+
+  - id: greenAnt
+    keySkills: Angular, AngularJS, Ionic, Webpack, AWS Lambda, GitLab CI, TypeScript
+    roles:
+      - id: greenAnt-frontend
+        bullets:
+          - Completed a zero-downtime **AngularJS to Angular** migration with **Webpack** dual-environment bundling, keeping production stable while enabling faster feature delivery.
+          - Decoupled PDF generation into an **AWS Lambda** microservice and automated deployments with **GitLab CI**, improving release independence for a core invoicing workflow.
+
+  - id: finatec
+    keySkills: Angular, Java, Docker, Microservices
+    roles:
+      - id: finatec-dev
+        bullets:
+          - Developed frontend features in **Angular** and contributed to **Java EE** backend systems using **Docker** and microservices architecture.
+
+skills:
+  languages: TypeScript, JavaScript, Java
+  frontend: React.js, Next.js, Angular, AngularJS, TanStack Virtual, Ionic, CapacitorJS, Tailwind CSS, Angular Material
+  backend: Node.js, NestJS, Deno, Supabase, Drizzle ORM, Zod, Java EE
+  databases: PostgreSQL, pgTAP
+  testing: Jest, Testing Library, Playwright, Jasmine
+  devops: Docker, GitHub Actions, GitLab CI, AWS Lambda, Amazon S3

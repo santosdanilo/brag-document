@@ -50,18 +50,20 @@ experiences:
         keySkills: Perspective, Relevant, Skills
 ```
 
-Cross-reference `source-of-truth/work-experience.md` and `source-of-truth/relevant-experiences.md` to select the most impactful bullets for the chosen perspective.
+Cross-reference `source-of-truth/work-experience.md`, `source-of-truth/relevant-experiences.md`, and `source-of-truth/evidence-ledger.md` to select the most impactful bullets for the chosen perspective.
 
 ### Step 2.5 — Discover and verify evidence
 
 Before writing a new or substantially revised experience:
 
-1. Read the relevant source-of-truth and storytelling files first; do not ask the user to repeat documented facts.
+1. Read the relevant source-of-truth and storytelling files plus `source-of-truth/evidence-ledger.md`; do not ask the user to repeat documented facts.
 2. Identify gaps in the problem, the user's responsibility, actions, contribution, trade-offs, or results.
 3. When gaps matter, ask one question at a time using the `grill-me` approach and include a recommended answer or interpretation grounded in the repository.
 4. Build the detailed story using **Situation, Task, Action, Result (STAR)**, with most detail devoted to the user's actions and contribution.
 5. Convert the confirmed story into concise resume bullets that lead with the outcome and support it with specific evidence.
-6. Mark unsupported claims as **needs confirmation** or **do not claim** instead of inferring metrics, scope, tools, or ownership.
+6. Map every selected claim to a confirmed evidence-ledger ID or an explicit canonical source path in the working notes. For a hiring-process resume, use that process's `job-to-evidence-matrix.md`.
+7. Apply `guidelines/resume-tone-rubric.md` to the summary, bullets, skills positioning, and cover letter.
+8. Mark unsupported claims as **needs confirmation** or **do not claim** instead of inferring metrics, scope, tools, or ownership.
 
 Skip questioning when the existing source already contains a complete, verified story. Use the full sequence only when the missing evidence affects the quality or accuracy of the resume.
 
@@ -100,6 +102,8 @@ The cover letter PDF is saved as `cover-letter.pdf` in the same directory by def
 | Resume generator docs | `.agents/skills/generate-custom-resumes/resume-generator/README.md` |
 | Work experience (source of truth) | `source-of-truth/work-experience.md` |
 | Relevant experiences | `source-of-truth/relevant-experiences.md` |
+| Evidence ledger | `source-of-truth/evidence-ledger.md` |
 | Resume writing tips | `guidelines/resume-tips.md` |
+| Resume tone rubric | `guidelines/resume-tone-rubric.md` |
 | Copywriting tips | `guidelines/copywriting-tips.md` |
 | Existing hiring process resumes (examples) | `hiring-processes/in-progress/*/resume.yaml` |
