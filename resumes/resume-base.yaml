@@ -9,8 +9,8 @@ title: Senior Frontend Software Engineer
 
 introduction: |
   Frontend Software Engineer with 7+ years of experience building web and mobile applications with TypeScript, React, Angular, and Node.js.
-  Delivered a real-time trading platform prototype in under three weeks and cut API latency by 95.7% through full-stack performance work.
-  Experience includes frontend architecture, backend services, automated testing, and legacy-system modernization.
+  Delivered a real-time natural gas trading platform prototype in under three weeks and cut API latency by 95.7% through full-stack performance work.
+  Experience spans trading, global scheduling and POS, energy analytics, government data, and mobile invoice-payment products.
 
 links:
   linkedin: https://www.linkedin.com/in/santos-danilo/
@@ -25,12 +25,13 @@ experiences:
         title: Full Stack Engineer
         period: Jun 2025 – Present
         bullets:
-          - Delivered a real-time natural gas trading platform prototype in under **3 weeks** using **React** and AI-assisted development for market validation.
-          - Created a shared **Pencil.dev** design workflow for Product and Engineering, aligning implementation with documented design-system artifacts.
-          - Reduced Products API latency by **95.7%** through query parallelization, transaction consolidation, and **PostgreSQL** profiling.
-          - Reduced initial React mount time by **97%** and data-load render time by **94%** through profiler-led refactors.
-          - Built a virtualized trading interface with five independently filtered views and infinite scroll using **TanStack Virtual**.
-          - Enabled atomic multi-step operations by migrating data access to **Drizzle ORM** on **Deno** and introducing a layered backend architecture.
+          - Delivered a real-time natural gas trading prototype for matching sellers and buyers in under **3 weeks** using **React** and AI-assisted development, enabling market validation of core workflows.
+          - Created a shared **Pencil.dev** design workflow for Product and Engineering, aligning trading-interface implementation with documented design-system artifacts.
+          - Improved responsiveness in the trading workflow by reducing Products API latency **95.7%** through query parallelization, transaction consolidation, and **PostgreSQL** profiling.
+          - Built a virtualized trading interface with five independently filtered views and infinite scroll using **TanStack Virtual** to support potentially thousands of rows.
+          - Reduced initial React mount time by **97%** and rendering work during data loads by **94%** through profiler-led refactors.
+          - Stabilized frontend development during API changes by introducing an adapter layer that isolated backend response transformations.
+          - Enabled atomic multi-step trading operations by migrating data access to **Drizzle ORM** on **Deno** and introducing layered backend boundaries.
           - Established automated coverage with **Testing Library** unit tests and **Playwright** end-to-end tests.
 
   - id: mytime
@@ -41,9 +42,10 @@ experiences:
         title: Frontend Software Engineer
         period: Apr 2022 – Mar 2025
         bullets:
-          - Modernized a payment system from **AngularJS** and CoffeeScript to **Angular** and **TypeScript** without interrupting operations.
+          - Modernized a payment system in a global scheduling and POS platform from **AngularJS** and CoffeeScript to **Angular** and **TypeScript** without interrupting operations.
           - Achieved high test coverage using **Jest** and **Testing Library**, reducing regression risk on core checkout flows.
-          - Implemented **W3C accessibility** standards across key customer workflows.
+          - Coordinated multi-step checkout and payment flows with **NgRx**, isolating state by POS module for predictable testing and maintenance.
+          - Implemented **W3C accessibility** standards across key customer workflows so visually impaired users could operate the system.
 
   - id: twenty20
     company: Twenty20 Solutions
@@ -53,7 +55,7 @@ experiences:
         title: Frontend Software Engineer
         period: Jan 2022 – Mar 2022
         bullets:
-          - Architected a modular browser-based desktop environment using **SOLID** principles and Clean Architecture.
+          - Architected a modular browser-based desktop environment with independently developed mini-applications using **SOLID** principles and Clean Architecture.
           - Introduced **Jest** unit tests and **GitHub Actions** CI/CD quality gates.
 
   - id: greenAnt
@@ -64,9 +66,9 @@ experiences:
         title: Frontend Software Engineer
         period: Jan 2020 – Dec 2021
         bullets:
-          - Completed a zero-downtime **AngularJS to Angular** migration using **Webpack** dual-environment bundling.
-          - Built a serverless PDF generation microservice on **AWS Lambda** integrated into the core invoicing flow.
-          - Launched a mobile app for invoice payment using **Ionic** and **CapacitorJS**, targeting Android and iOS.
+          - Completed a zero-downtime **AngularJS to Angular** migration for an electric-energy dashboard using **Webpack** dual-environment bundling.
+          - Decoupled PDF generation for invoice workflows into an **AWS Lambda** microservice and automated deployments with **GitLab CI**.
+          - Launched a mobile app for invoice payment and energy-data monitoring using **Ionic** and **CapacitorJS** on Android and iOS.
 
   - id: unb
     company: Universidade de Brasília
@@ -76,7 +78,7 @@ experiences:
         title: Frontend Software Developer
         period: Aug 2018 – Aug 2020
         bullets:
-          - Developed a mobile-first government data dashboard using **Angular** and **Next.js**.
+          - Developed a mobile-first government data dashboard using **Angular** and **Next.js**, improving public access to government information.
 
   - id: gera-energia
     company: Gera Energia Brasil
@@ -86,7 +88,7 @@ experiences:
         title: Frontend Software Engineer
         period: Feb 2019 – Dec 2019
         bullets:
-          - Built data-intensive energy management dashboards with **Angular** and **PrimeNG**.
+          - Built **Angular** and **PrimeNG** dashboards for enterprise energy-consumption analytics, helping clients monitor and reduce energy costs.
           - Set up automated testing with **Jasmine** and a CI/CD pipeline for continuous delivery.
 
   - id: finatec
@@ -97,7 +99,7 @@ experiences:
         title: Software Developer
         period: May 2017 – Jun 2018
         bullets:
-          - Developed frontend features in **Angular** and contributed to Java microservices containerised with **Docker**.
+          - Built an **Angular** SPA for internal military-administration data and contributed to **Java EE** microservices containerized with **Docker**.
 
 education:
   - degree: B.S. in Computer Science
