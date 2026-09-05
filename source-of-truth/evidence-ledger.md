@@ -29,6 +29,7 @@ The canonical source remains the files in `source-of-truth/`. This ledger improv
 | E-013 | GreenAnt zero-downtime frontend migration | confirmed | `source-of-truth/relevant-experiences.md` - Legacy System Upgrade with Zero Downtime; `source-of-truth/storytellings.md` | Integrated AngularJS and Angular through Webpack while production remained operational. | Completed a zero-downtime AngularJS to Angular migration using Webpack dual-environment bundling. |
 | E-014 | GreenAnt serverless PDF microservice | confirmed | `source-of-truth/relevant-experiences.md` - PDF Generation Microservice on AWS Lambda | Built an AWS Lambda microservice and automated deployments with GitLab CI. | Decoupled PDF generation into an AWS Lambda microservice and automated deployments with GitLab CI. |
 | E-015 | Finatec Java and Docker experience | confirmed | `source-of-truth/work-experience.md` - Finatec | Worked on Java EE backend systems and Docker/microservices fundamentals. Do not present this as recent or primary experience. | Contributed to Java EE backend systems using Docker and microservices architecture. |
+| E-016 | GasHub npm monorepo and dependency linking | confirmed | `source-of-truth/work-experience.md` - GasHub; user confirmation | Worked with an npm monorepo, including dependency linking between packages. | Worked with an npm monorepo and linked dependencies between packages. |
 
 ## Maintenance Rules
 
