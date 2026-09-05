@@ -18,7 +18,7 @@ S = Situation (20%), T = Task (10%), A = Action (60%), R = Result (10%) -->
 ## Leading an AngularJS to Angular Migration in a Production Energy Dashboard
 **Situation:** At GreenAnt, the company's main electric energy dashboard was running on AngularJS — a legacy framework with decreasing community support that was limiting the team's ability to add new features and attract developers.
 **Task:** I was responsible for leading the migration to Angular while keeping the production system fully operational for enterprise clients throughout the process.
-**Action:** I designed and executed a gradual migration strategy using Webpack-based bundling that allowed AngularJS and Angular code to coexist in the same application. This meant we could migrate module by module without needing a big-bang rewrite, continuously shipping improvements while the legacy code was progressively replaced.
+**Action:** I designed and executed a gradual migration strategy using Webpack-based bundling that allowed AngularJS and Angular code to coexist in the same application. I inspected each imported AngularJS library, identified its legacy module and package-compatibility constraints, and adapted its integration for the modern build. This let us migrate module by module without a big-bang rewrite while continuously shipping improvements.
 **Result:** The migration was completed successfully with no service interruptions to enterprise clients. The new Angular codebase improved developer productivity, reduced technical debt, and positioned the team to deliver new features faster.
 
 ## Delivering a Prototype in Three Weeks for Market Validation

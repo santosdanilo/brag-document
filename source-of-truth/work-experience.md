@@ -53,6 +53,7 @@ Twenty20 Solutions was building a browser-based desktop environment product. The
 GreenAnt is an energy tech company providing electric energy data dashboards and mobile tools for invoice management.
 - Developed a front-end architecture of an electric energy data dashboard using **Angular**, creating reusable UI components and improving real-time data visualization. Used **RxJS** observables as a lightweight state management layer — enabling live data updates and reactive coordination across components without a dedicated state library.
 - Led the migration from **AngularJS** to **Angular**, integrating both environments and implementing **Webpack**-based bundling, which enabled the gradual upgrade of legacy code while maintaining stability.
+- Evaluated each imported **AngularJS** library during the migration, identifying legacy module and package-compatibility constraints and adapting its integration for the **Webpack** build so older dependencies could coexist with modern **Angular** code.
 - Developed a PDF generation microservice with **AWS Lambda** and implemented **CI/CD** pipelines using **GitLab CI**, streamlining the deployment process and accelerating release cycles.
 - Launched a mobile app using **Ionic** for invoice payment and data monitoring, significantly enhancing customer accessibility and providing a faster, more intuitive experience.
 
