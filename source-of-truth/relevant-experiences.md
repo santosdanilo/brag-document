@@ -18,7 +18,7 @@ At **Twenty20 Solutions**, there was a need to build a novel browser-based deskt
 ## Legacy System Upgrade with Zero Downtime (GreenAnt)
 At **GreenAnt**, the existing electric energy dashboard was running on AngularJS and needed to be upgraded without interrupting the service.
 - **Challenge:** Gradually migrate a production AngularJS application to Angular while keeping the system operational throughout the process.
-- **Action:** Led the migration strategy, integrated both AngularJS and Angular environments simultaneously using Webpack-based bundling, allowing legacy and modern code to coexist during the transition.
+- **Action:** Led the migration strategy, integrated both AngularJS and Angular environments simultaneously using Webpack-based bundling, and evaluated each imported AngularJS library's module and package-compatibility constraints so older dependencies could be adapted to the modern build.
 - **Result:** Completed a full migration from AngularJS to Angular, improving the codebase maintainability and enabling the team to ship new features faster.
 
 ## PDF Generation Microservice on AWS Lambda (GreenAnt)
