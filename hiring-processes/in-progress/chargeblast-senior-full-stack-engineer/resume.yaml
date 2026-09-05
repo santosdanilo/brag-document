@@ -1,0 +1,64 @@
+# Chargeblast Senior Full Stack Engineer - job-specific resume
+# Run:
+#   cd .agents/skills/generate-custom-resumes/resume-generator && npm install
+#   node src/index.js \
+#     --custom hiring-processes/in-progress/chargeblast-senior-full-stack-engineer/resume.yaml \
+#     --output hiring-processes/in-progress/chargeblast-senior-full-stack-engineer/resume.pdf
+
+title: Senior Full Stack Engineer | TypeScript, Angular & Node.js
+
+introduction: |
+  Full Stack Engineer with 7+ years building web applications, with recent end-to-end work across TypeScript, React, Node.js, Deno, PostgreSQL, and Angular.
+  Modernized a business-critical payment system from AngularJS and CoffeeScript to Angular and TypeScript without interrupting operations, and delivered a real-time trading prototype in under three weeks.
+  Reduced warm API latency by 95.7%, enabled atomic multi-step operations, and built data-rich interfaces that remain responsive across large datasets.
+
+experiences:
+  - id: gashub
+    keySkills: React, TypeScript, Node.js, Deno, Drizzle ORM, PostgreSQL, Testing Library, Playwright, TanStack Virtual
+    roles:
+      - id: gashub-fullstack
+        bullets:
+          - Delivered a real-time natural gas trading platform prototype in under **3 weeks** using **React** and **Supabase** for market validation.
+          - Reduced warm API latency by **95.7%** through request profiling, query parallelization, transaction consolidation, and **PostgreSQL** optimization.
+          - Enabled atomic multi-step operations by migrating data access to **Drizzle ORM** on **Deno** and introducing layered validation, business, and data-access boundaries.
+          - Built a data-rich trading interface with five independently filtered views, infinite scroll, and row virtualization using **TanStack Virtual** to handle potentially thousands of rows without performance degradation.
+          - Stabilized frontend delivery during API structure changes by introducing an adapter layer that isolated backend response transformations.
+          - Reduced initial React mount time by **97%** and per-block data-load commit time by **94%** through systematic profiler-led refactors.
+          - Established automated quality coverage with **Testing Library** unit tests and **Playwright** end-to-end tests.
+
+  - id: mytime
+    keySkills: Angular, TypeScript, AngularJS, NgRx, Jest, Testing Library
+    roles:
+      - id: mytime-frontend
+        bullets:
+          - Modernized a business-critical payment system from **AngularJS** and CoffeeScript to **Angular** and **TypeScript** without interrupting operations.
+          - Made multi-step checkout and payment flows predictable and testable by introducing **NgRx** feature stores, effects, and actions.
+          - Reduced regression risk in core payment workflows by establishing high test coverage using **Jest** and **Testing Library**.
+          - Improved customer workflow usability and accessibility by implementing **W3C** standards across key screens.
+
+  - id: twenty20
+    keySkills: Angular, TypeScript, Clean Architecture, SOLID, Jest, GitHub Actions
+    roles:
+      - id: twenty20-frontend
+        bullets:
+          - Architected a modular browser-based application from scratch using **Angular**, **SOLID**, and Clean Architecture principles.
+          - Established **Jest** tests, **GitHub Actions** CI/CD workflows, and linters as a foundation for consistent application development.
+
+  - id: greenAnt
+    keySkills: Angular, TypeScript, AngularJS, RxJS, Webpack, AWS Lambda, GitLab CI
+    roles:
+      - id: greenAnt-frontend
+        bullets:
+          - Completed a zero-downtime **AngularJS-to-Angular** migration using **Webpack** dual-environment bundling.
+          - Kept older dependencies compatible during gradual modernization by evaluating module and package constraints and adapting AngularJS library integrations for **Webpack**.
+          - Built an energy analytics dashboard in **Angular** using **RxJS** for live data updates across reusable components.
+          - Decoupled invoice PDF generation into an **AWS Lambda** microservice and automated deployments with **GitLab CI**.
+
+skills:
+  languages: TypeScript, JavaScript
+  frontend: Angular, React.js, Next.js, NgRx, RxJS, TanStack Virtual, Ionic, CapacitorJS, Angular Material, Tailwind CSS
+  backend: Node.js, NestJS, Deno, Drizzle ORM, Supabase, Zod, Java EE
+  databases: PostgreSQL, pgTAP
+  testing: Jest, Testing Library, Playwright, Jasmine
+  devops: AWS Lambda, Amazon S3, GitHub Actions, GitLab CI, Docker, Webpack
+  architecture: Layered Architecture, Clean Architecture, Unit of Work, API integration
