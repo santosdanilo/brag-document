@@ -3,10 +3,15 @@
 **Company:** Sigma Software
 **Position:** Senior Software Engineer
 **Start Date:** 2026-09-07
-**Status:** Resume prepared; awaiting review
+**Status:** Closed at user's request
+**End Date:** 2026-09-07
 **Last Update:** 2026-09-07
 
 ---
+
+## Outcome
+
+Process closed at the user's request. No hiring outcome was recorded.
 
 ## Process Summary
 
