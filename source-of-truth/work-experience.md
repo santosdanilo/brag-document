@@ -13,6 +13,7 @@ Early-stage startup building a natural gas trading platform with real-time match
 - Used **Pencil.dev** to accelerate frontend implementation and create a shared source of truth for Product and Engineering, documenting the design system and enabling both teams to collaborate directly on the same design artifacts.
 - Refactored the codebase for maintainability and quality, and implemented comprehensive unit tests with **Testing Library** plus end-to-end tests using **Playwright**.
 - Collaborated in refining requirements and validating business workflows to ensure product-market fit.
+- Worked with an **npm monorepo**, including dependency linking between packages, at **GasHub**.
 - Integrated frontend and backend APIs by analyzing backend contracts, proposing response structures, and introducing an adapter layer that isolated payload transformations, kept most frontend layers untouched during backend changes, and supported the migration of the API structure.
 - Conducted a full performance analysis of the Products API, reducing response latency from **3010ms** to **132ms (−95.7%)** by parallelizing independent queries, merging RLS transactions, and profiling with **EXPLAIN ANALYZE**. Documented index recommendations to further cut database query time from ~198ms to ~2-5ms.
 - Led architecture modernization by migrating from **Supabase JS client** to **Drizzle ORM** with **Deno**, enabling transaction support via the **Unit of Work** pattern. Introduced layered architecture with **Zod** validation at the API layer, business rules in use cases, and database queries isolated in repositories.
@@ -52,6 +53,7 @@ Twenty20 Solutions was building a browser-based desktop environment product. The
 GreenAnt is an energy tech company providing electric energy data dashboards and mobile tools for invoice management.
 - Developed a front-end architecture of an electric energy data dashboard using **Angular**, creating reusable UI components and improving real-time data visualization. Used **RxJS** observables as a lightweight state management layer — enabling live data updates and reactive coordination across components without a dedicated state library.
 - Led the migration from **AngularJS** to **Angular**, integrating both environments and implementing **Webpack**-based bundling, which enabled the gradual upgrade of legacy code while maintaining stability.
+- Evaluated each imported **AngularJS** library during the migration, identifying legacy module and package-compatibility constraints and adapting its integration for the **Webpack** build so older dependencies could coexist with modern **Angular** code.
 - Developed a PDF generation microservice with **AWS Lambda** and implemented **CI/CD** pipelines using **GitLab CI**, streamlining the deployment process and accelerating release cycles.
 - Launched a mobile app using **Ionic** for invoice payment and data monitoring, significantly enhancing customer accessibility and providing a faster, more intuitive experience.
 

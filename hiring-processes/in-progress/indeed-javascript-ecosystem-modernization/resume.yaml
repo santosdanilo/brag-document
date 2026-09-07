@@ -1,0 +1,62 @@
+# Indeed Software Engineer, JavaScript Ecosystem Modernization - job-specific resume
+# Run:
+#   node .agents/skills/generate-custom-resumes/resume-generator/src/index.js \
+#     --custom hiring-processes/in-progress/indeed-javascript-ecosystem-modernization/resume.yaml \
+#     --output hiring-processes/in-progress/indeed-javascript-ecosystem-modernization/resume.pdf
+
+title: Software Engineer | JavaScript Ecosystem Modernization
+
+introduction: |
+  Software Engineer with 7+ years of experience modernizing JavaScript applications with JavaScript, TypeScript, Angular, and React.
+  Migrated legacy AngularJS and CoffeeScript systems to modern Angular and TypeScript through incremental strategies that preserved production continuity.
+  Experience includes Webpack-based application upgrades, npm monorepo dependency linking, migration troubleshooting, automated testing, and cross-team technical coordination.
+
+experiences:
+  - id: gashub
+    keySkills: JavaScript, TypeScript, React, npm monorepo, Dependency linking, Node.js, Testing Library, Playwright
+    roles:
+      - id: gashub-fullstack
+        bullets:
+          - Delivered a real-time natural gas trading platform prototype in under **3 weeks** using **React** and AI-assisted development for market validation.
+          - Used an **npm monorepo** with linked dependencies between packages to support shared package development.
+          - Stabilized frontend development during API changes by introducing an adapter layer that isolated backend response transformations.
+          - Resolved a critical backend bottleneck by profiling requests and queries, reducing Products API warm latency by **95.7%**.
+          - Diagnosed React rendering bottlenecks through profiler-led refactors, reducing initial mount time by **97%** and per-block data-load commits by **94%**.
+          - Modernized backend data access by migrating from the Supabase JS client to **Drizzle ORM** on **Deno** and introducing layered service boundaries.
+          - Established automated coverage with **Testing Library** unit tests and **Playwright** end-to-end tests.
+          - Documented business rules and technical architecture and led onboarding to reduce knowledge silos across the team.
+
+  - id: mytime
+    keySkills: Angular, AngularJS, TypeScript, CoffeeScript, Jest, Testing Library, Incremental migration
+    roles:
+      - id: mytime-frontend
+        bullets:
+          - Modernized a business-critical payment system from **AngularJS** and CoffeeScript to **Angular** and **TypeScript** without interrupting operations.
+          - Reduced migration risk by integrating legacy and modern systems during the transition and validating migrated components with **Jest** and **Testing Library**.
+          - Improved maintainability and reliability across core payment workflows through incremental modernization and automated testing.
+
+  - id: twenty20
+    keySkills: Angular, TypeScript, Clean Architecture, SOLID, Jest, GitHub Actions
+    roles:
+      - id: twenty20-frontend
+        bullets:
+          - Architected a modular browser-based application from scratch using **Angular**, **SOLID**, and Clean Architecture principles.
+          - Established **Jest** tests, **GitHub Actions** CI/CD workflows, and linters as a foundation for consistent application development.
+
+  - id: greenAnt
+    keySkills: Angular, AngularJS, Webpack, TypeScript, GitLab CI, Incremental migration, Legacy library compatibility
+    roles:
+      - id: greenAnt-frontend
+        bullets:
+          - Completed a zero-downtime **AngularJS-to-Angular** migration using **Webpack** dual-environment bundling.
+          - Adapted legacy **AngularJS** library integrations for **Webpack** by evaluating module and package compatibility, enabling older dependencies to coexist with modern **Angular** code during the migration.
+          - Enabled module-by-module modernization by running legacy and modern Angular code together while keeping the production application operational.
+          - Automated deployments with **GitLab CI**, supporting repeatable delivery during the migration.
+
+skills:
+  languages: JavaScript, TypeScript
+  frontend: Angular, AngularJS, React.js, Next.js, RxJS, Ionic, CapacitorJS, Tailwind CSS
+  backend: Node.js, NestJS, Deno, Supabase, Drizzle ORM, Zod
+  testing: Jest, Testing Library, Playwright, Jasmine
+  devops: Webpack, GitHub Actions, GitLab CI, Docker, AWS Lambda
+  architecture: Incremental application migration, JavaScript ecosystem modernization, npm monorepo, dependency linking, Clean Architecture

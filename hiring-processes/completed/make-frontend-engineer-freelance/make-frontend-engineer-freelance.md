@@ -1,11 +1,12 @@
 # Make — Frontend Engineer (Freelance)
 
-- **Status:** Application materials prepared
+- **Status:** Closed at user's request
+- **End date:** 2026-09-05
 - **Role:** Frontend Engineer (Freelance)
 - **Company:** Make (letsmake.com)
 - **Expected project:** August 2026 – December 2026
 - **Location:** Remote, with 2–3 hours of daily overlap with Central Time
-- **Last update:** 2026-08-20
+- **Last update:** 2026-09-05
 - **Posting:** https://make.recruitee.com/o/frontend-engineer-freelance
 
 ## Process Summary
@@ -74,6 +75,10 @@ Use the GasHub natural gas trading platform. Explain the real-time business cont
 ## Interview Process
 
 Not provided.
+
+## Outcome
+
+Process closed at the user's request. No hiring outcome was recorded.
 
 ## Files
 

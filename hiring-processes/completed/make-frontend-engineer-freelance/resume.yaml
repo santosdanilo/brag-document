@@ -1,8 +1,8 @@
 # Make Frontend Engineer (Freelance) — hiring-process-specific resume
 # Run:
 #   node .agents/skills/generate-custom-resumes/resume-generator/src/index.js \
-#     --custom hiring-processes/in-progress/make-frontend-engineer-freelance/resume.yaml \
-#     --output hiring-processes/in-progress/make-frontend-engineer-freelance/resume.pdf
+#     --custom hiring-processes/completed/make-frontend-engineer-freelance/resume.yaml \
+#     --output hiring-processes/completed/make-frontend-engineer-freelance/resume.pdf
 
 title: Frontend Engineer | React & TypeScript
 
@@ -19,11 +19,12 @@ experiences:
         bullets:
           - Delivered a real-time natural gas trading prototype for matching sellers and buyers in under **3 weeks** using **React** and AI-assisted development, enabling market validation of core workflows.
           - Created a shared **Pencil.dev** design workflow for Product and Engineering, aligning trading-interface implementation with documented design-system artifacts.
+          - Reduced Products API warm latency by **95.7%** to approximately **132 ms** through request profiling, query parallelization, transaction consolidation, and **PostgreSQL** optimization.
           - Built a virtualized trading interface with five independently filtered views and infinite scroll using **TanStack Virtual** to support potentially thousands of rows.
-          - Reduced initial React mount time by **97%** and rendering work during data loads by **94%** through profiler-led refactors.
-          - Improved responsiveness in the trading workflow by reducing Products API latency **95.7%** through request profiling, query parallelization, and **PostgreSQL** optimization.
+          - Reduced initial React mount time by **97%** and per-block data-load commits by **94%** through profiler-led refactors.
           - Stabilized frontend development during API changes by introducing an adapter layer that isolated backend response transformations.
           - Established automated coverage with **Testing Library** unit tests and **Playwright** end-to-end tests.
+          - Reduced feature delivery time from one week to **three days** by reviewing and adapting AI-generated **Pencil.dev** artifacts to existing codebase patterns.
 
   - id: mytime
     keySkills: Angular, TypeScript, AngularJS, Jest, Testing Library, Accessibility
