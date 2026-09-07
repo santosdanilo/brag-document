@@ -11,7 +11,7 @@ title: Full Stack TypeScript Engineer
 
 introduction: |
   Full Stack TypeScript Engineer with 6+ years of experience delivering end-to-end features across React/Next.js frontends and Node.js backends.
-  Shipped a real-time trading platform prototype in under 3 weeks, cut API latency by 95.7%, and reduced React mount time by 97% through profiling and architectural refactors.
+  Shipped a real-time natural gas trading platform prototype for matching sellers and buyers in under 3 weeks, cut API latency by 95.7%, and reduced React mount time by 97% through profiling and architectural refactors.
   Thrive in product-focused, fast-moving teams where engineers own features from database to UI.
 
 experiences:
@@ -20,19 +20,19 @@ experiences:
     roles:
       - id: gashub-fullstack
         bullets:
-          - Reduced time-to-market by delivering a fully functional real-time trading platform in under **3 weeks**, enabling the company to validate product-market fit before committing to full-scale development.
-          - Took complete ownership of the product — from backend architecture (**Node.js**, **Drizzle ORM**) to **React** frontend — reducing dependency on multiple specialists and enabling faster iteration cycles.
-          - Resolved a critical API bottleneck that was threatening the platform's real-time viability, cutting response times by **95%** and keeping the product competitive for live trading.
-          - Fixed a UX-breaking rendering issue that made the trading interface unusable under live market data, achieving **97% faster** initial loads and directly unblocking product adoption.
-          - Architected the core trading interface to remain performant as data volume grew, ensuring the product could scale beyond the initial pilot without a costly rebuild.
-          - Enabled the team to ship changes confidently by building automated test coverage from scratch with **Testing Library** unit tests and **Playwright** E2E tests.
+          - Delivered a real-time natural gas trading platform prototype for matching sellers and buyers in under **3 weeks**, enabling market validation before full-scale development.
+          - Integrated the **React** frontend with **Node.js** and database services, taking features from trading workflows through backend architecture.
+          - Improved responsiveness in the live trading workflow by reducing API latency **95.7%** through query and architecture improvements.
+          - Reduced initial React mount time by **97%** through systematic profiling and targeted rendering optimizations.
+          - Built the trading interface with five independently filtered views, infinite scroll, and **TanStack Virtual** for growing datasets.
+          - Established automated coverage from scratch with **Testing Library** unit tests and **Playwright** end-to-end tests.
 
   - id: mytime
     keySkills: Angular, TypeScript, AngularJS, Node.js, Jest, Testing Library
     roles:
       - id: mytime-frontend
         bullets:
-          - Migrated a legacy **AngularJS**/CoffeeScript payment system to **Angular**/TypeScript — rebuilding core POS modules to improve UX and scalability, enabling a successful platform re-launch.
+          - Migrated a legacy payment system in a global scheduling and POS platform from **AngularJS**/CoffeeScript to **Angular**/TypeScript, enabling a successful platform re-launch.
           - Achieved high test coverage via **Jest** and **Testing Library**, catching regressions before they reached production on core checkout flows.
           - Implemented **W3C accessibility** compliance across key user-facing screens.
 
@@ -40,16 +40,16 @@ experiences:
     roles:
       - id: twenty20-frontend
         bullets:
-          - Architected a browser-based desktop environment from scratch using **SOLID** principles and Clean Architecture in **TypeScript**, delivering a fully modular and maintainable codebase.
+          - Architected a browser-based desktop environment with modular mini-applications using **SOLID** principles and Clean Architecture in **TypeScript**.
           - Introduced **Jest** testing and **GitHub Actions** CI/CD pipeline as the first quality infrastructure in the project.
 
   - id: greenAnt
     roles:
       - id: greenAnt-frontend
         bullets:
-          - Executed a zero-downtime **AngularJS → Angular** migration using **Webpack** dual-environment bundling, keeping production stable throughout the transition.
-          - Built a serverless PDF generation microservice on **AWS Lambda** (Node.js) integrated into the core invoicing flow.
-          - Shipped a mobile app for invoice payment using **Ionic** and **CapacitorJS**, targeting Android and iOS.
+          - Executed a zero-downtime **AngularJS to Angular** migration for an electric-energy dashboard using **Webpack** dual-environment bundling.
+          - Built a serverless PDF generation microservice for invoice workflows on **AWS Lambda** (Node.js).
+          - Shipped a mobile app for invoice payment and energy-data monitoring using **Ionic** and **CapacitorJS** on Android and iOS.
 
 skills:
   languages: TypeScript, JavaScript
