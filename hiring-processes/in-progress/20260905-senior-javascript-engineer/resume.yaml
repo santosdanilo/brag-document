@@ -1,0 +1,70 @@
+# 20260905 Senior JavaScript Engineer - job-specific resume
+# Run from the repository root:
+#   npm --prefix .agents/skills/generate-custom-resumes/resume-generator install
+#   node .agents/skills/generate-custom-resumes/resume-generator/src/index.js \
+#     --custom hiring-processes/in-progress/20260905-senior-javascript-engineer/resume.yaml \
+#     --output hiring-processes/in-progress/20260905-senior-javascript-engineer/resume.pdf
+
+title: Senior JavaScript Engineer | React, TypeScript & Frontend Architecture
+
+introduction: |
+  Senior Frontend Software Engineer with 7+ years of experience building web and mobile applications with JavaScript, TypeScript, React, Angular, and Next.js.
+  Delivered a real-time trading platform prototype in under three weeks and reduced initial React mount time by 97% through systematic profiling, component-level optimization, and virtualized interfaces.
+  Experience includes UI architecture, design-system collaboration, accessibility standards, state management, automated testing, CI/CD, legacy modernization, and Ionic mobile applications.
+
+experiences:
+  - id: gashub
+    keySkills: React, TypeScript, JavaScript, Hooks, Vite, Tailwind CSS, Testing Library, Playwright, TanStack Virtual, Pencil.dev
+    roles:
+      - id: gashub-fullstack
+        bullets:
+          - Delivered a real-time natural gas trading platform prototype in under **3 weeks** using **React** and **Supabase** for market validation.
+          - Accelerated Product and Engineering alignment by creating a shared workflow for **Pencil.dev** design-system artifacts and frontend implementation.
+          - Reduced initial React mount time by **97%** and data-load render time by **94%** through **React Profiler** analysis, memoization, Hooks-based refactors, and CSS-only interaction states.
+          - Built a data-rich trading interface with five independently filtered views, infinite scroll, and row virtualization using **TanStack Virtual**.
+          - Reduced Products API warm latency by **95.7%** through request profiling, query parallelization, transaction consolidation, and **PostgreSQL** optimization.
+          - Established automated quality coverage with **Testing Library** unit tests and **Playwright** end-to-end tests.
+
+  - id: mytime
+    keySkills: Angular, TypeScript, AngularJS, NgRx, Jest, Testing Library, W3C Accessibility
+    roles:
+      - id: mytime-frontend
+        bullets:
+          - Modernized a business-critical payment system from **AngularJS** and CoffeeScript to **Angular** and **TypeScript** without disrupting operations.
+          - Coordinated multi-step checkout and payment flows with **NgRx** feature stores, actions, and effects, creating predictable state boundaries across POS modules.
+          - Reduced regression risk in core checkout flows by establishing high test coverage with **Jest** and **Testing Library**.
+          - Improved usability for visually impaired users by implementing **W3C accessibility** standards across customer workflows.
+
+  - id: twenty20
+    keySkills: Angular, TypeScript, Clean Architecture, SOLID, Jest, GitHub Actions
+    roles:
+      - id: twenty20-frontend
+        bullets:
+          - Architected a modular browser-based desktop environment from scratch with **Angular**, **SOLID**, and Clean Architecture principles.
+          - Established automated verification with **Jest**, **GitHub Actions** CI/CD quality gates, linters, and shared code-quality standards.
+
+  - id: greenAnt
+    keySkills: Angular, AngularJS, Ionic, CapacitorJS, Webpack, AWS Lambda, GitLab CI, TypeScript
+    roles:
+      - id: greenAnt-frontend
+        bullets:
+          - Completed a zero-downtime **AngularJS-to-Angular** migration using **Webpack** dual-environment bundling, allowing legacy and modern code to coexist during incremental delivery.
+          - Built reusable UI components and reactive data visualization for an electric energy dashboard using **Angular** and **RxJS**.
+          - Launched a hybrid mobile invoice-payment and data-monitoring application using **Ionic** and **CapacitorJS** for Android and iOS.
+          - Automated deployments with **GitLab CI** while decoupling PDF generation into an **AWS Lambda** microservice.
+
+  - id: unb
+    keySkills: Angular, Angular Material, Next.js, Docker, Mobile-first UX
+    roles:
+      - id: unb-dev
+        bullets:
+          - Developed a mobile-first government data dashboard using **Angular** and **Next.js**, improving public access to complex information through focused UX design.
+
+skills:
+  languages: TypeScript, JavaScript, CSS
+  frontend: React.js, Next.js, Angular, AngularJS, Ionic, CapacitorJS, NgRx, Tailwind CSS, TanStack Virtual
+  backend: Node.js, NestJS, Deno, Supabase, Drizzle ORM, Zod
+  databases: PostgreSQL, pgTAP
+  testing: Jest, Testing Library, Playwright, Jasmine, React Profiler
+  devops: Git, Vite, Webpack, GitHub Actions, GitLab CI, CI/CD, Docker, AWS Lambda
+  architecture: UI architecture, design-system workflows, reusable components, Clean Architecture, SOLID, state management, W3C accessibility standards

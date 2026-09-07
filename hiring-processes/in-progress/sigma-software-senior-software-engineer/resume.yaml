@@ -1,0 +1,64 @@
+# Sigma Software Senior Software Engineer - job-specific resume
+# Run:
+#   cd .agents/skills/generate-custom-resumes/resume-generator && npm install
+#   node src/index.js \
+#     --custom hiring-processes/in-progress/sigma-software-senior-software-engineer/resume.yaml \
+#     --output hiring-processes/in-progress/sigma-software-senior-software-engineer/resume.pdf
+
+title: Senior Software Engineer | TypeScript Backend, PostgreSQL & AWS
+
+introduction: |
+  Senior Software Engineer with 7+ years of experience building web applications, with recent backend work across TypeScript, Node.js, Deno, Drizzle ORM, and PostgreSQL.
+  Established layered backend architecture with transaction support, reduced API latency by 95.7%, and delivered a real-time trading platform prototype in under three weeks.
+  Experience includes complex business workflows, financial-adjacent systems, automated testing, AWS Lambda, CI/CD, monorepos, and end-to-end technical ownership.
+
+experiences:
+  - id: gashub
+    keySkills: TypeScript, Node.js, Deno, Drizzle ORM, PostgreSQL, Zod, npm monorepo, Testing Library, Playwright
+    roles:
+      - id: gashub-fullstack
+        bullets:
+          - Enabled atomic multi-step business operations by migrating data access to **Drizzle ORM** on **Deno** and introducing layered validation, use-case, repository, and Unit of Work boundaries.
+          - Cut Products API warm latency by **95.7%** through request profiling, parallelizing independent queries, consolidating transactions, and **PostgreSQL** query-plan analysis.
+          - Reduced the risk of vendor lock-in by decoupling business rules from **Supabase**-specific abstractions, creating a more portable backend foundation.
+          - Delivered a real-time natural gas trading platform prototype in under **3 weeks** using **React** and AI-assisted development for market validation.
+          - Stabilized API evolution by analyzing backend contracts and introducing an adapter layer that isolated response transformations from frontend application layers.
+          - Supported shared package development with an **npm monorepo** and linked dependencies between packages.
+          - Established automated quality coverage with **Testing Library** unit tests and **Playwright** end-to-end tests.
+          - Documented complex business rules and backend architecture and onboarded engineers to reduce knowledge silos across the team.
+
+  - id: mytime
+    keySkills: Angular, TypeScript, AngularJS, CoffeeScript, NgRx, Jest, Testing Library, Payment Workflows
+    roles:
+      - id: mytime-frontend
+        bullets:
+          - Modernized a business-critical payment system from **AngularJS** and CoffeeScript to **Angular** and **TypeScript** without interrupting operations.
+          - Made multi-step checkout and payment flows predictable and testable by introducing **NgRx** feature stores, effects, and actions.
+          - Reduced regression risk in core payment workflows by establishing high test coverage with **Jest** and **Testing Library**.
+          - Improved usability across customer workflows by implementing **W3C accessibility** standards.
+
+  - id: twenty20
+    keySkills: Angular, TypeScript, Clean Architecture, SOLID, Jest, GitHub Actions, CI/CD
+    roles:
+      - id: twenty20-frontend
+        bullets:
+          - Architected a modular browser-based application from scratch using **Angular**, **SOLID**, and Clean Architecture principles.
+          - Established **Jest** tests, **GitHub Actions** CI/CD workflows, and linters as a foundation for consistent application development.
+
+  - id: greenAnt
+    keySkills: Angular, TypeScript, AWS Lambda, GitLab CI, CI/CD, Webpack, Invoice Workflows
+    roles:
+      - id: greenAnt-frontend
+        bullets:
+          - Decoupled invoice PDF generation into an **AWS Lambda** microservice and automated deployments with **GitLab CI**.
+          - Completed a zero-downtime **AngularJS-to-Angular** migration using **Webpack** dual-environment bundling.
+          - Launched a mobile application for invoice payment using **Ionic** and **CapacitorJS** across Android and iOS.
+
+skills:
+  languages: TypeScript, JavaScript
+  frontend: React.js, Next.js, Angular, Ionic, CapacitorJS, NgRx, Tailwind CSS, TanStack Virtual
+  backend: Node.js, NestJS, Deno, Supabase, Drizzle ORM, Zod
+  databases: PostgreSQL, pgTAP
+  testing: Jest, Testing Library, Playwright, Jasmine
+  devops: AWS Lambda, Amazon S3, GitHub Actions, GitLab CI, Docker, Webpack
+  architecture: Layered Architecture, Clean Architecture, Unit of Work, API Integration, Scalability
