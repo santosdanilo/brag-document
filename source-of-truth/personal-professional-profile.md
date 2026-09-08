@@ -37,6 +37,9 @@ I consistently deliver scalable, high-quality code and have implemented CI/CD pi
 - **Participant – Mini Company Program** — Issued Jul 2012, Expires Dec 2012
 - **AWS Educate Introduction to Cloud 101** — Amazon Web Services (AWS)
 - **LFW111: Introduction to Node.js** — The Linux Foundation
+- **Fundamentos Gen AI** — Dev Eficiente, module certificate from Especialização em Engenharia de IA
+- **Fundamentos RAG** — Dev Eficiente, module certificate from Especialização em Engenharia de IA
+- **Fundamentos System Retrieval** — Dev Eficiente, module certificate from Especialização em Engenharia de IA
 
 ## Interests
 
