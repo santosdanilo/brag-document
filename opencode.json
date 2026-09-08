@@ -1,0 +1,15 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "linkedin": {
+      "type": "local",
+      "command": ["uvx", "mcp-server-linkedin@4.24.0"],
+      "enabled": true,
+      "environment": {
+        "UV_HTTP_TIMEOUT": "300",
+        "PATH": "{env:PATH}:{env:HOME}/.local/bin"
+      },
+      "timeout": 120000
+    }
+  }
+}
