@@ -4,20 +4,23 @@
 **Contracting company:** Aspire IT Services, an Astek Group company
 **Position:** Software Engineer, JavaScript Ecosystem Modernization
 **Start Date:** 2026-09-05
-**Status:** Resume prepared; awaiting recruiter response
-**Last Update:** 2026-09-05
+**Status:** Interview completed; awaiting next steps
+**Last Update:** 2026-09-10
 
 ---
 
 ## Process Summary
 
-- **Recruiter:** Ehab, Executive Director at Aspire IT Services
+- **Recruiter:** Ehab Altaher, Executive Director at Aspire IT Services
+- **LinkedIn conversation:** Retrieved and reviewed on 2026-09-10
 - **Source:** Direct recruiter message
 - **Engagement:** Long-term contractor opportunity supporting Indeed
 - **Location:** Fully remote, LATAM
 - **Schedule:** Flexible hours with U.S. Central Time overlap
 
 The recruiter contacted Danilo because of his documented experience migrating a legacy AngularJS and CoffeeScript payment system to Angular and TypeScript and performing a gradual AngularJS-to-Angular migration with Webpack-based bundling.
+
+The resume was sent and acknowledged by Ehab. Danilo disclosed that he has not used pnpm directly, while explaining that his npm monorepo and dependency-linking experience is transferable. The requested assessment/interview was completed. Ehab confirmed that the resume and completed interview are on file and will return with next steps.
 
 ---
 
@@ -109,7 +112,11 @@ The available description is preliminary. The initiative focuses on modernizing 
 
 ## Interview Process
 
-Not provided.
+- **Recruiter outreach:** Completed
+- **Resume:** Sent and received by Ehab
+- **pnpm screening question:** Answered; no direct pnpm experience claimed
+- **Assessment/interview:** Completed
+- **Final recruiter update:** Resume and completed interview are on file; awaiting next steps
 
 ---
 
@@ -117,4 +124,3 @@ Not provided.
 
 - `resume.yaml` - tailored resume source
 - `resume.pdf` - generated tailored resume
-- `recruiter-response.md` - draft response to Ehab
