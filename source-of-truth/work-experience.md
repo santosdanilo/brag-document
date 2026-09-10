@@ -7,8 +7,8 @@ Use the format below for each position. Include metrics and impact where possibl
 **Role:** Full Stack Engineer
 **Stack:** React, Supabase, Deno, Drizzle ORM, Zod, NestJS, PostgreSQL, pgTAP, Node.js, Testing Library, Playwright, Tailwind CSS, TypeScript, Pencil.dev
 
-Early-stage startup building a natural gas trading platform with real-time matching between sellers and buyers.
-- Developed a natural gas trading application with real-time matching between sellers and buyers, including instant notifications, leveraging **Supabase** as the backend.
+Early-stage startup building a natural gas sales platform connecting sellers and buyers in real time.
+- Developed a natural gas sales application connecting sellers and buyers in real time, including instant notifications, leveraging **Supabase** as the backend.
 - Delivered a functional prototype for market validation in under **three weeks** using **React** and AI agents.
 - Used **Pencil.dev** to accelerate frontend implementation and create a shared source of truth for Product and Engineering, documenting the design system and enabling both teams to collaborate directly on the same design artifacts.
 - Refactored the codebase for maintainability and quality, and implemented comprehensive unit tests with **Testing Library** plus end-to-end tests using **Playwright**.
@@ -18,7 +18,7 @@ Early-stage startup building a natural gas trading platform with real-time match
 - Conducted a full performance analysis of the Products API, reducing response latency from **3010ms** to **132ms (−95.7%)** by parallelizing independent queries, merging RLS transactions, and profiling with **EXPLAIN ANALYZE**. Documented index recommendations to further cut database query time from ~198ms to ~2-5ms.
 - Led architecture modernization by migrating from **Supabase JS client** to **Drizzle ORM** with **Deno**, enabling transaction support via the **Unit of Work** pattern. Introduced layered architecture with **Zod** validation at the API layer, business rules in use cases, and database queries isolated in repositories.
 - Built the ProductsAvailablePage with **5 independently-filtered blocks**, each supporting infinite scroll, using **TanStack Virtual** for row virtualization to handle potentially thousands of rows across blocks without performance degradation.
-- Conducted **three rounds of React 18 profiler analysis** on the trading page, diagnosing render bottlenecks through flame graphs and fiber-level metrics. Applied **React.memo**, **useCallback**, and CSS-only hover state (replacing `useState`) to eliminate cascade re-renders; reduced initial mount from **59.1ms to 1.8ms (−97%)** and per-block data-load commits from **13–31ms to under 2ms (−94%)**.
+- Conducted **three rounds of React 18 profiler analysis** on the sales page, diagnosing render bottlenecks through flame graphs and fiber-level metrics. Applied **React.memo**, **useCallback**, and CSS-only hover state (replacing `useState`) to eliminate cascade re-renders; reduced initial mount from **59.1ms to 1.8ms (−97%)** and per-block data-load commits from **13–31ms to under 2ms (−94%)**.
 - Evaluated prototype ideas raised by the team and stakeholders, assessing technical feasibility and providing concrete recommendations on viability — helping the team avoid dead ends early and prioritize high-confidence approaches.
 - Contributed to refactoring and validating the codebase using better design patterns — decoupling business logic from **Supabase**-specific abstractions to enable a future direct migration to a cloud provider, reducing vendor lock-in and improving long-term portability.
 - Led onboarding and training for new team members, documenting business rules and highlighting critical areas of the platform to accelerate ramp-up and reduce knowledge silos.

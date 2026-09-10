@@ -17,7 +17,7 @@ experiences:
     roles:
       - id: gashub-fullstack
         bullets:
-          - Delivered a real-time natural gas trading platform prototype in under **3 weeks** using **React** and AI-assisted development for market validation.
+          - Delivered a real-time natural gas sales platform prototype in under **3 weeks** using **React** and AI-assisted development for market validation.
           - Used an **npm monorepo** with linked dependencies between packages to support shared package development.
           - Stabilized frontend development during API changes by introducing an adapter layer that isolated backend response transformations.
           - Resolved a critical backend bottleneck by profiling requests and queries, reducing Products API warm latency by **95.7%**.

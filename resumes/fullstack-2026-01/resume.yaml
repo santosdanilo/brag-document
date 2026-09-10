@@ -11,7 +11,7 @@ title: Full Stack TypeScript Engineer
 
 introduction: |
   Full Stack TypeScript Engineer with 6+ years of experience delivering end-to-end features across React/Next.js frontends and Node.js backends.
-  Shipped a real-time natural gas trading platform prototype for matching sellers and buyers in under 3 weeks, cut API latency by 95.7%, and reduced React mount time by 97% through profiling and architectural refactors.
+  Shipped a real-time natural gas sales platform prototype connecting sellers and buyers in under 3 weeks, cut API latency by 95.7%, and reduced React mount time by 97% through profiling and architectural refactors.
   Thrive in product-focused, fast-moving teams where engineers own features from database to UI.
 
 experiences:
@@ -20,11 +20,11 @@ experiences:
     roles:
       - id: gashub-fullstack
         bullets:
-          - Delivered a real-time natural gas trading platform prototype for matching sellers and buyers in under **3 weeks**, enabling market validation before full-scale development.
-          - Integrated the **React** frontend with **Node.js** and database services, taking features from trading workflows through backend architecture.
+          - Delivered a real-time natural gas sales platform prototype connecting sellers and buyers in under **3 weeks**, enabling market validation before full-scale development.
+          - Integrated the **React** frontend with **Node.js** and database services, taking features from sales workflows through backend architecture.
           - Improved responsiveness in the live trading workflow by reducing API latency **95.7%** through query and architecture improvements.
           - Reduced initial React mount time by **97%** through systematic profiling and targeted rendering optimizations.
-          - Built the trading interface with five independently filtered views, infinite scroll, and **TanStack Virtual** for growing datasets.
+          - Built the sales interface with five independently filtered views, infinite scroll, and **TanStack Virtual** for growing datasets.
           - Established automated coverage from scratch with **Testing Library** unit tests and **Playwright** end-to-end tests.
 
   - id: mytime
