@@ -34,8 +34,8 @@ At **GreenAnt**, customers lacked a fast and intuitive way to pay invoices and m
 - **Result:** Significantly enhanced customer accessibility and provided a faster, more intuitive experience for end users.
 
 ## Rapid Prototype Delivery for Market Validation (GasHub)
-At **GasHub**, the business needed to validate a natural gas trading platform concept quickly to secure stakeholder confidence.
-- **Challenge:** Deliver a working prototype of a complex real-time trading application within a very tight timeline.
+At **GasHub**, the business needed to validate a natural gas sales platform concept quickly to secure stakeholder confidence.
+- **Challenge:** Deliver a working prototype of a complex real-time sales application within a very tight timeline.
 - **Action:** Used React and AI agents to accelerate development, focused on core business workflows, and delivered a functional prototype in under three weeks.
 - **Result:** The prototype was completed in under **three weeks** and enabled the team to validate the business model with real users and stakeholders.
 
@@ -46,21 +46,21 @@ At **GasHub**, Product and Engineering needed a consistent way to align on inter
 - **Result:** Accelerated frontend delivery, improved cross-functional alignment, and created unified documentation for how the product should be designed and built.
 
 ## Products API Performance Optimization (GasHub)
-At **GasHub**, the Products listing endpoint was responding in ~3010ms (cold), impacting user experience on the trading platform.
+At **GasHub**, the Products listing endpoint was responding in ~3010ms (cold), impacting user experience on the sales platform.
 - **Challenge:** Diagnose and fix the performance bottleneck in the `/products` endpoint without breaking existing functionality.
 - **Action:** Profiled the full request waterfall, ran `EXPLAIN ANALYZE` on all queries, identified that sequential `drizzle.rls()` transactions and independent steps running in series were the root cause. Implemented `Promise.all` parallelization and merged RLS transactions into a single call. Designed a composite index to eliminate a 900-row sequential scan.
 - **Result:** Reduced cold latency by **45%** (3010ms → 1645ms) and warm latency by **95.7%** (to ~132ms avg across 100 requests). Proposed index would further cut Q2a from ~198ms to ~2-5ms.
 
 ## Virtualized Trading Page with 5 Filtered Blocks and Infinite Scroll (GasHub)
-At **GasHub**, the trading platform needed a product listing page with five independently-filtered blocks — each loading its own dataset, paginating on scroll, and potentially accumulating thousands of rows across blocks.
+At **GasHub**, the sales platform needed a product listing page with five independently-filtered blocks — each loading its own dataset, paginating on scroll, and potentially accumulating thousands of rows across blocks.
 - **Challenge:** Build a page that remained performant as data grew, without introducing virtualization as a painful retrofit later, while also keeping render costs low on a React 18 codebase running Vite + SWC (no React Compiler available).
 - **Action:** Evaluated virtualization libraries and chose **TanStack Virtual** for its flexibility with dynamic item sizes and its low integration overhead with existing components. Implemented infinite scroll per block using intersection observers tied to the virtual list sentinel. After shipping, ran three rounds of **React Profiler** analysis (flame graphs + fiber-level metrics), progressively resolving: unstable prop references bypassing `memo`, missing `React.memo` wrappers on 5 components, an inline `noopFetchNextPage` causing spurious `useEffect` re-runs, and `useState`-driven hover state triggering 28+ consecutive 7.5ms commits. Replaced the hover state entirely with **CSS `group-hover`**, eliminating all JavaScript hover overhead.
 - **Result:** Initial mount dropped from **59.1ms to 1.8ms (−97%)**. Per-block data-load commits dropped from **13–31ms to 1.1–1.8ms (−94%)**. The `ProductTypeFilterBar` went from **3.9ms to 0ms** per render (−100%), and all 28+ hover commits at 7.5ms each were eliminated entirely.
 
 ## Team Onboarding and Knowledge Transfer (GasHub)
-At **GasHub**, as the team grew, new engineers needed to get up to speed quickly on a non-trivial trading platform with complex business rules and critical technical areas.
+At **GasHub**, as the team grew, new engineers needed to get up to speed quickly on a non-trivial sales platform with complex business rules and critical technical areas.
 - **Challenge:** Onboard new team members to the product and codebase efficiently, without disrupting ongoing delivery, and avoid creating long-term dependency on a single person for knowledge.
-- **Action:** Led structured onboarding sessions, documented business rules, and outlined the critical areas of the platform — including the trading matching engine, RLS policies, and layered backend architecture. Provided guided walkthroughs of the codebase and highlighted where edge cases and domain complexity were concentrated.
+- **Action:** Led structured onboarding sessions, documented business rules, and outlined the critical areas of the platform — including the sales matching engine, RLS policies, and layered backend architecture. Provided guided walkthroughs of the codebase and highlighted where edge cases and domain complexity were concentrated.
 - **Result:** Accelerated new team members' time-to-productivity and reduced knowledge silos, enabling the team to operate more independently and share ownership of complex areas.
 
 ## AI-Assisted Frontend Delivery with Pencil.dev (GasHub)

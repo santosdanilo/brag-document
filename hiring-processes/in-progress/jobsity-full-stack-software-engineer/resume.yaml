@@ -1,0 +1,60 @@
+# Jobsity Full Stack Software Engineer - job-specific resume
+# Run from the project root:
+#   node .agents/skills/generate-custom-resumes/resume-generator/src/index.js \
+#     --custom hiring-processes/in-progress/jobsity-full-stack-software-engineer/resume.yaml \
+#     --output hiring-processes/in-progress/jobsity-full-stack-software-engineer/resume.pdf
+
+title: Full Stack Software Engineer | Angular and TypeScript
+
+introduction: |
+  Software Engineer with 7+ years of experience building web applications with Angular, TypeScript, React, and Node.js.
+  Current Full Stack Engineer delivering a natural gas sales platform with API integration, PostgreSQL performance optimization, layered backend architecture, and automated testing.
+  Led production AngularJS-to-Angular migrations without interrupting operations and decoupled invoice PDF generation into an AWS Lambda microservice.
+
+experiences:
+  - id: gashub
+    keySkills: React, TypeScript, Node.js, NestJS, Drizzle ORM, Deno, PostgreSQL, REST APIs, Playwright
+    roles:
+      - id: gashub-fullstack
+        bullets:
+          - Delivered a natural gas sales platform prototype in under **3 weeks** using **React** and AI-assisted development, enabling validation of core seller-buyer connection and notification workflows.
+          - Integrated frontend and backend APIs during an API structure migration by introducing an adapter layer that isolated response transformations from most frontend layers.
+          - Resolved a critical Products API bottleneck by profiling request execution and PostgreSQL queries, reducing warm latency by **95.7%** through query parallelization and transaction consolidation.
+          - Enabled atomic multi-step sales operations by migrating data access to **Drizzle ORM** on **Deno** and introducing validation, use-case, repository, and Unit of Work boundaries.
+          - Designed a virtualized sales interface with five independently filtered views and infinite scroll using **TanStack Virtual** to support potentially thousands of rows without performance degradation.
+          - Established automated quality coverage with **Testing Library** unit tests and **Playwright** end-to-end tests.
+
+  - id: mytime
+    keySkills: Angular, TypeScript, AngularJS, CoffeeScript, NgRx, Jest, Testing Library, Incremental migration
+    roles:
+      - id: mytime-frontend
+        bullets:
+          - Modernized a business-critical payment system from **AngularJS** and CoffeeScript to **Angular** and **TypeScript** without interrupting operations.
+          - Reduced migration risk by integrating legacy and modern systems during the transition and validating migrated components with **Jest** and **Testing Library**.
+          - Coordinated multi-step checkout and payment flows with **NgRx**, isolating state by POS module for predictable testing and maintenance.
+
+  - id: twenty20
+    keySkills: Angular, TypeScript, Clean Architecture, SOLID, Jest, GitHub Actions
+    roles:
+      - id: twenty20-frontend
+        bullets:
+          - Architected a modular browser-based application with independently developed mini-applications using **Angular**, **SOLID**, and Clean Architecture principles.
+          - Established **Jest** tests, **GitHub Actions** CI/CD workflows, and linters as a foundation for consistent application development.
+
+  - id: greenAnt
+    keySkills: Angular, AngularJS, Webpack, TypeScript, AWS Lambda, GitLab CI, Microservices
+    roles:
+      - id: greenAnt-frontend
+        bullets:
+          - Completed a zero-downtime **AngularJS-to-Angular** migration using **Webpack** dual-environment bundling, enabling module-by-module modernization in a production energy dashboard.
+          - Decoupled invoice PDF generation into an independently deployable **AWS Lambda** microservice and automated deployments with **GitLab CI**.
+          - Built Angular energy-data dashboards and launched an **Ionic** mobile application for invoice payment and data monitoring.
+
+skills:
+  languages: TypeScript, JavaScript
+  frontend: Angular, AngularJS, React.js, Next.js, RxJS, Ionic, CapacitorJS, NgRx, Tailwind CSS, Angular Material, TanStack Virtual
+  backend: Node.js, NestJS, Deno, Supabase, Drizzle ORM, Zod, Java EE
+  databases: PostgreSQL, pgTAP
+  testing: Jest, Testing Library, Playwright, Jasmine
+  devops: GitHub Actions, GitLab CI, AWS Lambda, Amazon S3, Docker
+  architecture: REST API integration, Microservices, Layered architecture, Unit of Work, Incremental application migration
