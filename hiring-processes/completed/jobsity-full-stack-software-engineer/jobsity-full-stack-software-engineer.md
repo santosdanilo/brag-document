@@ -3,8 +3,15 @@
 **Company:** Jobsity
 **Position:** Full Stack Software Engineer
 **Start Date:** 2026-09-10
-**Status:** Recruiter outreach drafted; awaiting confirmation
-**Last Update:** 2026-09-10
+**Status:** Closed at user's request
+**End Date:** 2026-09-25
+**Last Update:** 2026-09-25
+
+---
+
+## Outcome
+
+Process closed at the user's request before a hiring outcome was recorded. The recruiter outreach and follow-up remained drafts and were not sent.
 
 ---
 
@@ -131,12 +138,13 @@ The strongest match is the combination of deep Angular modernization experience 
 
 ## Interview Process
 
-_(to be filled as the process progresses)_
+No interview process was started. Recruiter outreach remained a draft and was not sent.
 
 ## Application Materials
 
 - `job-description.md` - captured LinkedIn opportunity
 - `job-to-evidence-matrix.md` - requirement and evidence mapping
 - `recruiter-response.md` - draft LinkedIn outreach message
+- `angela-follow-up-response.md` - draft response to recruiter follow-up questions
 - `resume.yaml` - tailored resume source
 - `resume.pdf` - generated tailored resume
