@@ -4,8 +4,15 @@
 **Contracting company:** Aspire IT Services, an Astek Group company
 **Position:** Software Engineer, JavaScript Ecosystem Modernization
 **Start Date:** 2026-09-05
-**Status:** Interview completed; awaiting next steps
-**Last Update:** 2026-09-10
+**Status:** Closed at user's request
+**End Date:** 2026-09-25
+**Last Update:** 2026-09-25
+
+---
+
+## Outcome
+
+Process closed at the user's request. No hiring outcome was recorded.
 
 ---
 

@@ -5,8 +5,13 @@
 - **Company:** Jobsity
 - **Position:** Full Stack Software Engineer
 - **Source job description:** [LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7503823101114089472/), supplied through https://lnkd.in/p/dejWW6NZ
-- **Last reviewed:** 2026-09-10
-- **Status:** Ready for resume
+- **Last reviewed:** 2026-09-25
+- **Status:** Closed at user's request
+- **End date:** 2026-09-25
+
+## Outcome
+
+Process closed at the user's request before a hiring outcome was recorded. The recruiter outreach and follow-up remained drafts and were not sent.
 
 ## Requirement Mapping
 
