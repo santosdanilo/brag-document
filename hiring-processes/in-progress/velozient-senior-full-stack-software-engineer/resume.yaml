@@ -1,0 +1,77 @@
+# Generate from the repository root:
+# PUPPETEER_EXECUTABLE_PATH=/usr/bin/google-chrome node .agents/skills/generate-custom-resumes/resume-generator/src/index.js --custom hiring-processes/in-progress/velozient-senior-full-stack-software-engineer/resume.yaml --output hiring-processes/in-progress/velozient-senior-full-stack-software-engineer/resume.pdf
+# Claim traceability: job-to-evidence-matrix.md. All selected claims: confirmed.
+title: Senior Full Stack Software Engineer
+
+introduction: |
+  Frontend-focused Full Stack Engineer with **8+ years of Frontend experience**, including **2 years with React**, and recent Backend delivery in natural gas trading.
+  Delivered a market-validation prototype in under **3 weeks** and reduced API warm latency by **95.7%** through database and service optimization.
+  Background in energy analytics and legacy modernization, with hands-on LLM API integration through a personal **Python RAG application**.
+
+experiences:
+  - id: gashub
+    roles:
+      - id: gashub-fullstack
+        bullets:
+          - Delivered a real-time natural gas sales prototype in under **3 weeks** using **React** and **Supabase**, enabling validation of core buyer-seller workflows.
+          - Reduced product-listing API warm latency by **95.7%** through query parallelization, transaction consolidation, and **PostgreSQL** profiling.
+          - Enabled atomic trading operations with **Drizzle ORM**, **Deno**, **Zod** validation, and a layered architecture using repositories, use cases, and **Unit of Work**.
+          - Reduced marketplace startup code through shell-first rendering, intent-aware **React** preloading, and **Vite** code splitting, shrinking the initial JavaScript entry by **78.2%** (**75.9% gzip**).
+          - Established automated quality coverage with **Testing Library** unit tests and **Playwright** end-to-end tests.
+
+  - id: mytime
+    roles:
+      - id: mytime-frontend
+        bullets:
+          - Modernized a business-critical payment system from **AngularJS/CoffeeScript** to **Angular/TypeScript** without disrupting operations, supported by **Jest** and **Testing Library** tests.
+          - Coordinated multi-step checkout and payment flows with **NgRx**, isolating state by POS module for predictable testing and maintenance.
+
+  - id: twenty20
+    roles:
+      - id: twenty20-frontend
+        bullets:
+          - Architected a modular browser-based desktop environment using **Angular**, **SOLID**, and **Clean Architecture**, with **Jest** and **GitHub Actions** quality gates.
+
+  - id: greenAnt
+    roles:
+      - id: greenAnt-frontend
+        bullets:
+          - Modernized a production electric-energy dashboard through a zero-downtime **AngularJS-to-Angular** migration using **Webpack** dual-environment bundling.
+
+  - id: unb
+    roles:
+      - id: unb-dev
+        bullets:
+          - Developed a mobile-first government-data dashboard using **Angular** and **Next.js**, improving public access to information.
+
+  - id: gera-energia
+    roles:
+      - id: gera-energia-frontend
+        bullets:
+          - Built enterprise energy-consumption dashboards with **Angular** and **PrimeNG**, enabling clients to monitor energy usage and costs.
+
+  - id: finatec
+    roles:
+      - id: finatec-dev
+        bullets:
+          - Built an **Angular** SPA for internal military-administration data, applying UX practices for usability.
+
+  - id: sec-filings-personal-project
+    company: SEC Filings RAG — Personal Course Project
+    roles:
+      - id: sec-filings-rag
+        title: Python RAG Application
+        period: AI Specialization Course
+        bullets:
+          - Built a document-grounded question-answering application in **Python**, integrating **Groq's LLM API** with retrieved SEC-filings context and returning answers with retrieval metadata.
+          - Implemented **Qdrant** hybrid retrieval using dense embeddings, **BM25**, **Reciprocal Rank Fusion**, and **ColBERT** reranking.
+          - "Source: https://github.com/santosdanilo/ai-specialization"
+
+skills:
+  languages: TypeScript, JavaScript; Python (personal projects)
+  frontend: React, Angular, Next.js, NgRx, Tailwind CSS, TanStack Virtual
+  backend: Node.js, NestJS, Deno, Supabase, Drizzle ORM, Zod; Groq API (personal project)
+  databases: PostgreSQL; Qdrant (personal project)
+  testing: Jest, Testing Library, Playwright, pgTAP
+  devops: GitHub Actions, GitLab CI, AWS Lambda, Amazon S3, Docker
+  architecture: Layered architecture, Unit of Work, SOLID, Clean Architecture
