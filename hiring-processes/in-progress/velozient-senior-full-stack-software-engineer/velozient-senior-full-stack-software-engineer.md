@@ -113,5 +113,5 @@ No stages or dates confirmed yet.
 - [Job-to-evidence matrix](job-to-evidence-matrix.md)
 - [Screening answers](screening-answers.md)
 - [Resume YAML](resume.yaml)
-- [Resume PDF](resume.pdf)
+- [Resume PDF](danilo-santos-resume.pdf)
 - [Recruiter response draft](recruiter-response.md)

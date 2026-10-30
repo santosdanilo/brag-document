@@ -37,4 +37,4 @@ The form instructs applicants to use professional experience for technology dura
 
 ### Resume
 
-Use the English `resume.pdf` in this directory. Contact details are inherited from `resumes/resume-base.yaml`.
+Use the English `danilo-santos-resume.pdf` in this directory. Contact details are inherited from `resumes/resume-base.yaml`.
