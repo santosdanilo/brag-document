@@ -1,0 +1,38 @@
+# Generate from project root:
+# node .agents/skills/generate-custom-resumes/resume-generator/src/index.js --custom hiring-processes/in-progress/randstad-digital-torc-fullstack-engineer-python-react/resume.yaml --output hiring-processes/in-progress/randstad-digital-torc-fullstack-engineer-python-react/resume.pdf
+
+title: Full Stack Engineer | React & Cloud Applications
+
+introduction: |
+  Full Stack Engineer with 7+ years of experience building web applications, including recent end-to-end product work with React, APIs, backend architecture, and PostgreSQL.
+  Reduced a production API's warm response time by 95.7% and React page mount time by 97% through measured performance improvements.
+  Additional cloud experience includes an AWS Lambda microservice; Python exposure includes a Django web application and a RAG pipeline using scikit-learn and NumPy as personal projects (about two months each). English proficiency is Full Professional.
+
+experiences:
+  - id: gashub
+    keySkills: React, TypeScript, Deno, Drizzle ORM, Supabase, PostgreSQL, API Integration, Playwright, Testing Library
+    roles:
+      - id: gashub-fullstack
+        bullets:
+          - Delivered a real-time natural gas sales prototype with React and Supabase in under **3 weeks**, enabling business validation of core seller-buyer workflows.
+          - Reduced Products API warm latency by **95.7%** to approximately **132 ms** through profiling, query parallelization, transaction consolidation, and PostgreSQL optimization.
+          - Reduced React page initial mount time by **97%** (59.1 ms to 1.8 ms) and per-block data-load commits by **94%** through profiler-led refactors.
+          - Enabled atomic multi-step operations by migrating data access to **Drizzle ORM** on **Deno** and introducing validation, use-case, repository, and Unit of Work layers.
+          - Integrated frontend and backend APIs by analyzing contracts and adding an adapter layer that isolated payload transformations during API structure migration.
+          - Established automated quality coverage with **Testing Library** unit tests and **Playwright** end-to-end tests.
+
+  - id: greenAnt
+    keySkills: AWS Lambda, TypeScript, Angular, Webpack, GitLab CI
+    roles:
+      - id: greenAnt-frontend
+        bullets:
+          - Decoupled invoice PDF generation into an **AWS Lambda** microservice and automated deployments with **GitLab CI**, separating a critical workflow from the main application.
+          - Completed a zero-downtime AngularJS-to-Angular migration for an electric-energy dashboard using Webpack dual-environment bundling.
+
+skills:
+  languages: TypeScript, JavaScript, Python (personal projects)
+  frontend: React.js, Angular, Next.js, Ionic, Tailwind CSS, NgRx, TanStack Virtual
+  backend: Node.js, NestJS, Deno, Supabase, Drizzle ORM, Zod, Java
+  databases: PostgreSQL, pgTAP
+  testing: Jest, Testing Library, Playwright, Jasmine
+  devops: AWS Lambda, Amazon S3, GitHub Actions, GitLab CI, Docker

@@ -21,7 +21,7 @@ A hands-on engineer owns the platform day to day, end to end: backend services, 
 ## What We're Looking For
 
 - 8+ years as a senior full-stack engineer, comfortable as the primary engineer owning a product end to end and making decisions.
-- Senior TypeScript and Node.js skills across modern frameworks and long-lived legacy codebases.
+- Senior TypeScript and Node.js skills across modern frameworks and legacy codebases.
 - Strong, current Angular experience and interest in modern Angular; the product currently uses Angular 16.
 - Strong daily AWS operations: ECS Fargate, Lambda, SQS, Aurora (MySQL and PostgreSQL), SES, CodePipeline, and CodeBuild.
 - Strong production debugging in systems with paying customers.
@@ -39,7 +39,7 @@ A hands-on engineer owns the platform day to day, end to end: backend services, 
 
 ## Tools and Stack
 
-TypeScript, Node.js, Angular, AWS (ECS Fargate, Lambda, SQS, Aurora MySQL and PostgreSQL, SES, CodePipeline, CodeBuild), and Claude Code.
+TypeScript, Node.js, Angular 16, AWS (ECS Fargate, Lambda, SQS, Aurora MySQL and PostgreSQL, SES, CodePipeline, CodeBuild), and Claude Code.
 
 ## Details
 
