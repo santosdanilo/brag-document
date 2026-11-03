@@ -1,0 +1,58 @@
+# Generate from project root:
+# node .agents/skills/generate-custom-resumes/resume-generator/src/index.js --custom hiring-processes/in-progress/confidential-sales-engagement-senior-fullstack-engineer/resume.yaml --output hiring-processes/in-progress/confidential-sales-engagement-senior-fullstack-engineer/resume.pdf
+
+title: Senior Full-Stack Engineer
+
+introduction: |
+  Software Engineer with 7+ years of experience building web and mobile applications, including recent full-stack product delivery with TypeScript, React, Angular, and Node.js.
+  Delivered a real-time sales-platform prototype in under three weeks, cut API warm latency by 95.7%, and modernized a business-critical payment system without disrupting operations.
+  AWS experience includes a professional Lambda service and a separately configured personal web-app deployment using EC2, CodeBuild, CodePipeline, S3, and CloudFront.
+
+experiences:
+  - id: gashub
+    keySkills: TypeScript, React, Node.js, Deno, Drizzle ORM, PostgreSQL, AWS, Playwright
+    roles:
+      - id: gashub-fullstack
+        bullets:
+          - Delivered a real-time natural gas sales-platform prototype in under **3 weeks** using **React** and AI agents, enabling market validation of core buyer-seller workflows.
+          - Resolved a major Products API bottleneck through request profiling and query parallelization, reducing warm response latency by **95.7%** to approximately **132 ms**.
+          - Enabled atomic multi-step business operations by migrating data access to **Drizzle ORM** on **Deno** and introducing validation, use-case, repository, and Unit of Work layers.
+          - Built a virtualized sales interface with five independently filtered views and infinite scroll; profiler-led refactors reduced initial mount time by **97%** and data-load commits by **94%**.
+
+  - id: mytime
+    keySkills: Angular, TypeScript, AngularJS, CoffeeScript, NgRx, Jest, Testing Library
+    roles:
+      - id: mytime-frontend
+        bullets:
+          - Modernized a business-critical payment system from **AngularJS** and CoffeeScript to **Angular** and **TypeScript** without interrupting operations, adding automated **Jest** and **Testing Library** coverage.
+          - Coordinated multi-step checkout and payment flows with **NgRx**, isolating state by POS module for predictable testing and maintenance.
+
+  - id: twenty20
+    keySkills: Angular, TypeScript, SOLID, Clean Architecture, Jest, GitHub Actions
+    roles:
+      - id: twenty20-frontend
+        bullets:
+          - Architected a modular browser-based desktop environment with independently developed mini-applications using **SOLID** principles and Clean Architecture.
+
+  - id: greenAnt
+    keySkills: Angular, AngularJS, Webpack, AWS Lambda, GitLab CI, TypeScript
+    roles:
+      - id: greenAnt-frontend
+        bullets:
+          - Completed a zero-downtime **AngularJS to Angular** migration for an electric-energy dashboard using **Webpack** dual-environment bundling.
+          - Decoupled invoice PDF generation into an **AWS Lambda** microservice and automated deployments with **GitLab CI**.
+
+  - id: unb
+    roles:
+      - id: unb-dev
+        bullets:
+          - Built a mobile-first **Angular** and **Next.js** dashboard for public access to government data.
+
+skills:
+  languages: TypeScript, JavaScript
+  frontend: Angular, AngularJS, React.js, NgRx, Ionic, Next.js, Tailwind CSS, TanStack Virtual
+  backend: Node.js, NestJS, Deno, Supabase, Drizzle ORM, Zod
+  databases: PostgreSQL
+  testing: Jest, Testing Library, Playwright, Jasmine, pgTAP
+  devops: AWS Lambda, EC2, S3, CloudFront, CodeBuild, CodePipeline, GitHub Actions, GitLab CI, Docker
+  architecture: Clean Architecture, SOLID, Unit of Work, layered architecture
